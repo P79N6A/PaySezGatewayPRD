@@ -1,0 +1,26 @@
+; cPanel first:11.56.0.24 (update_time):1487968917 Cpanel::ZoneFile::VERSION:1.3 hostname:winnie.anteupfor.org latest:11.62.0.15
+; Zone file for rebanx.com
+$TTL 14400
+rebanx.com.	86400	IN	SOA	ns1.anteupfor.org.	info.ptnsoft.com.	(
+						2017022400 ;Serial Number
+						3600 ;refresh
+						7200 ;retry
+						1209600 ;expire
+						86400 ;minimum
+	)
+rebanx.com.	86400	IN	NS	ivan.ns.cloudflare.com.
+rebanx.com.	86400	IN	NS	jean.ns.cloudflare.com.
+rebanx.com.	14400	IN	A	198.178.123.35
+rebanx.com.	14400	IN	MX	0	smtp.secureserver.net.
+mail	14400	IN	CNAME	rebanx.com.
+www	14400	IN	CNAME	rebanx.com.
+ftp	14400	IN	A	198.178.123.35
+cpanel	14400	IN	A	198.178.123.35
+webdisk	14400	IN	A	198.178.123.35
+cpcalendars	14400	IN	A	198.178.123.35
+cpcontacts	14400	IN	A	198.178.123.35
+whm	14400	IN	A	198.178.123.35
+webmail	14400	IN	A	198.178.123.35
+default._domainkey	14400	IN	TXT	"v=DKIM1; k=rsa; p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0eoLsAWSBLJnJ3OnZGGtr4IJho6AB9rc+2pL87UhvJ0OLK3cWoRH8Kp6v6+zfIf7A7y8W7D4e4mO6Z6aKjLKzaNfjZ7/7ALs9vCN6zQ7YyY8Fxlw90N23IlZr/j1T6Nf+ekB//TxGZLvhyuyzcc3TXTO6Mgb+zOG4vJ3nPKmr7ponn/uEgHjiUgqKlP+3L/zX" QO7LHMLO1KPRQvvbEapDa0mohnx+EuWdn6OnT64WN7hKpIO+e0EEnFKKD7bfRnPt2YXZK7/rqNqJCTp8evvasax/pWVKFmXSfijAajhrvoG/SuCPKZljv924D0dSZqB+gB8TysZ2RIE2+gBkvGdqwIDAQAB\;
+rebanx.com.	14400	IN	MX	10	mailstore1.secureserver.net.
+rebanx.com. IN TXT "v=spf1 +a +mx +ip4:198.178.123.35 ~all"

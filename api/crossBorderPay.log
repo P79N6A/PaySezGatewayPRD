@@ -1,0 +1,246 @@
+Application Log POS:2019-01-17 11:34:06 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117170249","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 11:34:06 Build Data Send to Alipay:_input_charset=utf-8&body=test&currency=USD&notify_url=http://169.38.91.246/testspaysez/notify_alipay.php&out_trade_no=test20190117170249&partner=2088621911512174&product_code=NEW_OVERSEAS_SELLER&return_url=http%3A%2F%2F169.38.91.246%2Ffbtest.php&service=create_forex_trade&subject=test123&total_fee=2.00&sign=5db9d66aa6d4b43814d30b6b31f60652&sign_type=MD5 
+
+
+Application Log POS:2019-01-17 11:35:58 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117170440","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 11:35:58 Build Data Send to Alipay:_input_charset=utf-8&body=test&currency=USD&notify_url=http://169.38.91.246/testspaysez/notify_alipay.php&out_trade_no=test20190117170440&partner=2088621911512174&product_code=NEW_OVERSEAS_SELLER&return_url=http%3A%2F%2F169.38.91.246%2Ffbtest.php&service=create_forex_trade&subject=test123&total_fee=2.00&sign=be9247dddfdff93cd85ac754a6b53c76&sign_type=MD5 
+
+
+Application Log POS:2019-01-17 11:46:19 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117171459","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 17:19:49 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117171832","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 17:39:10 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117171832","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 17:44:37 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117174319","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 17:45:58 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117174423","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 17:49:02 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117174731","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 17:58:06 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117175646","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:00:16 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117175858","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:00:16 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190117175858'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='1b27ee5b70aaee4965cace597a213c21'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-17 18:18:00 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117181642","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:18:00 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190117181642'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='9762d60c3d8fc572a33b067d9eedd5c1'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-17 18:19:10 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117181752","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:23:05 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117182148","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:24:34 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117182317","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:27:25 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117182607","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:27:59 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117182642","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:29:38 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117182820","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:32:44 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117183126","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:34:42 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117183324","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:37:29 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117183611","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:38:06 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117183648","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:43:23 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117184205","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:46:54 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117184536","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:47:48 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117184630","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:48:41 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117184724","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:50:08 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117184851","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:51:03 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117184945","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:52:04 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117185046","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:52:04 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190117185046'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='cdc91fb97faab728401ad98a7d7df4f7'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-17 18:53:35 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117185215","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:53:35 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190117185215'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='2ced5494a275645f8be9ab415c4f8548'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-17 18:57:08 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117185550","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:57:39 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117185621","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 18:57:39 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190117185621'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='3b34868ad344ec3c478a0fadcb69c067'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-17 18:59:32 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117185814","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 19:00:01 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117185843","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 19:01:45 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117190028","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 19:09:38 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117190820","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 19:09:38 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190117190820'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='08c48f8d49dd739cec5d1c1b126fa034'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-17 19:12:25 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117191107","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-17 19:15:08 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190117191350","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 10:43:07 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118104116","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 10:44:22 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118104300","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 10:44:22 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190118104300'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='eef3a93d2bf151ab16ab42e46ed4026e'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-18 10:52:09 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118105047","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 10:55:33 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118105412","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 10:57:46 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118105624","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 10:58:16 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118105654","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:01:37 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110015","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:03:12 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110150","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:05:26 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110404","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:06:21 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110459","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:06:51 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110530","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:07:32 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110610","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:08:28 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110707","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:09:06 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110744","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:09:13 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110744","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:10:35 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118110913","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:12:07 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118111044","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:12:41 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118111120","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:12:41 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190118111120'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='3d5ad495d165de1edb4166a5a86d7fcf'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-18 11:13:02 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118111141","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:13:02 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190118111141'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='50d5605d913a81847d93276935540d39'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-18 11:17:35 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118111613","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:18:29 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118111707","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:19:34 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118111812","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:25:45 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118112423","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:28:28 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118112706","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:29:04 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118112742","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:31:01 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118112742","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:37:33 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621911512174","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118113612","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 11:37:33 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190118113612'/><input type='hidden' name='partner' value='2088621911512174'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='a7406be2e4c8c16455567677c34fff5a'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-18 12:06:48 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621921149582","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118120526","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 12:06:48 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190118120526'/><input type='hidden' name='partner' value='2088621921149582'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='b4f16449fe155461dd5a93762fde45f0'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-18 12:21:54 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621921149582","notify_url":"http:\/\/169.38.91.246\/testspaysez\/notify_alipay.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118122033","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 12:21:54 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/notify_alipay.php'/><input type='hidden' name='out_trade_no' value='test20190118122033'/><input type='hidden' name='partner' value='2088621921149582'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='08b27c4e2351cdacbb8a778c26e87ddc'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+
+Application Log POS:2019-01-18 12:47:01 Payment Request Data Before Build:{"service":"create_forex_trade","partner":"2088621921149582","notify_url":"http:\/\/169.38.91.246\/testspaysez\/cross_border\/notify_url.php","return_url":"http:\/\/169.38.91.246\/fbtest.php","out_trade_no":"test20190118124540","subject":"test123","total_fee":"2.00","body":"test","currency":"USD","product_code":"NEW_OVERSEAS_SELLER","_input_charset":"utf-8"} 
+
+
+Application Log POS:2019-01-18 12:47:01 Build Data Send to Alipay:<form id='alipaysubmit' name='alipaysubmit' action='https://mapi.alipaydev.com/gateway.do?_input_charset=utf-8' method='get'><input type='hidden' name='_input_charset' value='utf-8'/><input type='hidden' name='body' value='test'/><input type='hidden' name='currency' value='USD'/><input type='hidden' name='notify_url' value='http://169.38.91.246/testspaysez/cross_border/notify_url.php'/><input type='hidden' name='out_trade_no' value='test20190118124540'/><input type='hidden' name='partner' value='2088621921149582'/><input type='hidden' name='product_code' value='NEW_OVERSEAS_SELLER'/><input type='hidden' name='return_url' value='http://169.38.91.246/fbtest.php'/><input type='hidden' name='service' value='create_forex_trade'/><input type='hidden' name='subject' value='test123'/><input type='hidden' name='total_fee' value='2.00'/><input type='hidden' name='sign' value='3fc7287cd6fd65c2607a34beb1a92a28'/><input type='hidden' name='sign_type' value='MD5'/><input type='submit'  value='OK' style='display:none;'></form><script>document.forms['alipaysubmit'].submit();</script> 
+
+

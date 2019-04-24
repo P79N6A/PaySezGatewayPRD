@@ -1,0 +1,44 @@
+--- 
+customlog: 
+  - 
+    format: combined
+    target: /usr/local/apache/domlogs/rebanx.com
+  - 
+    format: "\"%{%s}t %I .\\n%{%s}t %O .\""
+    target: /usr/local/apache/domlogs/rebanx.com-bytes_log
+  - 
+    format: combined
+    target: /usr/local/apache/domlogs/rebanx.com-ssl_log
+directoryhomerebanxpublichtmlcgibin: 
+  ssloptions: +StdEnvVars
+documentroot: /home/rebanx84/public_html
+enable_sni_for_mail: 0
+group: rebanx84
+hascgi: 1
+homedir: /home/rebanx84
+ip: 185.123.96.35
+ipv6: ~
+owner: root
+phpopenbasedirprotect: 1
+port: 44343
+scriptalias: 
+  - 
+    path: /home/rebanx84/public_html/cgi-bin/
+    url: /cgi-bin/
+secruleengineoff: ~
+serveradmin: webmaster@rebanx.com
+serveralias: www.rebanx.com
+servername: rebanx.com
+setenvif: 
+  - 
+    attribute: User-Agent
+    env_variables: nokeepalive ssl-unclean-shutdown
+    regex: "\".*MSIE.*\""
+ssl: 1
+sslcacertificatefile: /var/cpanel/ssl/installed/cabundles/GlobalSign_nv_sa_6037e5392cd118561af2ff181c62dbf1_1708423200.cabundle
+sslcertificatefile: /var/cpanel/ssl/installed/certs/www_rebanx_com_d15c2_90e45_1479835575_06ca53d047422544ec8c87cbb687e2a1.crt
+sslcertificatekeyfile: /var/cpanel/ssl/installed/keys/d15c2_90e45_06cf544cc35326a7ae12e3042f99682d.key
+sslengine: 'on'
+usecanonicalname: 'Off'
+user: rebanx84
+userdirprotect: ''

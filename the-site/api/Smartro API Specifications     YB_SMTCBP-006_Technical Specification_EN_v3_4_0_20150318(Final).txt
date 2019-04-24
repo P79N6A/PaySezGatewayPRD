@@ -1,0 +1,2831 @@
+ 
+\\220.93.96.11\....\03....._CI\smartroCI_new(201209)\logo1.jpg
+ 
+ 
+ 
+
+Technical Specification for Electronic Data Interface 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+2015.03.18 
+Ver. 3.4.0 
+ 
+CONTENTS 
+ 
+1. Outline
+ 
+................................
+................................
+................................
+...............
+ 
+4
+ 
+1.1. Communication ...................................................................................................................................... 4 
+1.2. Abbreviation ............................................................................................................................................ 4 
+2. Elements of Specification
+ 
+................................
+................................
+...................
+ 
+4
+ 
+2.1. Category Description ......................................................................................................................... 4 
+3. Payment Service
+ 
+................................
+................................
+................................
+ 
+8
+ 
+3.1. Purchase Request ................................................................................................................................. 8 
+3.3. Refund Request within Network ............................................................................................. 15 
+3.4. Capture Confirmation Request ................................................................................................. 18 
+3.5. 3D Secure Request ........................................................................................................................... 19 
+4. Data Encryption
+ 
+................................
+................................
+...............................
+ 
+23
+ 
+4.1. Credit Card Data Encryption ....................................................................................................... 23 
+4.2. Forgery/Alteration Data Verification.................................................................................... 24 
+APPENDIX I. Response Code/Message
+ 
+................................
+................................
+ 
+27
+ 
+ 
+
+ 
+ 
+ 
+ 
+  
+Document History 
+Date 
+ Version 
+ Description 
+ Note 
+ 
+2014.09.17 
+ 1.0.0 
+ Initial Completion 
+  
+ 
+2014.10.15 
+ 3.0.0 
+ Add to Web server error code 
+  
+ 
+2014.12.23 
+ 3.0.1 
+ 4.2.4 Sample Source annotation added 
+  
+ 
+2015.02.17 
+ 3.1.1 
+ Specification Detail amended and ONPEX error code added 
+  
+ 
+2015.02.26 
+ 3.1.4 
+ Visa3D Specification detail added 
+  
+ 
+2015.03.13 
+ 3.2.0 
+ Purchaser field length amended 
+  
+ 
+2015.03.13 
+ 3.3.0 
+ GOMPAY error code added 
+  
+ 
+2015.03.18 
+   3.4.0 
+ Response field start value deleted and response code amended 
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+ 
+  
+  
+  
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Outline 
+The following Specification is designed to integrate international payment services with ease 
+ 
+1.1. Communication 
+Communication between Merchant’s server and Payment Gateway’s server is operated by HTTPS protocol. Request Data form is utilized by Form parameter and sent in POST method. Response Data uses string type categorized in specific string, JSON and XML. 
+ 
+1.2. Abbreviation 
+Category 
+ Description 
+ 
+AN 
+ Alphanumeric 
+ 
+N 
+ Numeric 
+ 
+M 
+ Mandatory 
+ 
+O 
+ Option 
+ 
+C 
+ Conditionally Mandatory 
+ 
+V 
+ Variable data length 
+ 
+
+ 
+2. Elements of Specification 
+2.1. Category Description 
+ 
+2.1.1. “?” (Start Request) 
+Starting point of Request 
+ 
+2.1.2. Ver 
+Module version of current integration. Current version is “1000” 
+ 
+2.1.3. RequestType 
+Value to differentiate Service Request 
+Value 
+ Description 
+ 
+TRAN 
+ Purchase/Refund/Capture Confirmation Request 
+ 
+
+ 
+2.1.4 MID 
+Smartro’s Merchant ID to categorize merchants in service types. Eg) mcausa840m 
+ 
+2.1.5. TransactionType 
+Value to differentiate transaction type such as Authorization/Refund/Capture Request 
+Value 
+ Description 
+ 
+AA 
+ Authorization 
+ 
+AC 
+ Refund 
+ 
+
+AD 
+ Refund within Network 
+ 
+AQ 
+ Real-time Capture Request 
+ 
+AS 
+ Verification Approval 
+ 
+SQ 
+ 3D Secure Verification Approval 
+ 
+
+ 
+2.1.6. Reference 
+Created to differentiate transactions requested by Merchant. Merchant creates and sets Reference at Purchase Request. 
+The value must be unique and its 4 digits above from the end must be in numbers.  
+. The last 4 digits of the data are used in Encryption/Decryption and Forgery/Alteration Verification 
+
+. Reference value when Refund within network is set equivalent to when requesting purchase 
+
+
+ 
+2.1.7. Currency 
+Currency Code on Purchase/Refund Request  
+Value 
+ Description 
+ Amount Setting 
+ Remarks 
+ 
+JPY 
+ Japanese Yen 
+ 12.2 . 12 
+12.5 . 13 
+  
+ 
+USD 
+ US Dollar 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+EUR 
+ Euro 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+HKD 
+ Hong Kong Dollar 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+GBP 
+ British Pound 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+SGD 
+ Singapore Dollar 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+AUD 
+ Australian Dollar 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+THB 
+ Thailand Baht 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+CAD 
+ Canadian Dollar 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+RUB 
+ Russian Dollar 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+CNY 
+ Chinese Yuan 
+ 12 . 12.00 
+12.356 . 12.36 
+  
+ 
+
+ 
+2.1.8. Amount 
+Amount for Purchase/Refund request. When Partial Refund, amount must be smaller than original transaction amount 
+2.1.7. Must follow Currency amount setting form 
+ 
+2.1.9. CardNumber 
+Credit Card Number. Currently VISA, MASTER and JCB valid 
+. AES-128 bit encryption required. [Refer 4.1. Credit Card Data Encryption] 
+ 
+2.1.10. ExpiryYYMM 
+Credit Card expiry date. Year 2 digit + Month 2 digit form requested when setup 
+. AES-128 bit encryption required. [Refer 4.1. Credit Card Data Encryption] 
+ 
+2.1.11. CVC 
+Card Verification Value Code. 3 digit numbers when VISA,MASTER or JCB 
+. AES-128 bit encryption required. [Refer 4.1. Credit Card Data Encryption] 
+ 
+2.1.12. AcquireType 
+Capture type per purchase. Smartro proceeds capture process after purchase for automatic capture. Merchant needs to make separate capture request for manual capture 
+Value 
+ Description 
+ 
+1 
+ Automatic Capture 
+ 
+2 
+ Manual Capture 
+ 
+
+ 
+2.1.13. ProductName 
+Product Name of Purchase 
+ 
+2.1.14. BuyerEmail 
+Buyer’s E-mail address  
+ 
+2.1.15. BuyerName 
+Buyer’s Name as specified on Credit Card FirstName +'-'+ LastName eg> hong-gildong 
+ 
+2.1.16. BuyerID 
+Buyer’s ID managed by Merchant 
+ 
+2.1.17. BuyerIP 
+Buyer’s IP address in device when purchase 
+ 
+2.1.18. OutputType 
+Value for Output Data Type. Currently provided Output Types are Character String, JSON, XML format categorized in Delimiter  
+Value 
+ Description 
+ 
+D 
+ Categorized into !@# Delimiters for output 
+ 
+J 
+ Response Data Output in JSON format 
+ 
+X 
+ Response Data Output in XML format 
+ 
+
+ 
+2.1.19. VerifyValue 
+Value to verify whether value sent from Merchant to Smartro and/or from Smartro to Merchant is forged and/or altered.  
+Method to create Verification Data is by using specific Value Type with Delimiter as shown in table below.  
+. Any occurring error while creating Verification Value, the value will be set to “NULL”. 
+[Refer 4.2. Forgery/Alteration data verification] 
+Transactio
+ Classificatio
+ Verification Data 
+ 
+
+n Type 
+ n 
+  
+AA 
+ Request 
+ Reference+[Delimiter]+Amount+[Delimiter]+MID+ 
+[Delimiter]+AcquireType 
+ 
+Response 
+ Reference+[Delimiter]+MID+[Delimiter]+ResponseCode+ 
+[Delimiter]+TID+[Delimiter]+ResponseDate+[Delimiter]+ ResponseTime 
+ 
+AC 
+ Request 
+ Reference+[Delimiter]+MID+[Delimiter]+TID+ 
+[Delimiter]+Amount+[Delimiter]+PartialCancelCode 
+ 
+Response 
+ Reference+[Delimiter]+MID+[Delimiter]+ResponseCode+ 
+[Delimiter]+TID+[Delimiter]+ResponseDate+[Delimiter]+ ResponseTime 
+ 
+AD 
+ Request 
+ Reference+[Delimiter]+MID+[Delimiter]+Amount+ 
+[Delimiter]+AuthDate 
+ 
+Response 
+ Reference+[Delimiter]+MID+[Delimiter]+ResponseCode+ 
+[Delimiter]+TID+[Delimiter]+ResponseDate+[Delimiter]+ ResponseTime 
+ 
+AQ 
+ Request 
+ Reference+[Delimiter]+MID+[Delimiter]+TID+ 
+[Delimiter]+Amount 
+ 
+Response 
+ Reference+[Delimiter]+MID+[Delimiter]+ResponseCode+ 
+[Delimiter]+TID+[Delimiter]+ResponseDate+[Delimiter]+ ResponseTime 
+ 
+SQ 
+ Request 
+ Reference+[Delimiter]+Amount+[Delimiter] ]+MID+ 
+[Delimiter]+TransactionType 
+ 
+Response 
+ Reference+[Delimiter]+MID+[Delimiter]+ResponseCode+ 
+[Delimiter]+TID+[Delimiter]+ResponseDate+[Delimiter]+ ResponseTime 
+ 
+
+ 
+2.1.20. ResponseCode 
+Response Code [ Refer APPENDIX I ] 
+ 
+2.1.21. ResponseMessage 
+Response Message [ Refer APPENDIX I ] 
+ 
+2.1.22. ResponseDate 
+Response Date. Purchase Date in YYYYMMDD format 
+ 
+2.1.23. ResponseTime 
+Response Time. Purchase Time in HH24MISS format 
+ 
+2.1.24. TID 
+Purchase Transaction ID created by Smartro. Required when requesting Refund and/or Capture 
+ 
+2.1.25. AuthCode 
+Purchase Authorization Code (Number). Required when requesting Refund and/or Capture 
+ 
+2.1.26. PartialCancelCode 
+Refund Type. Full amount or Partial Amount Refund. 
+Value 
+ Description 
+ 
+
+0 
+ Full Amount refund request 
+ 
+1 
+ Partial Amount refund request 
+ 
+
+ 
+2.1.27. ServiceType 
+Henceforth, Service type to be used in separate value. Currently fixed to A 
+ 
+2.1.28. AuthDate 
+Original Transaction Date 
+ 
+2.1.29. ServerIP 
+Merchant Server’s Official IP 
+ 
+2.1.30. SiteURL 
+Merchant’s online mall URL 
+ 
+3. Payment Service 
+3.1. Purchase Request 
+3.1.1. Description 
+  Request purchase to be processed 
+3.1.2. HTTPS Request 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ ? 
+ AN 
+ 1 
+ M 
+ Start Request 
+Refer to 2.1.1. 
+ 
+2 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 fixed 
+Refer to 2.1.2. 
+ 
+3 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+4 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+5 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+6 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction reference number (Unique) 
+Refer to 2.1.6. 
+ 
+7 
+ Currency 
+ AN 
+ 3 
+ M 
+ Currency Type 
+Refer to 2.1.7. 
+ 
+8 
+ Amount 
+ AN 
+ 12 
+ M 
+ Transaction Amount 
+Refer to 2.1.8. 
+ 
+9 
+ CardNumber 
+ V 
+ - 
+ M 
+ Card Number 
+Refer to 2.1.9. 
+ 
+10 
+ ExpiryYYMM 
+ V 
+ - 
+ M 
+ Expiry Date 
+Refer to 2.1.10. 
+ 
+11 
+ CVC 
+ V 
+ - 
+ M 
+ CVC 
+Refer to 2.1.11. 
+ 
+12 
+ AcquireType 
+ AN 
+ 1 
+ M 
+ Acquiring Type 
+Refer to 2.1.12. 
+ 
+
+13 
+ ProductName 
+ AN 
+ 100 
+ O 
+ Product Name 
+Refer to 2.1.13. 
+ 
+14 
+ BuyerEmail 
+ AN 
+ 60 
+ O 
+ Buyer’s E-mail Address 
+Refer to 2.1.14. 
+ 
+15 
+ BuyerName 
+ AN 
+ 31 
+ O 
+ Buyer’s Name 
+Refer to 2.1.15. 
+ 
+16 
+ BuyerID 
+ AN 
+ 20 
+ O 
+ Buyer’s ID 
+Refer to 2.1.16. 
+ 
+17 
+ BuyerIP 
+ AN 
+ 40 
+ M 
+ Buyer’s IP 
+Refer to 2.1.17. 
+ 
+18 
+ ServerIP 
+ AN 
+ 40 
+ M 
+ Merchant Server IP  
+(Official IP) 
+Refer to 2.1.29. 
+ 
+19 
+ SiteURL 
+ AN 
+ 200 
+ M 
+ Merchant URL 
+Refer to 2.1.30. 
+ 
+20 
+ OutputType 
+ AN 
+ 1 
+ M 
+ Output Format 
+Refer to 2.1.18. 
+ 
+21 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+22 
+ Pares 
+ AN 
+ 6k 
+ O 
+ Length of 4~6k byte when RequestType value is AS 
+ 
+
+      
+ 
+Example 1: * Credit Card Data unencrypted 
+Request Start 
+ ? 
+ 
+Ver 
+ 1000 
+ 
+RequestType 
+ TRAN 
+ 
+MID 
+ mcausa840m 
+ 
+TransactionType 
+ AA 
+ 
+Reference 
+ MERCHANT00001234 
+ 
+Currency 
+ USD 
+ 
+Amount 
+ 100.99 
+ 
+CardNumber 
+ 4141414141414141 
+ 
+ExpiryYYMM 
+ 1711 
+ 
+CVC 
+ 125 
+ 
+AcquireType 
+ 1 
+ 
+ProductName 
+ PRODUCT 
+ 
+BuyerEmail 
+ test@test.com 
+ 
+BuyerName 
+ TEST 
+ 
+BuyerID 
+ TEST 
+ 
+BuyerIP 
+ 211.123.123.123 
+ 
+ServerIP 
+ 209.121.111.2 
+ 
+SiteURL 
+ https://www.aaaaaaaa.com 
+ 
+OutputType 
+ X 
+ 
+VerifyValue 
+ OGJiMGNmNmViOWIxN2QwZjdkMjJiNDU2ZjE yMTI1N2RjMTI1NGUxZjAxNjY1MzcwNDc2Mzg zZWE3NzZkZjQxNA== 
+ 
+ 
+Pares 
+ ? 
+ 
+
+ 
+  
+ 
+ 
+ 
+  
+ 
+
+ 
+Example 2: * Credit Card Data encrypted 
+Request Start 
+ ? 
+ 
+Ver 
+ 1000 
+ 
+RequestType 
+ TRAN 
+ 
+MID 
+ mcausa840m 
+ 
+TransactionType 
+ AA 
+ 
+Reference 
+ MERCHANT00003783 
+ 
+Currency 
+ USD 
+ 
+Amount 
+ 10.84 
+ 
+CardNumber 
+ 66VwxV18yJtMpx2ynJrituttHeqF4+B/hiN+Wu9uFLY= 
+ 
+ExpiryYYMM 
+ hKWRom2bQB0M1LQWACKwsg== 
+ 
+CVC 
+ 8LfzGlCzvohr3On8Uf+yhg== 
+ 
+AcquireType 
+ 2 
+ 
+ProductName 
+ PRODUCT 
+ 
+BuyerEmail 
+ test@test.com 
+ 
+BuyerName 
+ TEST 
+ 
+BuyerID 
+ TESTID 
+ 
+BuyerIP 
+ 211.123.123.122 
+ 
+OutputType 
+ X 
+ 
+VerifyValue 
+ TUVSQ0hBTlQwMDAwMTIzNA==w2LMTAuODQ=/wZbWN 
+hdXNhODQwbQ==+mDMQ== 
+ 
+Pares 
+ ? 
+ 
+
+ 
+3.1.3. Response 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 fixed 
+Refer to 2.1.2. 
+ 
+2 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+3 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+4 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+5 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction Reference Number (Unique) 
+Refer to 2.1.6. 
+ 
+6 
+ ResponseCode 
+ AN 
+ 4 
+ M 
+ Response Code 
+Refer to 2.1.20. 
+ 
+7 
+ ResponseMessage 
+ AN 
+ 100 
+ M 
+ Response Message 
+Refer to 2.1.21. 
+ 
+8 
+ ResponseDate 
+ AN 
+ 8 
+ M 
+ Transaction Date YYYYMMDD 
+Refer to 2.1.22. 
+ 
+9 
+ ResponseTime 
+ AN 
+ 6 
+ M 
+ Transaction Time HHMMSS 
+Refer to 2.1.23. 
+ 
+10 
+ TID 
+ AN 
+ 30 
+ M 
+ Smartro’s Transaction Number (Unique) 
+Refer to 2.1.24. 
+ 
+11 
+ AuthCode 
+ AN 
+ 12 
+ M 
+ Authorization Number 
+Refer to 2.1.25. 
+ 
+12 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+
+ 
+Example 1:  
+ 
+<Response> 
+   <Ver>1000</Ver> 
+   <RequestType>TRAN</RequestType> 
+   <MID>mcausa840m</MID> 
+   <TransactionType>AA</TransactionType> 
+   <Reference>MERCHANT00001234</Reference> 
+   <ResponseCode>0000</ResponseCode> 
+   <ResponseMessage>Processing Valid</ResponseMessage> 
+   <ResponseDate>20140927</ResponseDate> 
+   <ResponseTime>164500</ResponseTime>    <TID>mcausa840m01011409271743213011</TID> 
+   <AuthCode>00417432</AuthCode> 
+   <VerifyValue> 
+NjNjMmM1YTUzOTU4MzRlZjQxZjJmZDA5ZTAxMDdiZG 
+MxZGNhNzIwODJlMjg1MTNiYTNjY2FlNTQwNzkxMTAwMA== 
+</VerifyValue> 
+</Response> 
+ 
+Example 2:  
+ 
+<Response> 
+   <Ver>1000</Ver> 
+<RequestType>TRAN</RequestType> 
+   <MID>mcausa840m</MID> 
+   <TransactionType>AA</TransactionType> 
+   <Reference>MERCHANT00003783</Reference> 
+   <ResponseCode>E917</ResponseCode> 
+   <ResponseMessage>Card Number Error</ResponseMessage> 
+   <ResponseDate>20140927</ResponseDate> 
+   <ResponseTime>164500</ResponseTime>    <TID>mcausa840m01011409271743213012</TID> 
+   <AuthCode></AuthCode> 
+   <VerifyValue> 
+OWJkZWY0YTJkYTM2ZDRmYzgyYzI4MDAzZWY4OTdhMDFhNW 
+Y0NDAzZjA0OTFjYmQ5NjZlMGVmYTBmYjdhZjk4Zg== 
+</VerifyValue> 
+</Response> 
+ 
+3.2. Refund Request 
+3.2.1. Description 
+  Request for Refund to process. 
+3.2.2. HTTPS Request 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ ? 
+ AN 
+ 1 
+ M 
+ Start Request 
+Refer to 2.1.1. 
+ 
+2 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 Fixed 
+Refer to 2.1.2. 
+ 
+3 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+
+4 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+5 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+6 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction Reference Number (Unique) 
+Refer to 2.1.6. 
+ 
+7 
+ Currency 
+ AN 
+ 3 
+ M 
+ Currency  
+Refer to 2.1.7. 
+ 
+8 
+ Amount 
+ AN 
+ 12 
+ M 
+ Refund request amount 
+Refer to 2.1.8. 
+ 
+9 
+ TID 
+ AN 
+ 30 
+ M 
+ Smartro’s Transaction Number 
+Refer to 2.1.24. 
+ 
+10 
+ AuthDate 
+ AN 
+ 8 
+ M 
+ Authorization Date 
+Refer to 2.1.28. 
+ 
+11 
+ AuthCode 
+ AN 
+ 12 
+ M 
+ Authorization Number 
+Refer to 2.1.25. 
+ 
+12 
+ PartialCancelCode 
+ AN 
+ 1 
+ M 
+ Whether Partial Refund or full 
+Refer to 2.1.26. 
+ 
+13 
+ OutputType 
+ AN 
+ 1 
+ M 
+ Output Format 
+Refer to 2.1.18. 
+ 
+14 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+
+ 
+Example 1:  
+Request Start 
+ ? 
+ 
+Ver 
+ 1000 
+ 
+RequestType 
+ TRAN 
+ 
+MID 
+ mcausa840m 
+ 
+TransactionType 
+ AC 
+ 
+Reference 
+ MERCHANT00001246 
+ 
+Currency 
+ USD 
+ 
+Amount 
+ 100.99 
+ 
+TID 
+ mcausa840m01011409271743213011 
+ 
+AuthDate 
+ 20140927 
+ 
+AuthCode 
+ 00417432 
+ 
+PartialCancelCode 
+ 0 
+ 
+OutputType 
+ X 
+ 
+VerifyValue 
+ MTNkNTZlNTE1MzI0YWQ1OTE4MjA2YWU1 
+MzAwNmIyYmVjMmRmN2I0MWQ4N2RjOWE3 
+YjU4Zjg5ZTAzYTk4OWU0NA== 
+ 
+
+ 
+Example 2:  
+Request Start 
+ ? 
+ 
+Ver 
+ 1000 
+ 
+RequestType 
+ TRAN 
+ 
+MID 
+ mcausa840m 
+ 
+TransactionType 
+ AC 
+ 
+Reference 
+ MERCHANT00001246 
+ 
+
+Currency 
+ USD 
+ 
+Amount 
+ 50.99 
+ 
+TID 
+ mcausa840m01011409271743213011 
+ 
+AuthDate 
+ 20140927 
+ 
+AuthCode 
+ 00417432 
+ 
+PartialCancelCode 
+ 1 
+ 
+OutputType 
+ X 
+ 
+VerifyValue 
+ N2RmODE4NzRiOWIwZjRiYjViZDdlNTJh 
+YjY0ZTllOTMzYWQ2YWJkNWRiM2M1NjVl 
+MDY2NDU2NTQ4ZGRmM2Y4Yw== 
+ 
+
+ 
+ 
+  
+3.2.3. Response 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 Fixed 
+Refer to 2.1.2. 
+ 
+2 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+3 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+4 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+5 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction Reference Number (Unique) 
+Refer to 2.1.6. 
+ 
+6 
+ ResponseCode 
+ AN 
+ 4 
+ M 
+ Response Code 
+Refer to 2.1.20. 
+ 
+7 
+ ResponseMessage 
+ AN 
+ 100 
+ M 
+ Response Message 
+Refer to 2.1.21. 
+ 
+8 
+ ResponseDate 
+ AN 
+ 8 
+ M 
+ Transaction Date 
+Refer to 2.1.22. 
+ 
+9 
+ ResponseTime 
+ AN 
+ 6 
+ M 
+ Transaction Time 
+Refer to 2.1.23. 
+ 
+10 
+ TID 
+ AN 
+ 30 
+ M 
+ Smartro’s Transaction Number (Unique) 
+Refer to 2.1.24. 
+ 
+11 
+ AuthCode 
+ AN 
+ 12 
+ M 
+ Authorization Number (Origin Transaction Authorization Number) 
+Refer to 2.1.25. 
+ 
+12 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+
+ 
+Example 1:  
+ 
+<Response> 
+   <Ver>1000</Ver> 
+   <RequestType>TRAN</RequestType> 
+   <MID>mcausa840m</MID> 
+   <TransactionType>AC</TransactionType> 
+   <Reference> MERCHANT00001246</Reference> 
+   <ResponseCode>0000</ResponseCode> 
+   <ResponseMessage>Processing Valid</ResponseMessage> 
+   <ResponseDate>20140928</ResponseDate> 
+   <ResponseTime>112500</ResponseTime>    <TID>mcausa840m01011409271743213011</TID> 
+   <AuthCode>00417432</AuthCode> 
+   <VerifyValue> 
+NThkNjI4ZTgzM2FjNjJlYzk3ZjdlNTc1NGM1M2MyZmUwN2I 
+5MGU5ZDQ1Zjk4YzdhZjhiMDFmNTlkMDM3NTIxZg== 
+</VerifyValue> 
+</Response> 
+ 
+Example 2:  
+ 
+<Response> 
+   <Ver>1000</Ver> 
+<RequestType>TRAN</RequestType> 
+   <MID>mcausa840m</MID> 
+   <TransactionType>AC</TransactionType> 
+   <Reference>MERCHANT00001246</Reference> 
+   <ResponseCode>E903</ResponseCode> 
+   <ResponseMessage>Transaction Date mismatch</ResponseMessage> 
+   <ResponseDate>20140928</ResponseDate> 
+   <ResponseTime>112500</ResponseTime>    <TID>mcausa840m01011409271743213011</TID> 
+   <AuthCode>00417432</AuthCode> 
+   <VerifyValue> 
+NzFiMGE5MDI5YTg0MWUzNjIwNGIxMGM3ZjM5ZDI5NmRlY 
+mRiODE1YmQ1NGIyMjQ4MTk3ZDQ4ZWY0ZTM0MTMxNg== 
+</VerifyValue> 
+</Response> 
+ 
+3.3. Refund Request within Network 
+3.3.1. Description 
+  Refund is requested with enforcement when Merchant does not receive response on purchase request. 
+3.3.2. HTTPS Request 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ ? 
+ AN 
+ 1 
+ M 
+ Start Request 
+Refer to 2.1.1. 
+ 
+2 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 Fixed 
+Refer to 2.1.2. 
+ 
+3 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+4 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+5 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+6 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction Reference Number (Unique) 
+Refer to 2.1.6. 
+ 
+7 
+ Currency 
+ AN 
+ 3 
+ M 
+ Currency  
+Refer to 2.1.7. 
+ 
+8 
+ Amount 
+ AN 
+ 12 
+ M 
+ Refund Request Amount 
+Refer to 2.1.8. 
+ 
+9 
+ AuthDate 
+ AN 
+ 8 
+ M 
+ Origin Transaction Authorization Date 
+Refer to 2.1.28. 
+ 
+10 
+ OutputType 
+ AN 
+ 1 
+ M 
+ Output Format 
+Refer to 2.1.18. 
+ 
+11 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+
+ 
+  
+Example 1:  
+Request Start 
+ ? 
+ 
+Ver 
+ 1000 
+ 
+RequestType 
+ TRAN 
+ 
+MID 
+ mcausa840m 
+ 
+TransactionType 
+ CC 
+ 
+Reference 
+ MERCHANT00001246 
+ 
+Currency 
+ USD 
+ 
+Amount 
+ 100.99 
+ 
+AuthDate 
+ 20140927 
+ 
+OutputType 
+ X 
+ 
+VerifyValue 
+ MTNkNTZlNTE1MzI0YWQ1OTE4MjA2YWU1 
+MzAwNmIyYmVjMmRmN2I0MWQ4N2RjOWE3 
+YjU4Zjg5ZTAzYTk4OWU0NA== 
+ 
+
+ 
+Example 2:  
+Request Start 
+ ? 
+ 
+Ver 
+ 1000 
+ 
+RequestType 
+ TRAN 
+ 
+MID 
+ mcausa840m 
+ 
+TransactionType 
+ CC 
+ 
+Reference 
+ MERCHANT00001246 
+ 
+Currency 
+ USD 
+ 
+Amount 
+ 100.99 
+ 
+AuthDate 
+ 20140927 
+ 
+OutputType 
+ X 
+ 
+VerifyValue 
+ N2RmODE4NzRiOWIwZjRiYjViZDdlNTJh 
+YjY0ZTllOTMzYWQ2YWJkNWRiM2M1NjVl 
+MDY2NDU2NTQ4ZGRmM2Y4Yw== 
+ 
+
+ 
+3.3.3. Response 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 Fixed 
+Refer to 2.1.2. 
+ 
+2 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+3 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+4 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+5 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction Reference Number (Unique) 
+Refer to 2.1.6. 
+ 
+6 
+ ResponseCode 
+ AN 
+ 4 
+ M 
+ Response Code 
+Refer to 2.1.20. 
+ 
+7 
+ ResponseMessage 
+ AN 
+ 100 
+ M 
+ Response Message 
+Refer to 2.1.21. 
+ 
+8 
+ ResponseDate 
+ AN 
+ 8 
+ M 
+ Transaction Date 
+Refer to 2.1.22. 
+ 
+9 
+ ResponseTime 
+ AN 
+ 6 
+ M 
+ Transaction Time 
+Refer to 2.1.23. 
+ 
+
+10 
+ TID 
+ AN 
+ 30 
+ M 
+ Smartro’s Transaction Number (Unique) 
+Refer to 2.1.24. 
+ 
+11 
+ AuthCode 
+ AN 
+ 12 
+ M 
+ Authorization Number (Original Transaction Authorization Number) 
+Refer to 2.1.25. 
+ 
+12 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+
+ 
+Example 1:  
+ 
+<Response> 
+   <Ver>1000</Ver> 
+   <RequestType>TRAN</RequestType> 
+   <MID>mcausa840m</MID> 
+   <TransactionType>CC</TransactionType> 
+   <Reference> MERCHANT00001246</Reference> 
+   <ResponseCode>0000</ResponseCode> 
+   <ResponseMessage>Processing Valid</ResponseMessage> 
+   <ResponseDate>20140928</ResponseDate> 
+   <ResponseTime>112500</ResponseTime>    <TID>mcausa840m01011409271743213011</TID> 
+   <AuthCode>00417432</AuthCode> 
+   <VerifyValue> 
+NThkNjI4ZTgzM2FjNjJlYzk3ZjdlNTc1NGM1M2MyZmUwN2I 
+5MGU5ZDQ1Zjk4YzdhZjhiMDFmNTlkMDM3NTIxZg== 
+</VerifyValue> 
+</Response> 
+ 
+Example 2:  
+ 
+<Response> 
+   <Ver>1000</Ver> 
+<RequestType>TRAN</RequestType> 
+   <MID>mcausa840m</MID> 
+   <TransactionType>AC</TransactionType> 
+   <Reference>MERCHANT00001246</Reference> 
+   <ResponseCode>E903</ResponseCode> 
+   <ResponseMessage>Transaction Date mismatch</ResponseMessage> 
+   <ResponseDate>20140928</ResponseDate> 
+   <ResponseTime>112500</ResponseTime>    <TID>mcausa840m01011409271743213011</TID> 
+   <AuthCode>00417432</AuthCode> 
+   <VerifyValue> 
+NzFiMGE5MDI5YTg0MWUzNjIwNGIxMGM3ZjM5ZDI5NmRlY 
+mRiODE1YmQ1NGIyMjQ4MTk3ZDQ4ZWY0ZTM0MTMxNg== 
+</VerifyValue> 
+</Response> 
+ 
+ 
+ 
+3.4. Capture Confirmation Request 
+3.4.1. Description 
+  Request for Capture to be processed. (Usage of following part of Specification requires additional agreement/discussion) 
+3.4.2. HTTPS Request 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ ? 
+ AN 
+ 1 
+ M 
+ Start Request 
+Refer to 2.1.1. 
+ 
+2 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 Fixed 
+Refer to 2.1.2. 
+ 
+3 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+4 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+5 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+6 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction Reference Number (Unique) 
+Refer to 2.1.6. 
+ 
+7 
+ TID 
+ AN 
+ 30 
+ M 
+ Smartro’s Transaction Number 
+Refer to 2.1.24. 
+ 
+8 
+ AuthDate 
+ AN 
+ 8 
+ M 
+ Original Transaction Date 
+Refer to 2.1.28. 
+ 
+9 
+ AuthCode 
+ AN 
+ 15 
+ M 
+ Original Authorization Number 
+Refer to 2.1.25. 
+ 
+10 
+ ServiceType 
+ AN 
+ 1 
+ M 
+ A Fixed Value 
+Refer to 2.1.27. 
+ 
+11 
+ OutputType 
+ AN 
+ 1 
+ M 
+ Output Format 
+Refer to 2.1.18. 
+ 
+12 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+
+ 
+ 
+Example 1:  
+Request Start 
+ ? 
+ 
+Ver 
+ 1000 
+ 
+RequestType 
+ TRAN 
+ 
+MID 
+ mcausa840m 
+ 
+TransactionType 
+ AQ 
+ 
+Reference 
+ MERCHANT00001234 
+ 
+TID 
+ mcausa840m01011409271743213011 
+ 
+AuthDate 
+ 20140927 
+ 
+AuthCode 
+ 00417432 
+ 
+ServiceType 
+ A 
+ 
+OutputType 
+ X 
+ 
+VerifyValue 
+ ZDJjYjYxNTU2ZDU3YmIzMGJiY2NmMjM 
+3NzYzN2Q4ZDg5MWMxZmQ3MmIzNjdl 
+NDcyZGE3MzgzYTA0NTdlYTVlNA== 
+ 
+
+ 
+3.4.3. Response 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 Fixed 
+Refer to 2.1.2. 
+ 
+2 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+3 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+4 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+5 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction Reference Number (Unique) 
+Refer to 2.1.6. 
+ 
+6 
+ ResponseCode 
+ AN 
+ 4 
+ M 
+ Response Code 
+Refer to 2.1.20. 
+ 
+7 
+ ResponseMessage 
+ AN 
+ 100 
+ M 
+ Response Message 
+Refer to 2.1.21. 
+ 
+8 
+ ResponseDate 
+ AN 
+ 8 
+ M 
+ Transaction Date 
+Refer to 2.1.22. 
+ 
+9 
+ ResponseTime 
+ AN 
+ 6 
+ M 
+ Transaction Time 
+Refer to 2.1.23. 
+ 
+10 
+ TID 
+ AN 
+ 30 
+ M 
+ Smartro’s Transaction Number (Unique) 
+Refer to 2.1.24. 
+ 
+11 
+ AuthCode 
+ AN 
+ 15 
+ M 
+ Authorization Number (Original Transaction Authorization Number) 
+Refer to 2.1.25. 
+ 
+12 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+
+ 
+Example 1:  
+ 
+<Response> 
+   <Ver>1000</Ver> 
+   <RequestType>TRAN</RequestType> 
+   <MID>mcausa840m</MID> 
+   <TransactionType>AQ</TransactionType> 
+   <Reference>MERCHANT00001246</Reference> 
+   <ResponseCode>0000</ResponseCode> 
+   <ResponseMessage>Processing Valid</ResponseMessage> 
+   <ResponseDate>20140928</ResponseDate> 
+   <ResponseTime>112500</ResponseTime>    <TID>mcausa840m01011409271743213011</TID> 
+   <AuthCode>00417432</AuthCode> 
+   <VerifyValue> 
+ZjQwOGE3MzQyZGY0NzJmNjVhZjc1NzQ0NTc3NjY5YjE4MmM4 
+Y2IxOGY5Y2U3MDNlMGQ2MTE4ZjZiZDI1OTIwNQ== 
+</VerifyValue> 
+</Response> 
+ 
+3.5. 3D Secure Request 
+3.5.1. Description 
+Request 3D Secure Verification. (Usage of following part of Specification requires additional 
+agreement/discussion) 
+Step 1 > Visa3D Request Specification -> Smartro -> acquire Acs_url,Pareq,Md 
+Step 2 > Provide verification screen(UI) to customer by transmitting values such as Pareq, Md, TermUrl (Address for Merchant to receive Pares) to the address Acs_url. 
+Merchant to use target="_blank" and 'JavaScript' to its optimization 
+          
+<form name="postForm" action="<%=ACS_URL%>" method="POST" target="_blank"> 
+<input type=hidden name=PaReq   value="<%=PAREQ%>"> 
+<input type=hidden name=TermUrl value="<%= .... .. %> "> 
+<input type=hidden name=MD      value="<%=MD%>"> 
+</form> 
+<script language='JavaScript'> document.postForm.submit(); </script> 
+
+
+ 
+ 
+ 
+ 
+ 
+   
+Step 3 > Transmit received Pares value to TermUrl(Address for Merchant to receive Pares) via ‘3.1. Purchase Request’. 
+3.5.2. HTTPS Request 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ ? 
+ AN 
+ 1 
+ M 
+ Start Request 
+Refer to 2.1.1. 
+ 
+2 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 Fixed 
+Refer to 2.1.2. 
+ 
+3 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+4 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+5 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+6 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction Reference Number (Unique) 
+Refer to 2.1.6. 
+ 
+7 
+ Currency 
+ AN 
+ 3 
+ M 
+ Currency  
+Refer to 2.1.7. 
+ 
+8 
+ Amount 
+ AN 
+ 12 
+ M 
+ Refund Request Amount 
+Refer to 2.1.8. 
+ 
+9 
+ CardNumber 
+ V 
+ - 
+ M 
+ Card Number 
+Refer to 2.1.9. 
+ 
+10 
+ ExpiryYYMM 
+ V 
+ - 
+ M 
+ Expiry Date 
+Refer to 2.1.10. 
+ 
+11 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+
+ 
+Example 1:  
+Request Start 
+ ? 
+ 
+Ver 
+ 1000 
+ 
+RequestType 
+ TRAN 
+ 
+MID 
+ mcausa840m 
+ 
+TransactionType 
+ AQ 
+ 
+
+Reference 
+ MERCHANT00001234 
+ 
+Currency 
+ USD 
+ 
+Amount 
+ 100.99 
+ 
+CardNumber 
+ 66VwxV18yJtMpx2ynJrituttHeqF4+B/hiN+Wu9uFLY= 
+ 
+ExpiryYYMM 
+ hKWRom2bQB0M1LQWACKwsg== 
+ 
+VerifyValue 
+ ZDJjYjYxNTU2ZDU3YmIzMGJiY2NmMjM 
+3NzYzN2Q4ZDg5MWMxZmQ3MmIzNjdl 
+NDcyZGE3MzgzYTA0NTdlYTVlNA== 
+ 
+
+ 
+3.5.3. Response 
+No 
+ Field Name 
+ Type 
+ Length 
+ Condition 
+ Description 
+ 
+1 
+ Ver 
+ AN 
+ 4 
+ M 
+ 1000 Fixed 
+Refer to 2.1.2. 
+ 
+2 
+ RequestType 
+ AN 
+ 4 
+ M 
+ Request Type 
+Refer to 2.1.3. 
+ 
+3 
+ MID 
+ AN 
+ 10 
+ M 
+ Merchant ID 
+Refer to 2.1.4. 
+ 
+4 
+ TransactionType 
+ AN 
+ 2 
+ M 
+ Transaction Type 
+Refer to 2.1.5. 
+ 
+5 
+ Reference 
+ AN 
+ 20 
+ M 
+ Transaction Reference Number (Unique) 
+Refer to 2.1.6. 
+ 
+6 
+ ResponseCode 
+ AN 
+ 4 
+ M 
+ Response Code 
+Refer to 2.1.20. 
+ 
+7 
+ ResponseMessage 
+ AN 
+ 100 
+ M 
+ Response Message 
+Refer to 2.1.21. 
+ 
+8 
+ ResponseDate 
+ AN 
+ 8 
+ M 
+ Transaction Date 
+Refer to 2.1.22. 
+ 
+9 
+ ResponseTime 
+ AN 
+ 6 
+ M 
+ Transaction Time 
+Refer to 2.1.23. 
+ 
+10 
+ TID 
+ AN 
+ 30 
+ M 
+ Smartro’s Transaction Number (Unique) 
+Refer to 2.1.24. 
+ 
+11 
+ AuthCode 
+ AN 
+ 15 
+ M 
+ Authorization Number (Original Transaction Authorization Number) 
+Refer to 2.1.25. 
+ 
+12 
+ Acs_url 
+ AN 
+ 1k 
+ M 
+ Verification URl 
+ 
+13 
+ Pareq 
+ AN 
+ 4k 
+ M 
+ Verification Request value 1 
+ 
+14 
+ Md 
+ AN 
+ 40 
+ M 
+ Verification Request value 2 
+ 
+15 
+ VerifyValue 
+ V 
+ - 
+ M 
+ Verification Value 
+Refer to 2.1.19. 
+ 
+
+ 
+Example 1:  
+ 
+<Response> 
+   <Ver>1000</Ver> 
+   <RequestType>TRAN</RequestType> 
+   <MID>mcausa840m</MID> 
+   <TransactionType>AQ</TransactionType> 
+   <Reference>MERCHANT00001246</Reference> 
+   <ResponseCode>0000</ResponseCode> 
+   <ResponseMessage>Processing Valid</ResponseMessage> 
+   <ResponseDate>20140928</ResponseDate> 
+   <ResponseTime>112500</ResponseTime>    <Acs_url>https://dpay.smilepay.co.kr/3dTest?</Acs_url> 
+   <Pareq>?</Pareq> 
+   <Md>?<Md> 
+   <VerifyValue> 
+ZjQwOGE3MzQyZGY0NzJmNjVhZjc1NzQ0NTc3NjY5YjE4MmM4 
+Y2IxOGY5Y2U3MDNlMGQ2MTE4ZjZiZDI1OTIwNQ== 
+</VerifyValue> 
+</Response> 
+ 
+ 
+ 
+4. Data Encryption 
+4.1. Credit Card Data Encryption 
+4.1.1. Description 
+Encrypt Credit Card Number, Expiry Date, CVC and other Credit Card Details to transmit Data in safe and secure environment. 
+ 
+4.1.2. Algorithm 
+Algorithm encryption uses AES 128bit. (Block Mode : ECB Mode, Padding Method : PKCS5) 
+Refer to 4.1.3 for Key creation method. 
+ 
+4.1.3. Key Creation Method 
+Smartro provides key that is 88 byte in length to Merchants. When 64byte is divided into 4 blocks, 4 keys are created that can be used in AES 128bit. Under the arranged rules, select 1 key out of the 4 keys and encrypt.  
+ 
+
+
+ 
+Encrypted Key 
+INDEX 2 
+
+
+Encrypted Key 
+INDEX 3 
+
+
+Encrypted Key 
+INDEX 4 
+
+
+Encrypted Key 
+INDEX 0 
+
+
+ 
+ 
+ 
+ 
+Numbering 
+
+
+
+ 
+ 
+Encrypted Key INDEX 
+[ 0-3 ] 
+
+
+% 4 = 
+
+
+Amount 
+[Decimal Point Excluded] 
+
+
++ 
+
+
+Reference  
+[Last 4 digit Numbers] 
+
+
+ 
+ 
+ 
+ 
+ 
+4.1.4. Sample Source 
+ 
+<Java Code> 
+ 
+/* 88 byte Merchant Issuing Key*/ 
+String merchantKey = “Kr1A0sO6GPBw2L/wZ+mDBPSuqGlJeHXEw” + 
+“ByclfCB2kM0VrTx05cAhhmG8nvadMgLNn3”+ “nuxKC1IGoVN3t27+uVA==”; 
+ 
+/* 64 byte Encrypted Key*/ 
+String secureKey = merchantKey.substring(0,64); 
+ 
+/* Divide 64 byte Key into 16 byte*/ 
+String aesKeyIdx0 = secureKey.substring(0,16); 
+String aesKeyIdx1 = secureKey.substring(16,32); 
+String aesKeyIdx2 = secureKey.substring(32,48); 
+String aesKeyIdx3 = secureKey.substring(48); 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+/* 
+ When Reference = MERCH123456, Amount = 5.95  
+ Use 3rd index Key(aesKeyIdx3) as the remainder after dividing into 4 is 3 
+*/ 
+int idx = ( 3456 + 595 ) % 4 = 3 
+ 
+/* 
+ Encode Base64 with the created Encrypted Key after encryption with AES encryption Algorithm  
+*/ 
+String encyptResult =  new String(BASE64.encodeBase64(${Data Encryption})); 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.2. Forgery/Alteration Data Verification 
+4.2.1. Description 
+Create data to verify forgery/alteration from Request/Response data based on rules set for each services.  
+[Refer to 2.1.19 VerifyValue] 
+ 
+4.2.2. Algorithm 
+SHA 256 Hash Algorithm is recommended for use. If the language does not support, the created data (as created based on the rules set for each services) is to be sent as it is. 
+ 
+4.2.3. Method to create Data 
+Create data to verify forgery/alterations from Request/Response data based on rules set for each services.  
+Data is composed by selecting entry from request and/or response data and connecting entries with created delimiters.  
+As how encrypted key is created, same follows when delimiters are created by using Reference and key issued to Merchant. 
+ 
+
+86 bytes [Delete == from end of Merchant Key] 
+
+
+ 
+ 
+ 
+Number strings as many as required delimiters 
+
+
+Amount  
+[Decimal Point Excluded] 
+
+
+ 
+
+ 
+Reference  
+[Last 4 digit numbers] 
+
+
+ 
+OR 
+
+
+Delimiter string Start INDEX 
+
+
+% 86 = 
+
+
++ 
+
+
+ 
+ 
+AuthDate 
+
+
+ 
+
+Real-Time Capture 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+4.2.4. Sample Source 
+ 
+<Java Code> 
+// create VerifyValue when requesting purchase  
+ 
+/* 
+Reference = MERCH123456, Amount = 5.95, MID = mcausa840m, AcquireType = 1  
+*/ 
+ 
+/* Use 86 byte from Merchant issued key(Delete “==”) */ 
+String merchantKey = “Kr1A0sO6GPBw2L/wZ+mDBPSuqGlJeHXEw” + 
+“ByclfCB2kM0VrTx05cAhhmG8nvadMgLNn3”+ “nuxKC1IGoVN3t27+uVA”; 
+ 
+/* 
+ When Reference = MERCH123456, Amount = 5.95  
+ INDES is 9 as the remainder after dividing in 86 is 9 
+*/ 
+int idx = ( 3456 + 595 ) % 86 = 9 
+ 
+/*  
+When requesting purchase, three delimiter 3 byte are required. (9 byte extracted from Start INDEX 9) 
+. Like Java, add 1 to response value when Start INDEX is 1 not 0. 
+. When data is extracted from Start INDEX and the data is lacking at the end, extract from the front for the lacking data. 
+*/ 
+String delimiters = merchantKey.substring(9,18); // (int idx may vary based on Amount and Reference; total 9 byte length) 
+ 
+ 
+/* 
+Create Data (Encode BASE64 for each element)  
+If SHA 256 Hash is invalid send below data  
+*/ 
+StringBuffer buffer = new StringBuffer(); 
+buffer.append(Base64.encodeBase64(“MERCH123456”.getBytes())); //Reference 
+buffer.append(delimiters.substring(0,3)); // First delimiter (3 byte) 
+buffer.append(Base64.encodeBase64(“5.95”.getBytes())); // Amount 
+buffer.append(delimiters.substring(3,6)); // Second delimiter (3 byte) 
+buffer.append(Base64.encodeBase64(“mcausa840m”.getBytes())); // MID 
+buffer.append(delimiters.substring(6,9)); // Third delimiter (3 byte) 
+buffer.append(Base64.encodeBase64(“1”.getBytes())); // AcquireType 
+ 
+ 
+/* 
+  Apply if SHA 256 Hash is valid (SHA 256 . Hex . Base64 ) 
+*/ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+MessageDigest sha256 = MessageDigest.getInstance("SHA-256"); 
+ 
+sha256.update(buffer.toString().getBytes()); 
+ 
+byte[] hashResultBytes = sha256.digest(); 
+ 
+String verifyValue =  
+new String(Base64.encodeBase64(new String(Hex.encodeHex(digest)).getBytes())); 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+APPENDIX I. Response Code/Message 
+Code 
+ Message 
+ 
+0000 
+ Processing Valid 
+ 
+E901 
+ VAN communication Error 
+ 
+G001 
+ Unregistered Merchant 
+ 
+E900 
+ Invalid Transaction - Others 
+ 
+G002 
+ PG Basic Information Error 
+ 
+G003 
+ Terminal ID Error 
+ 
+E902 
+ Invalid Transaction Cancellation 
+ 
+E903 
+ Transaction Date mismatch 
+ 
+E904 
+ Purchaser Serial Number Error 
+ 
+E905 
+ Transaction Specification Form Error 
+ 
+E906 
+ Please enquire International Brand Company 
+ 
+E907 
+ Amount Error 
+ 
+E908 
+ Original Transaction Amount 
+ 
+E909 
+ Cancelled Transaction 
+ 
+E910 
+ Invalid part cancellation 
+ 
+E911 
+ Expiry Date Error 
+ 
+E912 
+ Installment Month Error 
+ 
+E913 
+ Installment Amount Error 
+ 
+E914 
+ Settlement Transaction 
+ 
+E915 
+ Non-existent Original Transaction 
+ 
+E916 
+ Transaction Restricted Merchant 
+ 
+E917 
+ Card Number Error 
+ 
+E918 
+ Password Error 
+ 
+E919 
+ Password input limit exceeded 
+ 
+E920 
+ Transaction Suspended Card 
+ 
+E921 
+ Insufficient Funds 
+ 
+E922 
+ Merchant Limit Exceeded 
+ 
+E923 
+ Expired expiry date 
+ 
+E924 
+ Cardholder Limit Exceeded 
+ 
+E925 
+ Lost/Stolen Card 
+ 
+E926 
+ Unregistered Password 
+ 
+E927 
+ System Error 
+ 
+W003 
+ Merchant Data Search Failure 
+ 
+W004 
+ Invalid Currency Code 
+ 
+W006 
+ Verification Key creation Failure 
+ 
+
+W007 
+ Forgery/Alteration Verification Failure 
+ 
+W008 
+ Code Decryption Failure 
+ 
+W009 
+ Communication  Failure 
+ 
+M001 
+ Inserted invalid card number 
+ 
+M002 
+ Please insert CVV number 
+ 
+M003 
+ There is no card holder information 
+ 
+M004 
+ This card is suspended 
+ 
+M005 
+ This card is stolen card 
+ 
+M006 
+ This card is expired 
+ 
+M007 
+ Amount limitation excessed 
+ 
+M008 
+ Failed CVV verification 
+ 
+M009 
+ This card cannot be used 
+ 
+M010 
+ Call card issuer 
+ 
+M011 
+ Daily amount limitation excessed 
+ 
+M012 
+ Monthly amount limitation excessed 
+ 
+M013 
+ Maximum amount limitation excessed 
+ 
+M014 
+ Amount is under minimum limitation 
+ 
+M015 
+ Manual acquiring 
+ 
+M016 
+ There is something missing on requesting 
+ 
+M017 
+ Does not fit on requesting data 
+ 
+M018 
+ Transaction category is wrong 
+ 
+M019 
+ Merchant is not registered 
+ 
+M020 
+ Transaction password does not match 
+ 
+M021 
+ This merchant cannot do live processing 
+ 
+M022 
+ Not registered service URL 
+ 
+M023 
+ not on service area 
+ 
+M024 
+ Original transaction information does not exist 
+ 
+M025 
+ Processing amount is wrong 
+ 
+M026 
+ Does not match with Approval processing currency 
+ 
+M027 
+ This transaction is already cancelled 
+ 
+M028 
+ This transaction is already refunded 
+ 
+M029 
+ This transaction is declined 
+ 
+M030 
+ Transaction ID does not exist 
+ 
+M031 
+ This merchant order number does not exist 
+ 
+M032 
+ Merchant server timed out 
+ 
+M033 
+ Requesting time expired 
+ 
+M034 
+ Transaction data verification has been failed 
+ 
+M035 
+ Database error 1 
+ 
+
+M036 
+ Database error 2 
+ 
+M037 
+ This card cannot be approved 
+ 
+M038 
+ Acquirer error 
+ 
+M039 
+ Cannot identify this transaction 
+ 
+
+ 
+ 
+

@@ -1,0 +1,36 @@
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/bz2' - /usr/lib64/php/modules/bz2: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/calendar' - /usr/lib64/php/modules/calendar: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/ctype' - /usr/lib64/php/modules/ctype: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/curl' - /usr/lib64/php/modules/curl: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/dom' - /usr/lib64/php/modules/dom: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/exif' - /usr/lib64/php/modules/exif: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/fileinfo' - /usr/lib64/php/modules/fileinfo: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/ftp' - /usr/lib64/php/modules/ftp: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/gd' - /usr/lib64/php/modules/gd: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/gettext' - /usr/lib64/php/modules/gettext: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/iconv' - /usr/lib64/php/modules/iconv: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/json' - /usr/lib64/php/modules/json: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/mbstring' - /usr/lib64/php/modules/mbstring: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/mysqlnd' - /usr/lib64/php/modules/mysqlnd: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/pdo' - /usr/lib64/php/modules/pdo: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/phar' - /usr/lib64/php/modules/phar: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/posix' - /usr/lib64/php/modules/posix: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/shmop' - /usr/lib64/php/modules/shmop: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/simplexml' - /usr/lib64/php/modules/simplexml: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/sockets' - /usr/lib64/php/modules/sockets: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/sqlite3' - /usr/lib64/php/modules/sqlite3: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/sysvmsg' - /usr/lib64/php/modules/sysvmsg: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/sysvsem' - /usr/lib64/php/modules/sysvsem: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/sysvshm' - /usr/lib64/php/modules/sysvshm: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/tokenizer' - /usr/lib64/php/modules/tokenizer: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/xml' - /usr/lib64/php/modules/xml: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/xmlwriter' - /usr/lib64/php/modules/xmlwriter: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/xsl' - /usr/lib64/php/modules/xsl: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/mcrypt' - /usr/lib64/php/modules/mcrypt: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/mysqli' - /usr/lib64/php/modules/mysqli: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/pdo_mysql' - /usr/lib64/php/modules/pdo_mysql: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/pdo_sqlite' - /usr/lib64/php/modules/pdo_sqlite: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/wddx' - /usr/lib64/php/modules/wddx: cannot open shared object file: No such file or directory in Unknown on line 0
+PHP Warning:  PHP Startup: Unable to load dynamic library '/usr/lib64/php/modules/xmlreader' - /usr/lib64/php/modules/xmlreader: cannot open shared object file: No such file or directory in Unknown on line 0
+No entry for terminal type "unknown";
+using dumb terminal settings.

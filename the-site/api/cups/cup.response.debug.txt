@@ -1,0 +1,148 @@
+$rph{'merchant_id'} = 313
+Before check on $is_test_mode
+	$is_test_mode = 0
+($is_test_mode,$furl,$surl,$nurl) = (0,secure.profitorius.com/cgi-bin/cup.client.notify.pl,secure.profitorius.com/cgi-bin/cup.client.notify.pl,secure.profitorius.com/cgi-bin/cup.sale.callback.pl)
+
+
+$url = http://payment-test.chinapay.com/pay/TransGet
+=====================
+Key: 	Value: 	Length: 
+Key: BgRetUrl	Value: secure.profitorius.com/cgi-bin/cup.sale.callback.pl	Length: 51
+Key: ChkValue	Value: <br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>148</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>151</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>154</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>157</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>160</b><br />
+AC48AA876DC103315076A4A464A2D72E44AB05E245EDDA015A82736E65A870CF1A3731262523FE467D4E6707C4DD81AA57BA309F4491F0BF5E73A767CE379AC6EA9400D3CF98C22D7547D4F7E321745D73541318E68C96C664B8550D070944E8D647A624DBF3599DF712B03C82D68444B6CCD65A6A12B41C93DC7F44EF8AA92D	Length: 1196
+Key: CountryId	Value: 0840	Length: 4
+Key: CuryId	Value: USD	Length: 3
+Key: DSTFlag	Value: 1	Length: 1
+Key: ExtFlag	Value: 00	Length: 2
+Key: GateId	Value: 8610	Length: 4
+Key: MerId	Value: 808080101694375	Length: 15
+Key: OrdId	Value: 3132647849041486	Length: 16
+Key: PageRetUrl	Value: secure.profitorius.com/cgi-bin/cup.client.notify.pl	Length: 51
+Key: Priv1	Value: 2564125433	Length: 10
+Key: TimeZone	Value: +05	Length: 3
+Key: TransAmt	Value: 000000000102	Length: 12
+Key: TransDate	Value: 20150121	Length: 8
+Key: TransTime	Value: 141331	Length: 6
+Key: TransType	Value: 0001	Length: 4
+Key: Version	Value: 20080515	Length: 8
+$response->is_success = 1
+$response->is_redirect = 
+Headers:
+Cache-Control: max-age=300
+Connection: close
+Date: Wed, 21 Jan 2015 20:10:49 GMT
+Server: IBM_HTTP_Server
+Vary: Accept-Encoding,User-Agent
+Content-Language: zh-CN
+Content-Length: 2355
+Content-Type: text/html; charset=gbk
+Expires: Wed, 21 Jan 2015 20:15:49 GMT
+Client-Date: Wed, 21 Jan 2015 20:13:33 GMT
+Client-Peer: 140.206.112.242:80
+Client-Response-Num: 1
+Set-Cookie: JSESSIONID=000046xiAVmoQmUAi2YV2kPWOL0:-1; Path=/
+Title: 交易入口
+
+
+Content:
+<HTML>
+<HEAD><TITLE>交易入口</TITLE></HEAD><BODY>
+<form name=myForm method=POST action='/pay/PayDetail.jsp'>
+<input type=hidden name='Version' value='20080515'>
+<input type=hidden name='TransDate' value='20150121'>
+<input type=hidden name='TransType' value='0001'>
+<input type=hidden name='MerId' value='808080101694375'>
+<input type=hidden name='TransAmt' value='000000000102'>
+<input type=hidden name='OrdId' value='3132647849041486'>
+<input type=hidden name='CuryId' value='USD'>
+<input type=hidden name='ChkValue' value='<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>148</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>151</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>154</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>157</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>160</b><br />
+AC48AA876DC103315076A4A464A2D72E44AB05E245EDDA015A82736E65A870CF1A3731262523FE467D4E6707C4DD81AA57BA309F4491F0BF5E73A767CE379AC6EA9400D3CF98C22D7547D4F7E321745D73541318E68C96C664B8550D070944E8D647A624DBF3599DF712B03C82D68444B6CCD65A6A12B41C93DC7F44EF8AA92D'>
+<input type=hidden name='BgRetUrl' value='secure.profitorius.com/cgi-bin/cup.sale.callback.pl'>
+<input type=hidden name='PageRetUrl' value='secure.profitorius.com/cgi-bin/cup.client.notify.pl'>
+<input type=hidden name='Priv1' value='2564125433'>
+<input type=hidden name='GateId' value='8610'>
+<input type=hidden name='CountryId' value='0840'>
+<input type=hidden name='TimeZone' value='+05'>
+<input type=hidden name='TransTime' value='141331'>
+<input type=hidden name='DSTFlag' value='1'>
+<input type=hidden name='ExtFlag' value='00'>
+</form>
+<script language=JavaScript>
+document.myForm.submit()
+</script>
+</body></html>
+
+
+Content
+<HTML>
+<HEAD><TITLE>交易入口</TITLE></HEAD><BODY>
+<form name=myForm method=POST action='/pay/PayDetail.jsp'>
+<input type=hidden name='Version' value='20080515'>
+<input type=hidden name='TransDate' value='20150121'>
+<input type=hidden name='TransType' value='0001'>
+<input type=hidden name='MerId' value='808080101694375'>
+<input type=hidden name='TransAmt' value='000000000102'>
+<input type=hidden name='OrdId' value='3132647849041486'>
+<input type=hidden name='CuryId' value='USD'>
+<input type=hidden name='ChkValue' value='<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>148</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>151</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>154</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>157</b><br />
+<br />
+<b>Deprecated</b>:  Function mcrypt_cbc() is deprecated in <b>C:\xampp\htdocs\netpayclient.php(2) : eval()'d code(1) : eval()'d code(1) : eval()'d code</b> on line <b>160</b><br />
+AC48AA876DC103315076A4A464A2D72E44AB05E245EDDA015A82736E65A870CF1A3731262523FE467D4E6707C4DD81AA57BA309F4491F0BF5E73A767CE379AC6EA9400D3CF98C22D7547D4F7E321745D73541318E68C96C664B8550D070944E8D647A624DBF3599DF712B03C82D68444B6CCD65A6A12B41C93DC7F44EF8AA92D'>
+<input type=hidden name='BgRetUrl' value='secure.profitorius.com/cgi-bin/cup.sale.callback.pl'>
+<input type=hidden name='PageRetUrl' value='secure.profitorius.com/cgi-bin/cup.client.notify.pl'>
+<input type=hidden name='Priv1' value='2564125433'>
+<input type=hidden name='GateId' value='8610'>
+<input type=hidden name='CountryId' value='0840'>
+<input type=hidden name='TimeZone' value='+05'>
+<input type=hidden name='TransTime' value='141331'>
+<input type=hidden name='DSTFlag' value='1'>
+<input type=hidden name='ExtFlag' value='00'>
+</form>
+<script language=JavaScript>
+document.myForm.submit()
+</script>
+</body></html>
+
+
+Headers:
+Cache-Control: max-age=300
+Connection: close
+Date: Wed, 21 Jan 2015 20:10:49 GMT
+Server: IBM_HTTP_Server
+Vary: Accept-Encoding,User-Agent
+Content-Language: zh-CN
+Content-Length: 2355
+Content-Type: text/html; charset=gbk
+Expires: Wed, 21 Jan 2015 20:15:49 GMT
+Client-Date: Wed, 21 Jan 2015 20:13:33 GMT
+Client-Peer: 140.206.112.242:80
+Client-Response-Num: 1
+Set-Cookie: JSESSIONID=000046xiAVmoQmUAi2YV2kPWOL0:-1; Path=/
+Title: 交易入口
+
+

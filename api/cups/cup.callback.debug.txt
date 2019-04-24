@@ -1,0 +1,260 @@
+$tid = 0175f21566c14ed2b638a13d05d6a800
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = 625b8dccc09e47c2b0ea4197638eaefe
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = cd998640bf414ea08fbb46d74b34f610
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = 9dfa404a066f4cdaa72e4e40918eae25
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = 32e93d0bb789446f9f5a625e83f0cb6b
+Before callback::update_transaction_record(1527293,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1527293,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1527293;
+================
+After callback::update_transaction_record(1527293,1,,cup)
+After callback::update_action_record(1527293,1,,cup)
+After callback::notify
+$tid = d483aa0992c648bf80bd6e61171cb3eb
+Before callback::update_transaction_record(1527294,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1527294,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1527294;
+================
+After callback::update_transaction_record(1527294,1,,cup)
+After callback::update_action_record(1527294,1,,cup)
+After callback::notify
+$tid = f1fb55f06f5542e0be3b982eedf32448
+Before callback::update_transaction_record(1527295,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1527295,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1527295;
+================
+After callback::update_transaction_record(1527295,1,,cup)
+After callback::update_action_record(1527295,1,,cup)
+After callback::notify
+$tid = 98c11fcecfab4a858e7e849af21ed5be
+Before callback::update_transaction_record(1527296,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1527296,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1527296;
+================
+After callback::update_transaction_record(1527296,1,,cup)
+After callback::update_action_record(1527296,1,,cup)
+After callback::notify
+$tid = b2d281aae32d42deb01056b664037510
+Before callback::update_transaction_record(1527297,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1527297,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1527297;
+================
+After callback::update_transaction_record(1527297,1,,cup)
+After callback::update_action_record(1527297,1,,cup)
+After callback::notify
+$tid = 02c63d4f19864d52becccc94d01bcee7
+Before callback::update_transaction_record(1527298,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1527298,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1527298;
+================
+After callback::update_transaction_record(1527298,1,,cup)
+After callback::update_action_record(1527298,1,,cup)
+After callback::notify
+$tid = db60c436ab754a5091152428d7bd215a
+Before callback::update_transaction_record(1527299,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1527299,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1527299;
+================
+After callback::update_transaction_record(1527299,1,,cup)
+After callback::update_action_record(1527299,1,,cup)
+After callback::notify
+$tid = c0dcdfc634454be4a73dbe1bf91e8d2e
+Before callback::update_transaction_record(1527300,0,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1527300,0,,cup)
+$rv = 0
+$cond = failed
+$sql = UPDATE transactions SET `condition` = 'failed'  WHERE id_transaction_id = 1527300;
+================
+After callback::update_transaction_record(1527300,0,,cup)
+After callback::update_action_record(1527300,0,,cup)
+After callback::notify
+$tid = ec2d6d483c6145bfa936921a70be03c1
+Before callback::update_transaction_record(1528040,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1528040,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1528040;
+================
+After callback::update_transaction_record(1528040,1,,cup)
+After callback::update_action_record(1528040,1,,cup)
+After callback::notify
+$tid = ffaec8f8a90341089ff8905181397ead
+Before callback::update_transaction_record(1528041,0,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1528041,0,,cup)
+$rv = 0
+$cond = failed
+$sql = UPDATE transactions SET `condition` = 'failed'  WHERE id_transaction_id = 1528041;
+================
+After callback::update_transaction_record(1528041,0,,cup)
+After callback::update_action_record(1528041,0,,cup)
+After callback::notify
+$tid = 298b91f0210e4a80b1770cf271988e93
+Before callback::update_transaction_record(1528042,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1528042,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1528042;
+================
+After callback::update_transaction_record(1528042,1,,cup)
+After callback::update_action_record(1528042,1,,cup)
+After callback::notify
+$tid = 
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = 298b91f0210e4a80b1770cf271988e93
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = ec2d6d483c6145bfa936921a70be03c1
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = db60c436ab754a5091152428d7bd215a
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = 02c63d4f19864d52becccc94d01bcee7
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = b2d281aae32d42deb01056b664037510
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = 4e8acbe88f41418e9ff226a2b2207b61
+Before callback::update_transaction_record(1528616,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1528616,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1528616;
+================
+After callback::update_transaction_record(1528616,1,,cup)
+After callback::update_action_record(1528616,1,,cup)
+After callback::notify
+$tid = 679ebe1c751e437b896cb4102c157600
+Before callback::update_transaction_record(1528617,0,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1528617,0,,cup)
+$rv = 0
+$cond = failed
+$sql = UPDATE transactions SET `condition` = 'failed'  WHERE id_transaction_id = 1528617;
+================
+After callback::update_transaction_record(1528617,0,,cup)
+After callback::update_action_record(1528617,0,,cup)
+After callback::notify
+$tid = 1d8fc0a5e2d046db9e5294be1f808339
+Before callback::update_transaction_record(1528620,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1528620,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1528620;
+================
+After callback::update_transaction_record(1528620,1,,cup)
+After callback::update_action_record(1528620,1,,cup)
+After callback::notify
+$tid = 7ebe8ac4aea5430abc9197429dcd24ef
+Before callback::update_transaction_record(1528621,0,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1528621,0,,cup)
+$rv = 0
+$cond = failed
+$sql = UPDATE transactions SET `condition` = 'failed'  WHERE id_transaction_id = 1528621;
+================
+After callback::update_transaction_record(1528621,0,,cup)
+After callback::update_action_record(1528621,0,,cup)
+After callback::notify
+$tid = 1c2bfa7b49604c7e8ca44883f7a9686a
+Before callback::update_transaction_record(1528623,1,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1528623,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1528623;
+================
+After callback::update_transaction_record(1528623,1,,cup)
+After callback::update_action_record(1528623,1,,cup)
+After callback::notify
+$tid = ce55234262f14b698cea69114a1b616a
+Before callback::update_transaction_record(1528624,0,,cup)
+$mid = 312
+	IN callback::update_transaction_record(1528624,0,,cup)
+$rv = 0
+$cond = failed
+$sql = UPDATE transactions SET `condition` = 'failed'  WHERE id_transaction_id = 1528624;
+================
+After callback::update_transaction_record(1528624,0,,cup)
+After callback::update_action_record(1528624,0,,cup)
+After callback::notify
+$tid = 62b912b963294a6680453720b6b6b642cup
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = cef05d092ba5458b8868137790d1c536cup
+Before callback::update_transaction_record(,0,,)
+$mid = 
+$tid = 1c2bfa7b49604c7e8ca44883f7a9686a
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = 4e8acbe88f41418e9ff226a2b2207b61
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = 85f509bad366458e9b4375b4afb2c289cup
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = 37764ba06a8f43f9b2ab8ff8f94faca5cup
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = af05205506394e88a48ca11cda860824cup
+Before callback::update_transaction_record(,1,,)
+$mid = 
+$tid = e6e2813252654484a481fcc7971092c1cup
+Before callback::update_transaction_record(1532257,1,,cup)
+$mid = 313
+	IN callback::update_transaction_record(1532257,1,,cup)
+$rv = 1
+$cond = complete
+$sql = UPDATE transactions SET `condition` = 'complete'  WHERE id_transaction_id = 1532257;
+================
+After callback::update_transaction_record(1532257,1,,cup)
+After callback::update_action_record(1532257,1,,cup)
+After callback::notify
+$tid = 42367fda4a124338819964bd29197873cup
+Before callback::update_transaction_record(1532258,0,,cup)
+$mid = 313
+	IN callback::update_transaction_record(1532258,0,,cup)
+$rv = 0
+$cond = failed
+$sql = UPDATE transactions SET `condition` = 'failed'  WHERE id_transaction_id = 1532258;
+================
+After callback::update_transaction_record(1532258,0,,cup)
+After callback::update_action_record(1532258,0,,cup)
+After callback::notify

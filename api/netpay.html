@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+</head>
+<body>
+<style>
+	input{ display: block; }
+</style>
+
+
+<form action="http://payment-test.ChinaPay.com/pay/TransGet0_En" METHOD=POST> （”action” here is the URL of submitting transaction data）
+<input type=input name="MerId" value="808080101694375"/> （MerId is the Merchant ID assigned by ChinaPay, length of 15 bytes, necessary）
+<input type=input name="OrdId" value="0000000000000006"/> （Order ID merchants submits to ChinaPay, 
+length of 16 bytes, necessary）
+<input type=input name="TransAmt" value="000000001234"/> （Order transaction amount, with 2 decimal,length of 12 bytes, add 0 from the left if inadequate, necessary）
+<input type=input name="CuryId" value="156"/> （Order transaction currency, length of 3 bytes, for example,”156”represents RMB,”JPY” represents Japanese yen, ”USD” represents U.S. dollar, necessary）
+<input type=input name="CountryId" value="0086"/> （Country code,4bytes，telephone number code, necessary）
+<input type=input name="TransDate" value="20080601"/>（Order transaction date, length of 8 bytes, necessary）
+<input type=input name="TransType" value="0001"/> （Transaction type, length of 4 bytes, necessary）
+<input type=input name="Version" value="20070129"/> （payment connection version, necessary）20080515
+<input type=input name="BgRetUrl" value="http://216.52.148.144"/> （URL of receiving background transactions, within 80 bytes, necessary）
+<input type=input name="PageRetUrl" value="http://216.52.148.144"/> （URL of receiving 
+page transaction, within 80 bytes, necessary）
+<input type=input name="GateId" value="">（Payment gateway number, optional）
+<input type=input name="Priv1" value="Memo">（Merchant private field, within 60 bytes）
+<input type=input name="TimeZone" value="+06">（Eastern time zone is “+”, western time zone is “-” ,3bytes, necessary）
+<input type=input name="TransTime" value="122340">（transaction submit time, 6 bytes, necessary）
+<input type=input name="DSTFlag" value="1">（flag of summer time , 1 represents summer time, 0 represents no, necessary）
+<input type=input name="ExtFlag" value="00">（flag of overseas merchant, the default value is 00, necessary）
+<input type=input name="Priv2" value="tes">（Merchant private field 2, within 200 bytes, optional）
+<input type=input name="ChkValue" value="A1C716AE662F9125E1595DE5FCD7826F12B9D526D9F53BCC2F6DF95E825D9B83DE56B90A6F109AD0CCA7ED271FDFD4FDFCDC9E422F0BA7F7E55A6D0C385BE546664685CB48A903AED37B2038F052CDE474755AC2303A271A4D310E8C6804A852ACCFC8C1825F60C5E1488A81A2392CCBD68B0FF1703C09E846DE54E7C4B985BD">（ASCII Code with 256 bytes, sign for the key data of this transaction, necessary）
+<input type="submit" name="submit" value="submit"/>
+</form> 
+</body>
+</html>

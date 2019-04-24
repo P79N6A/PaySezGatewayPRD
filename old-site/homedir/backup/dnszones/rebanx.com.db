@@ -1,0 +1,31 @@
+; cPanel first:11.48.4.4 (update_time):1452084004 Cpanel::ZoneFile::VERSION:1.3 hostname:serv01.ukm1.siteground.biz latest:11.48.4.4
+; Zone file for rebanx.com
+$TTL 14400
+rebanx.com.	86400	IN	SOA	ns1.ukm1.siteground.biz.	dnsadmin.serv01.ukm1.siteground.biz.	(
+						2016010606 ;Serial Number
+						86400 ;refresh
+						7200 ;retry
+						3600000 ;expire
+						86400	)
+
+rebanx.com.	86400	IN	NS	ns1.ukm1.siteground.biz.
+rebanx.com.	86400	IN	NS	ns2.ukm1.siteground.biz.
+
+
+rebanx.com.	14400	IN	A	185.123.96.35
+
+
+mail	14400	IN	CNAME	rebanx.com.
+www	1400	IN	CNAME	rebanx.com.
+ftp	14400	IN	A	185.123.96.201
+cpanel	14400	IN	A	185.123.96.35
+webdisk	14400	IN	A	185.123.96.35
+whm	14400	IN	A	185.123.96.35
+webmail	14400	IN	A	185.123.96.35
+rebanx.com.	3600	IN	MX	10	mx10.mailspamprotection.com.
+rebanx.com.	3600	IN	MX	20	mx20.mailspamprotection.com.
+rebanx.com.	3600	IN	MX	30	mx30.mailspamprotection.com.
+cloudflare-resolve-to	1400	IN	CNAME	rebanx.com.
+
+_domainkey		TXT		"v=DKIM1; o=~"
+dkim._domainkey	TXT		"v=DKIM1; k=rsa; p=MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC2MeYzWjqXGKSaAAkOQOJ/k4NabKn2wyAqKPmJJqMIhRXlxpGZB3drRX5OVKM8mdcb+qHXb7ebCQLlMPVHZa6APXTrr/0PrQJpOff2nvFJdgatyCnLdoW4CUUq+y0tbdgC7KB3w27fUmCffVMSs3+aydG+BHo15t1pnsVTazl4hQIDAQAB; s=email"

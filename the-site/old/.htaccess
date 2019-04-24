@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "old"
+AuthUserFile "/home/rebanx84/.htpasswds/public_html/old/passwd"
+require valid-user

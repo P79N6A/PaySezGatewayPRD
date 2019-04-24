@@ -1,0 +1,2 @@
+AuthName "php"
+AuthUserFile "/home/rebanx84/.htpasswds/public_html/php/passwd"

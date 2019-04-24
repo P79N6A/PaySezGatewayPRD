@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.example.paysez.openpage",
+    "sha256_cert_fingerprints":
+    ["8F:D5:F0:C5:02:28:B1:D9:66:79:44:B1:AF:2D:DA:3B:4D:90:91:1D:3C:AB:06:5E:D0:50:C9:74:36:5A:3E:DC"]
+  }
+}]

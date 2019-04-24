@@ -1,0 +1,938 @@
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> d56f2167f4fb44e0922e11442e9a3ee4
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 1
+transaction_id <=> d56f2167f4fb44e0922e11442e9a3ee4
+transactionid <=> d56f2167f4fb44e0922e11442e9a3ee4
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> e0bd4fdc4e24419094fea79dee3b3518
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> e0bd4fdc4e24419094fea79dee3b3518
+transactionid <=> e0bd4fdc4e24419094fea79dee3b3518
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 0175f21566c14ed2b638a13d05d6a800
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 1
+transaction_id <=> 0175f21566c14ed2b638a13d05d6a800
+transactionid <=> 0175f21566c14ed2b638a13d05d6a800
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 625b8dccc09e47c2b0ea4197638eaefe
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 625b8dccc09e47c2b0ea4197638eaefe
+transactionid <=> 625b8dccc09e47c2b0ea4197638eaefe
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> cd998640bf414ea08fbb46d74b34f610
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 1
+transaction_id <=> cd998640bf414ea08fbb46d74b34f610
+transactionid <=> cd998640bf414ea08fbb46d74b34f610
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 9dfa404a066f4cdaa72e4e40918eae25
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 9dfa404a066f4cdaa72e4e40918eae25
+transactionid <=> 9dfa404a066f4cdaa72e4e40918eae25
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 32e93d0bb789446f9f5a625e83f0cb6b
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 1
+transaction_id <=> 32e93d0bb789446f9f5a625e83f0cb6b
+transactionid <=> 32e93d0bb789446f9f5a625e83f0cb6b
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> d483aa0992c648bf80bd6e61171cb3eb
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> d483aa0992c648bf80bd6e61171cb3eb
+transactionid <=> d483aa0992c648bf80bd6e61171cb3eb
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> f1fb55f06f5542e0be3b982eedf32448
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> f1fb55f06f5542e0be3b982eedf32448
+transactionid <=> f1fb55f06f5542e0be3b982eedf32448
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 98c11fcecfab4a858e7e849af21ed5be
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 98c11fcecfab4a858e7e849af21ed5be
+transactionid <=> 98c11fcecfab4a858e7e849af21ed5be
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> b2d281aae32d42deb01056b664037510
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> b2d281aae32d42deb01056b664037510
+transactionid <=> b2d281aae32d42deb01056b664037510
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 02c63d4f19864d52becccc94d01bcee7
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 02c63d4f19864d52becccc94d01bcee7
+transactionid <=> 02c63d4f19864d52becccc94d01bcee7
+$s = 0
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> db60c436ab754a5091152428d7bd215a
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 1
+transaction_id <=> db60c436ab754a5091152428d7bd215a
+transactionid <=> db60c436ab754a5091152428d7bd215a
+$s = 1
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> c0dcdfc634454be4a73dbe1bf91e8d2e
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> c0dcdfc634454be4a73dbe1bf91e8d2e
+transactionid <=> c0dcdfc634454be4a73dbe1bf91e8d2e
+$s = 0
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> ec2d6d483c6145bfa936921a70be03c1
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 1
+transaction_id <=> ec2d6d483c6145bfa936921a70be03c1
+transactionid <=> ec2d6d483c6145bfa936921a70be03c1
+$s = 1
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> ffaec8f8a90341089ff8905181397ead
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> ffaec8f8a90341089ff8905181397ead
+transactionid <=> ffaec8f8a90341089ff8905181397ead
+$s = 0
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 298b91f0210e4a80b1770cf271988e93
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 1
+transaction_id <=> 298b91f0210e4a80b1770cf271988e93
+transactionid <=> 298b91f0210e4a80b1770cf271988e93
+$s = 1
+===============================================================
+Transaction type: 
+condition <=> failed
+success <=> 1
+transaction_id <=> 298b91f0210e4a80b1770cf271988e93void
+transactionid <=> 298b91f0210e4a80b1770cf271988e93void
+===============================================================
+Transaction type: 
+Status <=> 3
+condition <=> complete
+success <=> 1
+transaction_id <=> ec2d6d483c6145bfa936921a70be03c1cupvoid
+transactionid <=> ec2d6d483c6145bfa936921a70be03c1cupvoid
+===============================================================
+Transaction type: 
+Status <=> 3
+condition <=> complete
+success <=> 1
+transaction_id <=> db60c436ab754a5091152428d7bd215avoid
+transactionid <=> db60c436ab754a5091152428d7bd215avoid
+===============================================================
+Transaction type: 
+Status <=> 3
+condition <=> complete
+success <=> 1
+transaction_id <=> 02c63d4f19864d52becccc94d01bcee7void
+transactionid <=> 02c63d4f19864d52becccc94d01bcee7void
+===============================================================
+Transaction type: 
+Status <=> 3
+condition <=> complete
+success <=> 1
+transaction_id <=> b2d281aae32d42deb01056b664037510ref
+transactionid <=> b2d281aae32d42deb01056b664037510ref
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 4e8acbe88f41418e9ff226a2b2207b61
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> 4e8acbe88f41418e9ff226a2b2207b61
+transactionid <=> 4e8acbe88f41418e9ff226a2b2207b61
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 679ebe1c751e437b896cb4102c157600
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> 679ebe1c751e437b896cb4102c157600
+transactionid <=> 679ebe1c751e437b896cb4102c157600
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 1d8fc0a5e2d046db9e5294be1f808339
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> 1d8fc0a5e2d046db9e5294be1f808339
+transactionid <=> 1d8fc0a5e2d046db9e5294be1f808339
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 7ebe8ac4aea5430abc9197429dcd24ef
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> 7ebe8ac4aea5430abc9197429dcd24ef
+transactionid <=> 7ebe8ac4aea5430abc9197429dcd24ef
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 1c2bfa7b49604c7e8ca44883f7a9686a
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> 1c2bfa7b49604c7e8ca44883f7a9686a
+transactionid <=> 1c2bfa7b49604c7e8ca44883f7a9686a
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> ce55234262f14b698cea69114a1b616a
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> ce55234262f14b698cea69114a1b616a
+transactionid <=> ce55234262f14b698cea69114a1b616a
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 62b912b963294a6680453720b6b6b642
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> 62b912b963294a6680453720b6b6b642
+transactionid <=> 62b912b963294a6680453720b6b6b642
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> cef05d092ba5458b8868137790d1c536
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> cef05d092ba5458b8868137790d1c536
+transactionid <=> cef05d092ba5458b8868137790d1c536
+$s = 
+===============================================================
+Transaction type: 
+Status <=> 3
+condition <=> complete
+success <=> 1
+transaction_id <=> 1c2bfa7b49604c7e8ca44883f7a9686aref
+transactionid <=> 1c2bfa7b49604c7e8ca44883f7a9686aref
+===============================================================
+Transaction type: 
+Status <=> 3
+condition <=> complete
+success <=> 1
+transaction_id <=> 4e8acbe88f41418e9ff226a2b2207b61ref
+transactionid <=> 4e8acbe88f41418e9ff226a2b2207b61ref
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 85f509bad366458e9b4375b4afb2c289
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> 85f509bad366458e9b4375b4afb2c289
+transactionid <=> 85f509bad366458e9b4375b4afb2c289
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> acfe69ed5db3487889a8a8883b25541d
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> acfe69ed5db3487889a8a8883b25541d
+transactionid <=> acfe69ed5db3487889a8a8883b25541d
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 37764ba06a8f43f9b2ab8ff8f94faca5
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> 37764ba06a8f43f9b2ab8ff8f94faca5
+transactionid <=> 37764ba06a8f43f9b2ab8ff8f94faca5
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> af05205506394e88a48ca11cda860824
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> af05205506394e88a48ca11cda860824
+transactionid <=> af05205506394e88a48ca11cda860824
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> e6e2813252654484a481fcc7971092c1
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> e6e2813252654484a481fcc7971092c1
+transactionid <=> e6e2813252654484a481fcc7971092c1
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 42367fda4a124338819964bd29197873
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 
+transaction_id <=> 42367fda4a124338819964bd29197873
+transactionid <=> 42367fda4a124338819964bd29197873
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 72c67eb94d104360998d3e475173ee02
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 72c67eb94d104360998d3e475173ee02
+transactionid <=> 72c67eb94d104360998d3e475173ee02
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 1ab749ad869645cea81df39ff7a59d1a
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 1ab749ad869645cea81df39ff7a59d1a
+transactionid <=> 1ab749ad869645cea81df39ff7a59d1a
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 7cf86d582dde43d9b2e898f2093cd50a
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 7cf86d582dde43d9b2e898f2093cd50a
+transactionid <=> 7cf86d582dde43d9b2e898f2093cd50a
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 8a8b88fb9976442fbe5aa2ea84f3b99b
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 8a8b88fb9976442fbe5aa2ea84f3b99b
+transactionid <=> 8a8b88fb9976442fbe5aa2ea84f3b99b
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 38344847b2634f02ba0036a264d713d2
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 38344847b2634f02ba0036a264d713d2
+transactionid <=> 38344847b2634f02ba0036a264d713d2
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 9ff5694a4d604b8497e72c5b9e8dd6d6
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 9ff5694a4d604b8497e72c5b9e8dd6d6
+transactionid <=> 9ff5694a4d604b8497e72c5b9e8dd6d6
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 0308d60bcda84b328fa729b43b2a2042
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 0308d60bcda84b328fa729b43b2a2042
+transactionid <=> 0308d60bcda84b328fa729b43b2a2042
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 9efa5fd5cf884847b44f039d19bc0707
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 9efa5fd5cf884847b44f039d19bc0707
+transactionid <=> 9efa5fd5cf884847b44f039d19bc0707
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> b5b70e993e0a4ce886984a14aa0dd7a2
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> b5b70e993e0a4ce886984a14aa0dd7a2
+transactionid <=> b5b70e993e0a4ce886984a14aa0dd7a2
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 3fc4716c7bb1493eaf4044215ceddce7
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 3fc4716c7bb1493eaf4044215ceddce7
+transactionid <=> 3fc4716c7bb1493eaf4044215ceddce7
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> a2a3de1b43d9402396d13c8c73ffaff0
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> a2a3de1b43d9402396d13c8c73ffaff0
+transactionid <=> a2a3de1b43d9402396d13c8c73ffaff0
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> cec9af92d11748738b9b6d1e864a4eae
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> cec9af92d11748738b9b6d1e864a4eae
+transactionid <=> cec9af92d11748738b9b6d1e864a4eae
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> f1c19105f5334106a97b670f076804d6
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> f1c19105f5334106a97b670f076804d6
+transactionid <=> f1c19105f5334106a97b670f076804d6
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 4d820b3ddb8d40628d0fdce50ef711a6
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 4d820b3ddb8d40628d0fdce50ef711a6
+transactionid <=> 4d820b3ddb8d40628d0fdce50ef711a6
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 4ba634e400cd4f26b767c91f090c6e3e
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 4ba634e400cd4f26b767c91f090c6e3e
+transactionid <=> 4ba634e400cd4f26b767c91f090c6e3e
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> a444b0c6380e48bb9e69b9bb7247bd6b
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> a444b0c6380e48bb9e69b9bb7247bd6b
+transactionid <=> a444b0c6380e48bb9e69b9bb7247bd6b
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> f7a40c50406f43698b30e591e647c43c
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> f7a40c50406f43698b30e591e647c43c
+transactionid <=> f7a40c50406f43698b30e591e647c43c
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 21f4ac7cca7e49949dcd03428a7ba8ed
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 21f4ac7cca7e49949dcd03428a7ba8ed
+transactionid <=> 21f4ac7cca7e49949dcd03428a7ba8ed
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 7f0b2cce7d5846a79c7cc081e3bb853e
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 7f0b2cce7d5846a79c7cc081e3bb853e
+transactionid <=> 7f0b2cce7d5846a79c7cc081e3bb853e
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> TÍ¼õÜgOú•è³bÔûE
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> TÍ¼õÜgOú•è³bÔûE
+transactionid <=> TÍ¼õÜgOú•è³bÔûE
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 256d9cb278dc4222a1493dc98c5ffc64
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 256d9cb278dc4222a1493dc98c5ffc64
+transactionid <=> 256d9cb278dc4222a1493dc98c5ffc64
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 32b925efba3e4011a040589d0faa4e0c
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 32b925efba3e4011a040589d0faa4e0c
+transactionid <=> 32b925efba3e4011a040589d0faa4e0c
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 3365f77cfd014353
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 3365f77cfd014353
+transactionid <=> 3365f77cfd014353
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 403636da1d4b465a
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 403636da1d4b465a
+transactionid <=> 403636da1d4b465a
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 3a87f04f24704f3a
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 3a87f04f24704f3a
+transactionid <=> 3a87f04f24704f3a
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> b66d12620317494f
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> b66d12620317494f
+transactionid <=> b66d12620317494f
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 3138889899573603
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 3138889899573603
+transactionid <=> 3138889899573603
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 3137932784487398
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 3137932784487398
+transactionid <=> 3137932784487398
+$s = 
+===============================================================
+Transaction type: 
+authcode <=> 
+avsresponse <=> 
+condition <=> pending
+cvvresponse <=> 
+mdf_20 <=> 3132647849041486
+msc_response_code <=> 
+msc_response_text <=> 
+response_content <=> 
+response_text <=> 
+success <=> 0
+transaction_id <=> 3132647849041486
+transactionid <=> 3132647849041486
+$s = 
+===============================================================

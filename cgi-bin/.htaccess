@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "cgi"
+AuthUserFile "/home/rebanx84/.htpasswds/public_html/cgi-bin/passwd"
+require valid-user

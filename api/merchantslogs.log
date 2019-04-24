@@ -1,0 +1,1056 @@
+POS Terminal Acive Log:2018-12-10 07:24:22 Terminal Not Active Id:{"MerchantID":"E01010000000001","TerminalID":"E0000004","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-10 07:36:56 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000004","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-10 13:22:57 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000004","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-10 13:58:59 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000004","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-10 15:11:48 Terminal Added successfully:{"TerminalID":"E0000008","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-10 16:50:15 Terminal Added successfully:{"TerminalID":"E0000005","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-10 16:53:00 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000004","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-10 16:53:03 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000005","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-10 16:53:15 Terminal Added successfully:{"TerminalID":"E0000006","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-10 16:58:53 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000004","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-10 16:58:58 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000004","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-10 17:17:40 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000006","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-11 13:00:03 Terminal Added successfully:{"TerminalID":"E0000003","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-11 13:01:54 Terminal Added successfully:{"TerminalID":"E0000003","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-11 13:01:58 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000003","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-11 14:31:48 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000003","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-11 14:34:58 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000003","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-11 14:48:55 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000003","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-11 14:50:46 Terminal Added successfully:{"TerminalID":"E0000005","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-11 15:05:54 Merchant ID not Exists:{"MerchantID":"E01010000000004","TerminalID":"E0000003","ResponseDesc":"Merchant ID not Exists","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-11 15:28:01 Merchant ID not Exists:{"MerchantID":"E01010000000004","TerminalID":"E0000003","ResponseDesc":"Merchant ID not Exists","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-11 15:52:53 Merchant ID not Exists:{"MerchantID":"E01010000000004","TerminalID":"E0000005","ResponseDesc":"Merchant ID not Exists","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-11 16:43:44 Merchant ID not Exists:{"MerchantID":"E01010000000004","TerminalID":"E0000003","ResponseDesc":"Merchant ID not Exists","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-12 11:33:33 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000003","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Merchant Acive Log:2018-12-12 11:49:50 Merchant ID is Not Found, So please Add:{"MerchantID":"E01010000000036","ResponseDesc":"Merchant ID is Not Found, So please Add","ResponseCode":"F"} 
+
+
+POS Merchant Acive Log:2018-12-12 12:04:19 Merchant ID is Not Found, So please Add:{"MerchantID":"E01010000000003","ResponseDesc":"Merchant ID is Not Found, So please Add","ResponseCode":"F"} 
+
+
+POS Merchant Acive Log:2018-12-14 11:22:46 Merchant Added successfully :{"MerchantID":"T01010000000003","ResponseDesc":"Merchant Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-14 11:27:34 Terminal Added successfully:{"TerminalID":"T0000005","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-14 17:08:02 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000003","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-14 17:13:38 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"E01010000000001","TerminalID":"E0000003","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-14 17:14:59 Merchant ID not Exists:{"MerchantID":"E01010000000026","TerminalID":"E0000033","ResponseDesc":"Merchant ID not Exists","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-14 17:19:12 Merchant ID not Exists:{"MerchantID":"E01010000000022","TerminalID":"E0000029","ResponseDesc":"Merchant ID not Exists","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-14 17:20:22 Merchant ID not Exists:{"MerchantID":"E01010000000007","TerminalID":"E0000014","ResponseDesc":"Merchant ID not Exists","ResponseCode":"F"} 
+
+
+POS Merchant Acive Log:2018-12-14 17:30:55 Merchant Added successfully :{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-14 17:32:07 Terminal Added successfully:{"TerminalID":"E0000044","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:01:01 Terminal Added successfully:{"TerminalID":"E0000045","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:13:40 Terminal Status Activated successfully:{"TerminalID":"E0000044","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:30:46 Terminal Added successfully:{"TerminalID":"T0000006","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:30:49 Terminal ID Already Exists for that merchant, So Not Added:{"MerchantID":"T01010000000003","TerminalID":"T0000006","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:31:38 Terminal Status Activated successfully:{"TerminalID":"T0000006","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:32:19 Terminal Status Activated successfully:{"TerminalID":"T0000006","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:36:24 Terminal Status In-Activated successfully:{"TerminalID":"T0000006","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:36:31 Terminal Status In-Activated successfully:{"TerminalID":"T0000006","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:52:37,{"TerminalID":"T0000006","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:52:40,{"MerchantID":"T01010000000003","TerminalID":"T0000006","ResponseDesc":"Terminal ID Already Exists for that merchant, So Not Added","ResponseCode":"F"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:52:49,{"TerminalID":"T0000006","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S"} 
+
+
+POS Terminal Acive Log:2018-12-17 13:52:56,{"TerminalID":"T0000006","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-17 14:03:59,{"pg_merchant_id":"T01010000000003","pg_terminal_id":"T0000006","pg_terminal_address":"paysez,sollinganalur","pg_terminal_state":"Tamilnadu","pg_terminal_city":"Chennai","pg_terminal_pincode":"600119","pg_terminal_status":"2","pg_terminal_action":"3"} 
+
+
+ Terminal Active Log:2018-12-17 14:03:59,{"TerminalID":"T0000006","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-17 14:18:20,{"pg_terminal_address":"Colombi","pg_terminal_status":1,"pg_terminal_pincode":"00100","pg_terminal_city":"COLOMBO 01","pg_terminal_id":"E0000044","pg_merchant_id":"E01010000000037","pg_terminal_action":3,"pg_terminal_state":"COLOMBO"} 
+
+
+ Terminal Active Log:2018-12-17 14:18:20,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-17 14:32:08,{"pg_terminal_address":"2341","pg_terminal_status":1,"pg_terminal_pincode":"00100","pg_terminal_city":"COLOMBO 01","pg_terminal_id":"E0000046","pg_merchant_id":"E01010000000037","pg_terminal_action":1,"pg_terminal_state":"COLOMBO"} 
+
+
+ Terminal Active Log:2018-12-17 14:32:08,{"TerminalID":"E0000046","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+ Merchant Request Data:2018-12-17 14:49:55,{"pg_merchant_postalcode":"00100","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant _status":1,"pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000037","pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":2,"pg_merchant_phone":"7989749975","pg_merchant_start_date":"2018-12-17","pg_merchant_city":"COLOMBO 01","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR"} 
+
+
+ Merchant Active Log:2018-12-17 14:49:55,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Updated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-17 16:58:13,{"pg_terminal_address":"1234","pg_terminal_status":2,"pg_terminal_pincode":"00100","pg_terminal_city":"COLOMBO 01","pg_terminal_id":"E0000045","pg_merchant_id":"E01010000000037","pg_terminal_action":3,"pg_terminal_state":"COLOMBO"} 
+
+
+ Terminal Active Log:2018-12-17 16:58:13,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-17 17:09:04,{"pg_terminal_address":"Colombi","pg_terminal_status":2,"pg_terminal_pincode":"00100","pg_terminal_city":"COLOMBO 01","pg_terminal_id":"E0000044","pg_merchant_id":"E01010000000037","pg_terminal_action":3,"pg_terminal_state":"COLOMBO"} 
+
+
+ Terminal Active Log:2018-12-17 17:09:04,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-17 17:23:04,{"pg_terminal_address":"","pg_terminal_status":1,"pg_terminal_pincode":"11460","pg_terminal_city":"KATUNAYAKE","pg_terminal_id":"E0000003","pg_merchant_id":"E01010000000004","pg_terminal_action":2,"pg_terminal_state":"GAMPAHA"} 
+
+
+ Terminal Active Log:2018-12-17 17:23:04,{"MerchantID":"E01010000000004","TerminalID":"E0000003","ResponseDesc":"Merchant ID not Exists","ResponseCode":"F"} 
+
+
+ Terminal Request Data:2018-12-17 17:24:44,{"pg_terminal_address":"","pg_terminal_status":1,"pg_terminal_pincode":"11460","pg_terminal_city":"KATUNAYAKE","pg_terminal_id":"E0000046","pg_merchant_id":"E01010000000037","pg_terminal_action":2} 
+
+
+ Terminal Active Log:2018-12-17 17:24:44,{"TerminalID":"E0000046","ResponseDesc":"Terminal Updated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-17 17:47:08,{"pg_merchant_id":"E01010000000037","pg_terminal_id":"E0000046","pg_terminal_pincode":"00101","pg_terminal_status":"1","pg_terminal_action":"2"} 
+
+
+ Terminal Active Log:2018-12-17 17:47:08,{"TerminalID":"E0000046","ResponseDesc":"Terminal Updated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-17 17:47:37,{"pg_merchant_id":"E01010000000037","pg_terminal_id":"E0000046","pg_terminal_pincode":"00100","pg_terminal_status":"1","pg_terminal_action":"2"} 
+
+
+ Terminal Active Log:2018-12-17 17:47:37,{"TerminalID":"E0000046","ResponseDesc":"Terminal Updated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-18 11:55:09,{"pg_terminal_address":"XYZ","pg_terminal_status":1,"pg_terminal_pincode":"00400","pg_terminal_city":"COLOMBO 04","pg_terminal_id":"E0000046","pg_merchant_id":"E01010000000037","pg_terminal_action":2,"pg_terminal_state":"COLOMBO"} 
+
+
+ Terminal Active Log:2018-12-18 11:55:09,{"TerminalID":"E0000046","ResponseDesc":"Terminal Updated successfully","ResponseCode":"S"} 
+
+
+ Merchant Request Data:2018-12-18 16:05:55,{"pg_merchant_postalcode":"00500","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant _status":1,"pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000037","pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":2,"pg_merchant_phone":"9916555564","pg_merchant_start_date":"2018-12-18","pg_merchant_city":"COLOMBO 05","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR"} 
+
+
+ Merchant Active Log:2018-12-18 16:05:55,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Updated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-18 17:06:21,{"pg_terminal_address":"ABCD","pg_terminal_status":1,"pg_terminal_pincode":"00600","pg_terminal_city":"COLOMBO 06","pg_terminal_id":"E0000047","pg_merchant_id":"E01010000000037","pg_terminal_action":1,"pg_terminal_state":"COLOMBO"} 
+
+
+ Terminal Active Log:2018-12-18 17:06:21,{"TerminalID":"E0000047","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-18 17:20:06,{"pg_terminal_address":"XYZ","pg_terminal_status":1,"pg_terminal_pincode":"00800","pg_terminal_city":"COLOMBO 08","pg_terminal_id":"E0000047","pg_merchant_id":"E01010000000037","pg_terminal_action":2,"pg_terminal_state":"COLOMBO"} 
+
+
+ Terminal Active Log:2018-12-18 17:20:06,{"TerminalID":"E0000047","ResponseDesc":"Terminal Updated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-18 17:20:44,{"pg_terminal_address":"XYZ","pg_terminal_status":2,"pg_terminal_pincode":"00800","pg_terminal_city":"COLOMBO 08","pg_terminal_id":"E0000047","pg_merchant_id":"E01010000000037","pg_terminal_action":3,"pg_terminal_state":"COLOMBO"} 
+
+
+ Terminal Active Log:2018-12-18 17:20:44,{"TerminalID":"E0000047","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+ Terminal Request Data:2018-12-18 17:34:08,{"pg_terminal_address":"XYZ","pg_terminal_status":2,"pg_terminal_pincode":"00400","pg_terminal_city":"COLOMBO 04","pg_terminal_id":"E0000046","pg_merchant_id":"E01010000000037","pg_terminal_action":3,"pg_terminal_state":"COLOMBO"} 
+
+
+ Terminal Active Log:2018-12-18 17:34:08,{"TerminalID":"E0000046","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S"} 
+
+
+ Merchant Request Data:2018-12-18 17:34:09,{"pg_merchant_postalcode":"00500","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant _status":2,"pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000037","pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":3,"pg_merchant_phone":"9916555564","pg_merchant_start_date":"2018-12-18","pg_merchant_city":"COLOMBO 05","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR"} 
+
+
+ Merchant Request Data:2018-12-18 18:14:57,{"pg_merchant_postalcode":"00500","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant _status":2,"pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000037","pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":3,"pg_merchant_phone":"9916555564","pg_merchant_start_date":"2018-12-18","pg_merchant_city":"COLOMBO 05","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR"} 
+
+
+ Merchant Request Data:2018-12-18 18:17:54,{"pg_merchant_postalcode":"00500","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant_status":2,"pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000037","pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":3,"pg_merchant_phone":"9916555564","pg_merchant_start_date":"2018-12-18","pg_merchant_city":"COLOMBO 05","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR"} 
+
+
+ Merchant Active Log:2018-12-18 18:17:54,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S"} 
+
+
+ Merchant Request Data:2018-12-18 18:18:07,{"pg_merchant_postalcode":"00500","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant_status":1,"pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000037","pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":3,"pg_merchant_phone":"9916555564","pg_merchant_start_date":"2018-12-18","pg_merchant_city":"COLOMBO 05","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR"} 
+
+
+ Merchant Active Log:2018-12-18 18:18:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S"} 
+
+
+ Merchant Request Data:2018-12-18 18:59:02,{"pg_merchant_postalcode":"00500","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000037","pg_merchant_status":2,"pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":3,"pg_merchant_phone":"9916555564","pg_merchant_start_date":"2018-12-18","pg_merchant_city":"COLOMBO 05","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR"} 
+
+
+ Merchant Active Log:2018-12-18 18:59:02,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S"} 
+
+
+Merchant Request Data:2018-12-21 10:24:46,{"pg_merchant_postalcode":"00500","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant_status":1,"pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000037","pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":3,"pg_merchant_phone":"9916555564","pg_merchant_start_date":"2018-12-18","pg_merchant_city":"COLOMBO 05","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR","Permission1":1,"Permission2":1,"Permission3":1,"Permission4":1} 
+
+
+Merchant Active Log:2018-12-21 10:24:46,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S"} 
+
+
+Merchant Request Data:2018-12-21 10:25:18,{"pg_merchant_postalcode":"00500","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant_status":1,"pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000037","pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":1,"pg_merchant_phone":"9916555564","pg_merchant_start_date":"2018-12-18","pg_merchant_city":"COLOMBO 05","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR","Permission1":1,"Permission2":1,"Permission3":1,"Permission4":1} 
+
+
+Merchant Active Log:2018-12-21 10:25:18,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant ID Already Exists, So Not Added","ResponseCode":"F"} 
+
+
+Merchant Request Data:2018-12-21 11:31:00,{"pg_merchant_postalcode":"00500","pg_merchant_mcc":"5451","pg_merchant_address2":"","pg_merchant_address1":"230\/4,Mg Road","pg_merchant_status":1,"pg_merchant_name":"TT Testing","pg_merchant_country":"LK","pg_merchant_id":"E01010000000038","pg_accountno":"152905000037","pg_ifsccode":"7135","pg_merchant_action":1,"pg_merchant_phone":"9916555564","pg_merchant_start_date":"2018-12-18","pg_merchant_city":"COLOMBO 05","pg_merchant_state":"COLOMBO","pg_merchant_email":"sreekanth.k@transtrac.in","pg_merchant_currency":"LKR","Permission1":1,"Permission2":1,"Permission3":1,"Permission4":1} 
+
+
+Merchant Active Log:2018-12-21 11:31:00,{"MerchantID":"E01010000000038","ResponseDesc":"Merchant Added successfully","ResponseCode":"S"} 
+
+
+Merchant Active Log:2018-12-21 11:19:48,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S"} 
+
+
+Merchant Active Log:2018-12-21 11:21:25,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S"} 
+
+
+Merchant Active Log:2018-12-21 11:44:30,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S"} 
+
+
+Merchant Active Log:2018-12-21 12:29:37,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S"} 
+
+
+Merchant Active Log:2018-12-21 15:12:21,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S"} 
+
+
+Merchant Active Log:2018-12-21 16:27:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S"} 
+
+
+Merchant Active Log:2018-12-21 16:54:51,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-21 17:07:53,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-21 17:21:29,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-21 17:21:54,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-21 18:14:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-21 18:14:29,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-21 18:14:59,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-21 18:15:25,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-21 18:39:00,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"TestMerchant"} 
+
+
+Terminal Active Log:2018-12-21 18:39:16,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"TestMerchant"} 
+
+
+Terminal Active Log:2018-12-21 18:39:31,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"TestMerchant"} 
+
+
+Terminal Active Log:2018-12-24 16:31:48,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-24 16:32:42,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 10:22:31,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Merchant Active Log:2018-12-26 10:22:52,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Terminal Active Log:2018-12-26 10:23:44,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Terminal Active Log:2018-12-26 10:23:53,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Terminal Active Log:2018-12-26 11:09:53,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Terminal Active Log:2018-12-26 11:25:35,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Terminal Active Log:2018-12-26 11:25:53,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Terminal Active Log:2018-12-26 11:55:58,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Terminal Active Log:2018-12-26 11:56:58,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Terminal Active Log:2018-12-26 11:57:43,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Terminal Active Log:2018-12-26 11:57:47,{"TerminalID":"E0000045","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Merchant Active Log:2018-12-26 12:12:26,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Merchant Active Log:2018-12-26 12:12:28,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"supremeuser"} 
+
+
+Merchant Active Log:2018-12-26 12:13:34,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:14:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:16:32,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:16:57,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:20:28,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:20:50,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:27:29,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:28:00,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:29:33,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:30:21,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:30:49,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:32:58,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:33:29,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:33:34,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:35:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:35:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:36:02,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:37:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:37:20,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:39:01,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:40:40,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:44:52,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:49:45,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 12:50:41,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:01:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:01:19,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:04,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:05,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:06,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:07,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:08,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:09,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:12,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:13,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:14,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:17,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:18,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:18,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:18,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:18,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:18,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:15:18,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:24:02,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:25:58,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:26:10,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:29:51,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 13:29:56,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:19:46,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:21:40,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:24:47,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:24:51,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:31:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:31:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:31:23,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:36:26,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:36:59,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:41:16,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:42:35,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:45:30,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:48:42,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 14:48:50,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 15:01:36,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 15:04:39,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-26 15:26:25,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-26 15:27:51,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-26 15:56:31,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 15:58:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 16:00:15,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 16:01:11,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-26 16:01:35,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2018-12-26 16:04:57,{"MerchantID":"E01010000000037","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-26 16:08:25,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Active Log:2018-12-26 16:08:43,{"TerminalID":"E0000044","ResponseDesc":"Terminal Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Terminal Request Data:2019-03-06 12:25:11,{"pg_terminal_id":"E0000006","pg_merchant_id":"E01010000000001","pg_terminal_status":"1","pg_terminal_action":"1","pg_terminal_state":"GAMPAHA","pg_terminal_address":"ghjjh","pg_terminal_city":"KATUNAYAKE","pg_terminal_pincode":"11450"} 
+
+
+Terminal Active Log:2019-03-06 12:25:11,{"TerminalID":"E0000006","ResponseDesc":"Terminal Added successfully","ResponseCode":"S"} 
+
+
+Merchant Active Log:2019-03-14 14:04:05,{"MerchantID":"GP0000000000001","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2019-03-14 14:04:11,{"MerchantID":"GP0000000000001","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2019-03-14 14:06:34,{"MerchantID":"GP0000000000001","ResponseDesc":"Merchant Status In-Activated successfully","ResponseCode":"S","user":"admin"} 
+
+
+Merchant Active Log:2019-03-14 14:06:40,{"MerchantID":"GP0000000000001","ResponseDesc":"Merchant Status Activated successfully","ResponseCode":"S","user":"admin"} 
+
+

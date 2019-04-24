@@ -1,0 +1,4 @@
+AuthType Basic
+AuthName "backup"
+AuthUserFile "/home/wwwrebanx/.htpasswds/backup/passwd"
+require valid-user

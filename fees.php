@@ -1,0 +1,256 @@
+<?php 
+require_once( 'header.php');
+
+//check permission
+if(!checkPermission('F'))
+    include_once('forbidden.php');
+
+require_once( 'php/common_functions.php');
+$MerchantsofUser = getMerchantsofAdmin();
+//var_dump($MerchantsofUser);
+$Agents = getAllAgents();
+
+		$url = "http://$_SERVER[HTTP_HOST]$_SERVER[REQUEST_URI]";
+        $user_id=$_SESSION['iid'];
+        $event="Fees View";
+        $auditable_type="CORE PHP AUDIT";
+        $new_values="";
+        $old_values="";
+        $ip = $_SERVER['REMOTE_ADDR'];
+        $user_agent= $_SERVER['HTTP_USER_AGENT'];
+        audittrails($user_id, $event, $auditable_type, $new_values, $old_values,$url, $ip, $user_agent);
+?>
+<div class="row wrapper border-bottom white-bg page-heading">
+	<div class="col-lg-10">
+		<h2>Fees</h2>
+		<ol class="breadcrumb">
+			<li>
+				<a href="dashboard.php">Dashboard</a>
+			</li>
+			<li class="active">
+				<strong>Fees</strong>
+			</li>
+		</ol>
+	</div>
+</div>
+<div class="wrapper wrapper-content animated fadeInRight">
+		<div class="row">
+			<div class="col-lg-3">
+				<div class="ibox float-e-margins">
+					<div class="ibox-title">
+						<h5>Agent (optional)</h5>
+					</div>
+					<div class="ibox-content">
+						<select name="agent_id" id="agent_id" class="form-control m-b chosen-select" tabindex="2">
+							<option value="0">-- Select Agent --</option>
+							<?php foreach($Agents as $Agent) { ?>
+							<option value="<?php echo $Agent['idagents']; ?>"><?php echo $Agent['agentname']; ?></option>
+							<?php } ?>
+						</select>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="ibox float-e-margins">
+					<div class="ibox-title">
+						<h5>Merchants *</h5>
+					</div>
+					<div class="ibox-content">
+						<div id="merchantbox">
+							<select name="merchant_id" id="merchant_id" class="form-control m-b chosen-select" tabindex="2">
+								<option value="0">-- Select Merchant --</option>
+								<?php foreach($MerchantsofUser as $MerchantfUser) { ?>
+								<option <?php if(isset($_POST['merchant_id'])){if($_POST['merchant_id'] == $MerchantfUser['idmerchants']){echo selected;}} ?>  value="<?php echo $MerchantfUser['idmerchants']; ?>"><?php echo $MerchantfUser['merchant_name']; ?></option>
+								<?php } ?>
+							</select>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="ibox float-e-margins">
+					<div class="ibox-title">
+						<h5>Processors *</h5>
+					</div>
+					<div class="ibox-content">
+						<div id="processoridbox">
+							<label>-- First Select a Merchant --</label>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="col-lg-3">
+				<div class="ibox float-e-margins">
+					<div class="ibox-title">
+						<h5>Gateways *</h5>
+					</div>
+					<div class="ibox-content">
+						<div id="gatewaybox">
+							<label>-- First Select a Merchant --</label>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="settings"></div>
+</div>
+<?php require_once( 'footerjs.php'); ?>
+
+<!-- Jquery Validate -->
+<script src="js/plugins/validate/jquery.validate.min.js"></script>
+<!-- Chosen -->
+ <script src="js/plugins/chosen/chosen.jquery.js"></script>
+<script>
+$(document).ready(function(){
+		$("#agent_id").change(function () {
+				$.ajax({
+					method: "POST",
+					url: "php/inc_admin_agentmerchants.php",
+					data: { a_id: $(this).val() }
+				})
+				.done(function( msg ) {
+					$("#merchantbox").html(msg);	
+					var config = {
+					'.chosen-select'           : {},
+					'.chosen-select-deselect'  : {allow_single_deselect:true},
+					'.chosen-select-no-single' : {disable_search_threshold:10},
+					'.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+					'.chosen-select-width'     : {width:"95%"}
+					}
+					for (var selector in config) {
+						$(selector).chosen(config[selector]);
+					}
+					$("#merchant_id").change(function () {
+						if($(this).val()){
+							$.ajax({
+								method: "POST",
+								url: "php/inc_admin_merchantprocessors.php",
+								data: { m_id: $(this).val(), u_id: <?php echo $_SESSION['iid']; ?> }
+							})
+							.done(function( msg ) {
+								$("#processoridbox").html(msg);
+								var config = {
+								'.chosen-select'           : {},
+								'.chosen-select-deselect'  : {allow_single_deselect:true},
+								'.chosen-select-no-single' : {disable_search_threshold:10},
+								'.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+								'.chosen-select-width'     : {width:"95%"}
+								}
+								for (var selector in config) {
+									$(selector).chosen(config[selector]);
+								} 
+								$("#processor_id").change(function () {
+	
+									var m_val = $("#merchant_id").val();
+									if($(this).val()){
+										$.ajax({
+											method: "POST",
+											url: "php/inc_admin_merchantgateway.php",
+											data: { m_id: m_val, p_id: $(this).val(), u_id: <?php echo $_SESSION['iid']; ?> }
+										})
+										.done(function( msg ) {
+											$("#gatewaybox").html(msg);
+											$("#gateway_id").change(function () {
+												if($(this).val()){
+													$.ajax({
+														method: "POST",
+														url: "php/inc_admin_mpg_fees.php",
+														data: { m_id: $("#merchant_id").val(), p_id: $("#processor_id").val(), g_id: $(this).val() }
+													})
+													.done(function( msg ) {
+														$("#settings").html(msg);
+													});
+												}
+											});
+											var config = {
+											'.chosen-select'           : {},
+											'.chosen-select-deselect'  : {allow_single_deselect:true},
+											'.chosen-select-no-single' : {disable_search_threshold:10},
+											'.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+											'.chosen-select-width'     : {width:"95%"}
+										}
+										for (var selector in config) {
+											$(selector).chosen(config[selector]);
+										}
+										
+											});
+									} 
+								});
+							});
+						}
+					});	
+					
+				});
+		});
+		$("#merchant_id").change(function () {
+			if($(this).val()){
+				$.ajax({
+					method: "POST",
+					url: "php/inc_admin_merchantprocessors.php",
+					data: { m_id: $(this).val(), u_id: <?php echo $_SESSION['iid']; ?> }
+				})
+				.done(function( msg ) {
+					$("#processoridbox").html(msg);
+					var config = {
+					'.chosen-select'           : {},
+					'.chosen-select-deselect'  : {allow_single_deselect:true},
+					'.chosen-select-no-single' : {disable_search_threshold:10},
+					'.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+					'.chosen-select-width'     : {width:"95%"}
+					}
+					for (var selector in config) {
+						$(selector).chosen(config[selector]);
+					} 
+					$("#processor_id").change(function () {
+						var m_val = $("#merchant_id").val();
+						if($(this).val()){
+							$.ajax({
+								method: "POST",
+								url: "php/inc_admin_merchantgateway.php",
+								data: { m_id: m_val, p_id: $(this).val(), u_id: <?php echo $_SESSION['iid']; ?> }
+							})
+							.done(function( msg ) {
+								$("#gatewaybox").html(msg);
+								$("#gateway_id").change(function () {
+									if($(this).val()){
+										$.ajax({
+											method: "POST",
+											url: "php/inc_admin_mpg_fees.php",
+											data: { m_id: $("#merchant_id").val(), p_id: $("#processor_id").val(), g_id: $(this).val() }
+										})
+										.done(function( msg ) {
+											$("#settings").html(msg);
+										});
+									}
+								});
+								var config = {
+								'.chosen-select'           : {},
+								'.chosen-select-deselect'  : {allow_single_deselect:true},
+								'.chosen-select-no-single' : {disable_search_threshold:10},
+								'.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+								'.chosen-select-width'     : {width:"95%"}
+							}
+							for (var selector in config) {
+								$(selector).chosen(config[selector]);
+							}
+							
+								});
+						} 
+					});
+				});
+			}
+		});	
+});
+			var config = {
+                '.chosen-select'           : {},
+                '.chosen-select-deselect'  : {allow_single_deselect:true},
+                '.chosen-select-no-single' : {disable_search_threshold:10},
+                '.chosen-select-no-results': {no_results_text:'Oops, nothing found!'},
+                '.chosen-select-width'     : {width:"95%"}
+            }
+            for (var selector in config) {
+                $(selector).chosen(config[selector]);
+            }
+</script>
+
+<?php require_once( 'footer.php'); ?> 

@@ -1,0 +1,22 @@
+--- 
+MYSQL: 
+  dbs: 
+    rebanx84_profitorious: 185.123.96.201
+  dbusers: 
+    rebanx84_norman: 
+      dbs: 
+        rebanx84_profitorious: 185.123.96.201
+      server: 185.123.96.201
+  noprefix: {}
+
+  owner: rebanx84
+  server: 185.123.96.201
+PGSQL: 
+  dbs: {}
+
+  dbusers: {}
+
+  noprefix: {}
+
+  owner: rebanx84
+  server: 185.123.96.201

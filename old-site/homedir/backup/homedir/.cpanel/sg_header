@@ -1,0 +1,42 @@
+
+	<div id="wrapper">
+		<header id="header">
+			<a href="/" id="logo"><img src="https://ua.siteground.com/img/logo.png" alt="Siteground - Hosting Suitable for You!" /></a>
+			<div id="profile_compact">
+								<a href="https://ua.siteground.com/mydetails.htm">
+															<img width="42" height="42" src="https://ua.siteground.com/img/noavatar.png" alt="dennis nadeau" />
+				</a>
+								<div id="profile_nav">
+					<ul>
+						<li>Hello, dennis nadeau</li>
+					</ul>
+					<ul>
+											<li><a href="https://ua.siteground.com/mydetails.htm">My Details</a></li>
+						<li><a href="/logout/?locale=&lt;cpanel print="$locale"&gt;">Logout</a></li>
+					</ul>
+				</div>
+			</div>
+		</header>
+
+
+		<div id="holder">
+			<nav id="mainmenu">
+				<table>
+					<tr>
+						<td><a href="https://ua.siteground.com">Home</a></td>
+						<td><a class="current" href="https://ua.siteground.com/my_account.htm">My Accounts</a></td>
+						<td><a href="https://ua.siteground.com/support/index.htm">Support</a></td>
+													<td><a href="https://ua.siteground.com/billing.htm">Billing</a></td>
+						
+													<td><a href="https://ua.siteground.com/referral_deals.htm">Referral Deals</a></td>
+						
+													<td><a href="https://ua.siteground.com/order.htm">Add Services</a></td>
+						
+													<td><a href="https://ua.siteground.com/resources.htm">Resources</a></td>
+											</tr>
+				</table>
+			</nav>
+		</div>
+
+	</div>
+	<div id="background"></div>

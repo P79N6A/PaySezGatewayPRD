@@ -1,0 +1,66 @@
+#1450033022
+ll
+#1450033034
+mkdir TID-1529287
+#1450033037
+cd logs/
+#1450033037
+ll
+#1450033049
+cp rebanx.com-Dec-2015.gz  rebanx.com-Nov-2015.gz ../TID-1529287/
+#1450033050
+cd ..
+#1450033050
+ll
+#1450033052
+cd access-logs/
+#1450033052
+ll
+#1450033058
+cp rebanx.com ../TID-1529287 
+#1450033064
+cp rebanx.com ../TID-1529287 
+#1450033067
+cp rebanx.com ../TID-1529287/rebanx.com-
+#1450033070
+cp rebanx.com ../TID-1529287/
+#1450033078
+cp rebanx.com ../
+#1450033084
+cd ..
+#1450033085
+ll
+#1450033087
+pwd
+#1450033089
+cd access-logs/
+#1450033090
+ll
+#1450033094
+cp rebanx.com /home/rebanx84
+#1450033095
+cd ..
+#1450033096
+ll
+#1450033104
+mv rebanx.com TID-1529287/
+#1450033106
+cd TID-1529287/
+#1450033107
+pwd
+#1450033139
+pwd
+#1450036323
+ll
+#1450036330
+mv TID-1529287/ public_html/
+#1450036333
+cd public_html/
+#1450036334
+ll
+#1450039200
+cd public_html/
+#1450039200
+ll
+#1450039202
+vi .htaccess 

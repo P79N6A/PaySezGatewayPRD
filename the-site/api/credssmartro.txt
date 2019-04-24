@@ -1,0 +1,3 @@
+URL : https://tpay.smilepay.co.kr/trans/cardTrans.jsp
+MerchantKey : lkviD+J6o1+I/iFlxnRj3Xo+znBOmuo6G4gVCASJAaP65i8w0FiV24c/4PXkY2DEuPuk8bFhrZQ4HvIGijH3Zg==
+MID : gompay001m

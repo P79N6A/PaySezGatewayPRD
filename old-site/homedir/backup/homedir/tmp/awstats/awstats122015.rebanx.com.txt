@@ -1,0 +1,532 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+# Last config file used to build this data file was /home/rebanx84/tmp/awstats/awstats.rebanx.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2007                
+POS_TIME 2685                
+POS_VISITOR 12137               
+POS_DAY 13631               
+POS_DOMAIN 3420                
+POS_LOGIN 3816                
+POS_ROBOT 3971                
+POS_WORMS 4416                
+POS_EMAILSENDER 4547                
+POS_EMAILRECEIVER 4690                
+POS_SESSION 14046               
+POS_SIDER 14252               
+POS_FILETYPES 4825                
+POS_DOWNLOADS 5095                
+POS_OS 5303                
+POS_BROWSER 5493                
+POS_SCREENSIZE 5889                
+POS_UNKNOWNREFERER 5963                
+POS_UNKNOWNREFERERBROWSER 6167                
+POS_ORIGIN 6334                
+POS_SEREFERRALS 6470                
+POS_PAGEREFS 6614                
+POS_SEARCHWORDS 6840                
+POS_KEYWORDS 6992                
+POS_MISC 2348                
+POS_ERRORS 7051                
+POS_CLUSTER 3672                
+POS_SIDER_404 7193                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101002349 41 4989 9754957652160
+FirstTime 20151201012959
+LastTime 20151231150741
+LastUpdate 20160101072743 41 0 40 0 0
+TotalVisits 42                  
+TotalUnique 35                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 37                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 11 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 25 34 39512
+1 3 8 71750 31 37 88760
+2 5 20 184200 36 41 46001
+3 88 174 2434228 40 49 82971
+4 2 2 6362 29 33 30566
+5 43 97 1401958 152 157 105938
+6 2 8 69721 132 136 126470
+7 0 0 0 23 26 27376
+8 0 1 26679 10 13 22069
+9 1 6 65388 20 22 31054
+10 18 42 426624 27 29 85728
+11 53 70 886957 83 86 81382
+12 3 20 174384217 28 33 27464
+13 37 96 756942 43 50 186740
+14 27 183 8115408 57 67 315161
+15 13 54 720758 121 122 186926
+16 3 3 9543 54 58 61119
+17 3 8 71750 69 73 21836
+18 3 5 11847 26 38 119783
+19 0 0 0 17 21 14368
+20 0 0 0 32 41 38859
+21 1 1 3181 38 46 53529
+22 0 0 0 41 42 46780
+23 0 0 0 19 19 18617
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 13
+gb 174 347 4617592
+us 107 357 184240933
+bg 6 39 262284
+br 4 19 199345
+nl 3 4 26947
+de 3 3 9543
+cn 2 2 6362
+ph 1 2 19774
+ru 1 1 3181
+jm 1 6 65388
+ir 1 6 65388
+at 1 6 65388
+mg 1 6 65388
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 9
+googlebot 45 171516 20151231204751 23
+bot[\s_+:,\.\;\/\\-] 28 7142 20151231195349 26
+no_user_agent 16 390 20151231211155 16
+ia_archiver 15 5881 20151209233723 2
+spider 5 150 20151229201139 5
+unknown 2 60 20151220121932 2
+checker 1 0 20151211041531 1
+netcraft 1 3181 20151209223950 0
+crawl 1 3181 20151211070357 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 169 1221107 0 0
+png 74 1550902 0 0
+woff 9 546936 0 0
+swf 3 176535 0 0
+php 268 2659153 0 0
+rar 1 5092869 0 0
+html 25 161766 0 0
+jpg 43 1452054 0 0
+js 180 2517159 0 0
+gz 3 174257701 0 0
+gif 23 11331 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 4
+/resources/pci-gateway.rar 1 0 5092869
+/TID-1529287/rebanx.com-Dec-2015.gz 1 0 16901
+/rebanx.tar.gz 1 0 174215159
+/TID-1529287/rebanx.com-Nov-2015.gz 1 0 25641
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 10
+winxp 2 2
+winlong 2 2
+ios_iphone 53 12
+linux 31 7
+win7 349 99
+macosx 90 30
+win2003 1 0
+win8 3 2
+win8.1 257 144
+Unknown 10 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 18
+chrome44.0.2403.125 1 1
+chrome17.0.963.56 1 1
+firefox42.0 42 16
+libwww 1 1
+firefox38.0 21 3
+opera33.0.1990.115 2 1
+chrome36.0.1985.143 42 7
+chrome47.0.2526.80 221 44
+firefox1.0 1 1
+netscape5.0 5 3
+msie7.0 2 1
+chrome39.0.2171.99 8 2
+chrome46.0.2490.86 382 199
+safari8.0 53 12
+firefox3.6.3 1 1
+firefox9.0.1 2 2
+chrome43.0.2357.134 4 4
+Unknown 9 6
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Google_favicon 20151202182637
+libwww-perl/6.13 20151210211847
+Test 20151210133436
+Go_1.1_package_http 20151231150741
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Google_favicon 20151202182637
+Test 20151210133436
+Go_1.1_package_http 20151231150741
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 47 67
+From1 0 0
+From2 0 0
+From3 7 7
+From4 251 724
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+http://rankings-analytics.com/try.php 6 6
+http://fast-wordpress-start.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+403 8 15024
+401 15 17295
+302 915 807389
+301 7 1619
+404 203 357944
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 125
+//phpMyAdmin-2.8.4/scripts/setup.php 1 -
+//phpMyAdmin-2.10.2.0/scripts/setup.php 1 -
+/sitemap.xml 8 -
+//scripts/setup.php 1 -
+/clientaccesspolicy.xml 2 -
+/stauts 1 -
+/admin.php 1 -
+//phpMyAdmin-2.9.0.2/scripts/setup.php 1 -
+//phpMyAdmin-2.9.0/scripts/setup.php 1 -
+/.git/HEAD 1 -
+//phpMyAdmin-2.10.0.1/scripts/setup.php 1 -
+//phpMyAdmin-2/scripts/setup.php 2 -
+//php-my-admin/scripts/setup.php 1 -
+//phpMyAdmin-3.0.0-rc1-english/scripts/setup.php 1 -
+//phpMyAdmin3/scripts/setup.php 1 -
+//phpMyAdmin-3.4.3.1/scripts/setup.php 1 -
+//phpadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.9.0-rc1/scripts/setup.php 1 -
+//phpMyAdmin-3.0.1.0-english/scripts/setup.php 1 -
+/xmlrpc.php 1 -
+//phpMyAdmin-2.8.2.3/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl2/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1-all-languages/scripts/setup.php 1 -
+/CFIDE/administrator/ 1 -
+//phpMyAdmin-2.10.0/scripts/setup.php 1 -
+//cpphpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-beta1/scripts/setup.php 1 -
+//apache-default/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.10.0.2/scripts/setup.php 1 -
+//phpMyAdmin-3.0.0.0-all-languages/scripts/setup.php 1 -
+//phpMyAdmin-2.7.0-pl1/scripts/setup.php 1 -
+/themes/elastixneo/ie.css 3 -
+//phpMyAdmin-2.9.1/scripts/setup.php 1 -
+//phpMyAdmin-2.8.5/scripts/setup.php 1 -
+/proxychecker/check.cgi 1 http://www.google.com/search
+//web/phpMyAdmin/scripts/setup.php 1 -
+//admin/scripts/setup.php 1 -
+//phpMyAdmin-2.7.7/scripts/setup.php 1 -
+/irj/portal 1 -
+/testproxy.php 3 -
+/vtigercrm/include/style.css 1 -
+/myadmin/scripts/setup.php 7 -
+/administrator/ 1 -
+//phpMyAdmin-2.7.0-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.9/scripts/setup.php 1 -
+/administrator 1 -
+//phpMyAdmin2/scripts/setup.php 1 -
+/stats 1 -
+//phpMyAdmin-2.7.6/scripts/setup.php 1 -
+//web/scripts/setup.php 1 -
+/_asterisk 16 -
+/phpMyAdmin/scripts/setup.php 9 -
+/wp-login.php 2 -
+//phpMyAdmin-2.8.8/scripts/setup.php 1 -
+//cpanelphpmyadmin/scripts/setup.php 1 -
+/tcpipwan.asp 1 http://185.123.96.35:80
+//pma/scripts/setup.php 1 -
+//phpMyAdmin-2.10.0.0/scripts/setup.php 1 -
+//phpMyAdmin-2.8.9/scripts/setup.php 1 -
+/register.html 1 -
+//phpMyAdmin-2.6.4-rc1/scripts/setup.php 1 -
+//phpMyAdmin-2.7.5/scripts/setup.php 1 -
+//phpmyadmin/scripts/setup.php 2 -
+//phpMyAdmin-2.9.0.1/scripts/setup.php 1 -
+/services/MyICOffice/ 2 -
+//phpMyAdmin-2.8.2/scripts/setup.php 1 -
+//phpMyAdmin-2.6.5/scripts/setup.php 1 -
+//websql/scripts/setup.php 1 -
+//phpMyAdmin-3.1.2.0-all-languages/scripts/setup.php 1 -
+/w00tw00t.at.blackhats.romanian.anti-sec:) 2 -
+//phpMyAdmin-2.8.6/scripts/setup.php 1 -
+//phpMyAdmin-2.11.0.0/scripts/setup.php 1 -
+/templates/system/css/error.css 1 -
+//phpMyAdmin-3.1.1.0-all-languages/scripts/setup.php 1 -
+/MyAdmin/scripts/setup.php 1 -
+//xampp/phpmyadmin/scripts/setup.php 1 -
+/PSBlock 1 -
+//mysqladmin/scripts/setup.php 1 -
+/pdf.php 1 -
+//phpMyAdmin-2.8.3/scripts/setup.php 1 -
+/phpmyadmin/scripts/setup.php 3 -
+/home/rebanx84/TID-1529287 2 -
+//_phpmyadmin/scripts/setup.php 1 -
+/muieblackcat 6 -
+//blog/phpmyadmin/scripts/setup.php 1 -
+/user/soapCaller.bs 9 -
+//admin/pma/scripts/setup.php 1 -
+//db/scripts/setup.php 1 -
+//myadmin/scripts/setup.php 1 -
+/phpmyadmin/scripts/signon.php 1 -
+//phpMyAdmin-2.11.1.0/scripts/setup.php 1 -
+/phpMyAdmin/scripts/signon.php 1 -
+//php/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1.2/scripts/setup.php 1 -
+//phpMyAdmin-3.0.1.0/scripts/setup.php 1 -
+//phpMyAdmin-2.11.1.1/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl3/scripts/setup.php 1 -
+/html/languages/es_es/main.js 1 -
+//dbadmin/scripts/setup.php 1 -
+/css/plugins/images/sort_both.png 5 http://rebanx.com/css/plugins/dataTables/dataTables.bootstrap.css
+//phpMyAdmin-3.1.2.0-english/scripts/setup.php 1 -
+/status 1 -
+//phpMyAdmin-3.1.2.0/scripts/setup.php 1 -
+//phpMyAdmin-2.6.6/scripts/setup.php 1 -
+/IPMIdevicedesc.xml 1 -
+//phpMyAdmin-3.1.0.0/scripts/setup.php 1 -
+//admin/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.10.1.0/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl2/scripts/setup.php 1 -
+/pma/scripts/setup.php 7 -
+//administrator/components/com_joommyadmin/phpmyadmin/scripts/setup.php 1 -
+//typo3/phpmyadmin/scripts/setup.php 1 -
+//phpMyAdmin-2.6.1-pl3/scripts/setup.php 1 -
+//phpMyAdmin-2.6.4-pl4/scripts/setup.php 1 -
+/css/css 1 -
+//forum/phpmyadmin/scripts/setup.php 1 -
+/manager/html 6 -
+http://37.48.94.6/proxychecker/check.cgi 1 http://www.google.com/search
+//phpMyAdmin-2.8.7/scripts/setup.php 1 -
+//mysql/scripts/setup.php 1 -
+//phpMyAdmin/scripts/setup.php 1 -
+//phpMyAdmin-3.0.1.1/scripts/setup.php 1 -
+//home/rebanx84/TID-1529287 2 -
+//phpMyAdmin-2.9.2/scripts/setup.php 1 -
+//phpMyAdmin-3.1.0.0-english/scripts/setup.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 37
+96.80.72.85 94 334 184093015 20151213143244
+62.6.242.196 84 147 1945488 20151207113019
+94.2.196.111 45 91 1205905 20151205031952
+151.228.204.38 29 82 1009928 20151205030825
+94.118.191.242 15 19 382978 20151207034834
+87.118.135.65 3 18 162305 20151213141513
+87.118.135.129 3 21 99979 20151213143945
+139.162.128.219 2 3 23766 20151203102655
+50.201.83.58 2 2 6362 20151212044325
+91.205.174.166 2 2 6362 20151206010242
+204.29.106.18 2 2 6362 20151207175309
+66.249.84.182 1 2 4333 20151202182637
+196.192.38.11 1 6 65388 20151201012959
+186.215.202.221 1 1 3181 20151208164213
+177.66.245.2 1 6 65388 20151201050947
+66.249.85.245 1 1 3181 20151201063850
+182.118.54.60 1 1 3181 20151231150741
+91.194.91.41 1 1 3181 20151210211847
+138.91.155.129 1 1 0 20151210133436
+174.129.66.170 1 1 3181 20151211111726
+52.0.89.236 1 1 3181 20151208180511
+178.18.172.155 1 6 65388 20151202091144
+62.212.73.49 1 1 3181 20151214104814
+73.179.23.16 1 6 65388 20151206175740
+186.249.212.98 1 6 65388 20151201152332
+38.100.21.68 0 1 26679 
+195.28.183.88 1 1 3181 20151222163522
+46.143.149.200 1 6 65388 20151201021453
+182.118.53.125 1 1 3181 20151231125700
+119.94.2.108 1 2 19774 20151208020050
+66.249.85.251 0 1 1152 
+177.36.4.41 1 6 65388 20151203065739
+23.101.61.176 1 2 20585 20151205035911
+72.27.158.149 1 6 65388 20151201145342
+66.249.84.180 1 2 4333 20151201181626
+67.214.102.149 1 1 3181 20151204163705
+94.194.54.117 1 8 73293 20151210124804
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 16
+20151201 7 34 335606 7
+20151202 28 51 658126 3
+20151203 3 9 89154 2
+20151204 14 68 840538 4
+20151205 73 155 2051250 3
+20151206 3 8 71750 2
+20151207 101 168 2334828 5
+20151208 3 4 26136 3
+20151210 3 10 76474 3
+20151211 1 1 3181 1
+20151212 2 2 6362 1
+20151213 63 283 183114705 4
+20151214 1 1 3181 1
+20151222 1 1 3181 1
+20151223 0 1 26679 0
+20151231 2 2 6362 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 1
+0s-30s 32
+2mn-5mn 4
+30s-2mn 1
+15mn-30mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 51
+/login.php 70 220133 39 35
+/dashboard.php 30 544700 3 0
+/php/inc_dailyreport.php 24 206352 0 1
+/php/inc_viewagent.php 16 17555 0 1
+/php/inc_chart-view.php 11 8247 0 0
+/chargebacks.php 10 191346 0 0
+/reports.php 9 177138 0 0
+/viewagent.php 9 95140 0 0
+/addagent.php 8 276616 0 0
+/users.php 8 183856 0 0
+/fees.php 8 141376 0 1
+/change-password.php 8 81262 0 0
+/font-awesome/fonts/fontawesome-webfont.woff 6 392712 0 0
+/virtualterminal.php 6 306600 0 0
+/skin-config.html 5 38865 0 0
+/php/inc_admin_agentmerchants.php 5 199 0 0
+/php/inc_admin_merchantprocessors.php 5 716 0 0
+/forgot-password.php 5 8388 0 0
+/php/inc_admin_merchantgateway.php 4 696 0 0
+/php/inc_admin_mpg_fees.php 4 3768 0 0
+/php/inc_admin_all_merchantgateway.php 3 539 0 0
+/php/inc_merchantprocessors.php 3 318 0 1
+/resources/ 3 11937 0 0
+/processors.php 3 48801 0 0
+/js/plugins/dataTables/swf/copy_csv_xls_pdf.swf 3 176535 0 1
+/resources/Angular_full_version/views/common/content.html 1 183 0 0
+/resources/Landing_Page/fonts/glyphicons-halflings-regular.woff 1 23320 0 0
+/php/inc_transsearch.php 2 12809 0 0
+/transactions.php 1 19166 0 0
+/php/inc_cbsearch.php 2 4112 0 0
+/pdf/ 1 1715 0 0
+/pdf/images/ 2 8256 0 0
+/resources/Landing_Page/font-awesome/fonts/fontawesome-webfont.woff 1 65452 0 0
+/resources/Angular_full_version/ 1 8891 0 0
+/pdf/tcpdf_include.php 1 0 0 0
+/resources/Angular_full_version/views/common/footer.html 1 210 0 0
+/resources/Angular_full_version/views/skin-config.html 1 8761 0 0
+/resources/Angular_full_version/views/common/topnavbar.html 1 5836 0 0
+/TID-1529287/ 2 2656 0 0
+/resources/Angular_full_version/font-awesome/fonts/fontawesome-webfont.woff 1 65452 0 0
+/resources/Angular_full_version/views/common/ibox_tools.html 1 426 0 1
+/user.php 2 14310 0 0
+/resources/Angular_full_version/views/common/navigation.html 1 12323 0 0
+/resources/Angular_full_version/views/dashboard_1.html 1 17869 0 0
+/css/ 2 5134 0 1
+/php/inc_admin_merchantprocessor_settings.php 2 37608 0 0
+/processormerchantmanager.php 3 40398 0 0
+/php/inc_reportsearch.php 3 16299 0 0
+/php/ 1 13788 0 0
+/php/inc_admin_all_merchantprocessors.php 3 705 0 0
+/resources/Landing_Page/ 1 24916 0 0
+END_SIDER

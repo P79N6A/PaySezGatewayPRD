@@ -1,0 +1,244 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201512 will be lost/reset.
+# Last config file used to build this data file was /home/rebanx84/tmp/awstats/ssl/awstats.rebanx.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2011                
+POS_TIME 2675                
+POS_VISITOR 6011                
+POS_DAY 6194                
+POS_DOMAIN 3233                
+POS_LOGIN 3456                
+POS_ROBOT 3611                
+POS_WORMS 3838                
+POS_EMAILSENDER 3969                
+POS_EMAILRECEIVER 4112                
+POS_SESSION 6307                
+POS_SIDER 6453                
+POS_FILETYPES 4247                
+POS_DOWNLOADS 4326                
+POS_OS 4374                
+POS_BROWSER 4460                
+POS_SCREENSIZE 4546                
+POS_UNKNOWNREFERER 4620                
+POS_UNKNOWNREFERERBROWSER 4727                
+POS_ORIGIN 4829                
+POS_SEREFERRALS 4959                
+POS_PAGEREFS 5103                
+POS_SEARCHWORDS 5251                
+POS_KEYWORDS 5403                
+POS_MISC 2339                
+POS_ERRORS 5462                
+POS_CLUSTER 3312                
+POS_SIDER_404 5564                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160101063554 15 1226 3285976127353
+FirstTime 0
+LastTime 20151212044325
+LastUpdate 20160101072744 15 0 14 0 0
+TotalVisits 3                   
+TotalUnique 3                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 3                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 3 3 4970
+1 0 0 0 8 8 13138
+2 0 0 0 16 17 18990
+3 0 0 0 2 3 4970
+4 1 1 3181 3 4 4970
+5 0 0 0 7 7 9972
+6 0 0 0 7 8 10145
+7 0 0 0 4 4 4797
+8 0 0 0 1 1 1599
+9 0 0 0 0 0 0
+10 0 0 0 2 2 3544
+11 0 0 0 4 4 3608
+12 0 0 0 1 2 1772
+13 1 1 0 3 3 3544
+14 0 0 0 0 0 0
+15 0 0 0 2 2 3198
+16 0 0 0 14 15 15965
+17 1 1 3181 3 3 3371
+18 0 0 0 3 4 5346
+19 0 0 0 2 5 90
+20 0 0 0 1 2 1629
+21 0 0 0 15 17 18990
+22 0 0 0 5 5 8341
+23 0 0 0 2 2 3198
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 3 3 6362
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 3
+spider 5 150 20151229201139 5
+no_user_agent 3 90 20151231211155 3
+checker 1 0 20151211041531 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 1
+php 3 6362 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 2
+Unknown 1 1
+win7 2 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 2
+chrome43.0.2357.134 2 2
+Unknown 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Test 20151210133436
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Test 20151210133436
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 3 3
+From1 0 0
+From2 0 0
+From3 0 0
+From4 0 0
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 86 99835
+404 26 46072
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 6
+/vtigercrm/include/style.css 1 -
+/sitemap.xml 3 -
+/services/MyICOffice/ 2 -
+/irj/portal 1 -
+/themes/elastixneo/ie.css 3 -
+/_asterisk 16 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 3
+204.29.106.18 1 1 3181 20151207175309
+138.91.155.129 1 1 0 20151210133436
+50.201.83.58 1 1 3181 20151212044325
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 3
+20151207 1 1 3181 1
+20151210 1 1 0 1
+20151212 1 1 3181 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 3
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 1
+/login.php 3 6362 3 3
+END_SIDER

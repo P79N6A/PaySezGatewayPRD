@@ -1,0 +1,263 @@
+
+	public static String arsClientEncrypt(String keyString, String Data, String reference, String amount) throws Exception {
+		try {
+
+			byte[] keyData = new byte[1];
+			
+			if(keyString.length() < 88){
+				throw new Exception("keyString length not 88 !!"); 
+			}
+			
+			int deliIdx = (Integer.parseInt(reference.substring(reference.length()-4, reference.length()))
+					+ Integer.parseInt(amount.replaceAll("\\.", "").replaceAll(",", ""))) % 4;
+			
+			keyData = deliIdx==0?keyString.substring(0, 16).getBytes():keyString.substring(16*deliIdx, 16*deliIdx+16).getBytes();
+			
+			Cipher cipher = Cipher.getInstance("AES/ECB/PKCS5Padding");
+			SecretKeySpec keySpec = new SecretKeySpec(keyData, "AES");
+			cipher.init(Cipher.ENCRYPT_MODE, keySpec);
+		    byte[] cipherbyte = cipher.doFinal(Data.getBytes());
+		    
+		    return new String(Base64.encodeBase64(cipherbyte));
+		    
+		} catch (Exception e) {
+			throw e;
+		}
+	}
+	
+	static String[] getDelimeters(String keyStr, int deliCnt, int byteSize, int startIndex) {
+		String temp = keyStr + keyStr;
+		
+		if(keyStr.length() < deliCnt*byteSize)
+			return getDelimeters(temp, deliCnt, byteSize, startIndex);
+	
+		String[] result = new String[deliCnt];
+		
+		for(int i = 0 ; i < deliCnt ; i++) {
+			if(i > 0)
+				result[i] = temp.substring(startIndex+(byteSize*i), startIndex+(byteSize*(i+1)));
+			else
+				result[i] = temp.substring(startIndex, startIndex+byteSize);
+		}
+		
+		return result;
+	}
+	
+	static public String UrlCall(String CallUrl, String str) throws Exception {
+		StringBuffer result = new StringBuffer();
+		try {
+			URL url = new URL(CallUrl);
+			HttpURLConnection connection = (HttpURLConnection) url.openConnection();
+			connection.setRequestMethod("POST");
+			connection.setUseCaches(false);
+			connection.setDoOutput(true);
+			
+			OutputStream os = connection.getOutputStream();
+			os.write(str.getBytes("utf-8"));
+			os.flush();
+			os.close();
+			
+			connection.connect();
+			
+			BufferedReader br = new BufferedReader(new InputStreamReader( connection.getInputStream()));
+			
+			String line;
+			while ((line = br.readLine()) != null)
+				result.append(line);
+			
+			br.close();
+
+		} catch(Exception e) {
+			throw e;
+		}
+		
+		return result.toString();
+	}
+	
+	static public HashMap<String, String> resResultParsing(String result, String resType) throws Exception {
+		HashMap<String, String> resultMap = new HashMap<String, String>();
+		
+		if("X".equals(resType)) {
+			SAXBuilder builder = new SAXBuilder();
+			Document doc = builder.build(new StringReader(result));
+			Element root = doc.getRootElement();
+			List<Element> list = root.getChildren();
+
+			for(Element el : list) {
+				resultMap.put(el.getName(), el.getText());
+			}
+			
+		} else if("J".equals(resType)) {
+			JSONObject obj = (JSONObject) JSONSerializer.toJSON(result);
+
+			resultMap.put("Ver", obj.getString("Ver"));
+			resultMap.put("RequestType", obj.getString("RequestType"));
+			resultMap.put("MID", obj.getString("MID"));
+			resultMap.put("TransactionType", obj.getString("TransactionType"));
+			resultMap.put("Reference", obj.getString("Reference"));
+			resultMap.put("ResponseCode", obj.getString("ResponseCode"));
+			resultMap.put("ResponseMessage", obj.getString("ResponseMessage"));
+			resultMap.put("ResponseDate", obj.getString("ResponseDate"));
+			resultMap.put("ResponseTime", obj.getString("ResponseTime"));
+			resultMap.put("TID", obj.getString("TID"));
+			resultMap.put("AuthCode", obj.getString("AuthCode"));
+			resultMap.put("VerifyValue", obj.getString("VerifyValue"));
+			
+		} else if("D".equals(resType)) {
+			String[] results = result.split("!@#");
+			resultMap.put("Ver", results[0].trim());
+			resultMap.put("RequestType", results[1].trim());
+			resultMap.put("MID", results[2].trim());
+			resultMap.put("TransactionType", results[3].trim());
+			resultMap.put("Reference", results[4].trim());
+			resultMap.put("ResponseCode", results[5].trim());
+			resultMap.put("ResponseMessage", results[6].trim());
+			resultMap.put("ResponseDate", results[7].trim());
+			resultMap.put("ResponseTime", results[8].trim());
+			resultMap.put("TID", results[9].trim());
+			resultMap.put("AuthCode", results[10].trim());
+			resultMap.put("VerifyValue", results[11].trim());
+		}
+		
+		return resultMap;
+	}
+
+	public static void CardMCAPaymentSample() {
+
+		String callUrl = "https://tpay.smilepay.co.kr/trans/cardTrans.jsp";
+		//String merchantKey = "ImgZK3xcQtuUYY4vwWQO3PfhIat6OdAtIyH9EYgcpJ0x0M9yppgH26JywLvrmHg+98zUVp5vcGbfo3ugl7VOWw==";
+		//String sendMID = "mcajpa392m";	//SECURE_TYPE A
+		String merchantKey = "lkviD+J6o1+I/iFlxnRj3Xo+znBOmuo6G4gVCASJAaP65i8w0FiV24c/4PXkY2DEuPuk8bFhrZQ4HvIGijH3Zg==";
+		String sendMID = "gompay001m";	//SECURE_TYPE A
+		
+		String reference = "1004";
+		String transactionType = "AA";
+		String acquireType = "1";
+		String currency ="USD";
+		String amount = "9900";
+		String cardNum = "4907639999990022";
+		String expiryYYMM = "1512";
+		String cvc = "029";
+		String secureType = "A";
+		String ProductName ="곰돌이";
+		String buyerEmail ="wkskvk@naver.com";
+		String buyerName ="kim-urim";
+		String buyerIP = "111.111.111.111";
+		String buyerID = "buyer";
+		String verify = "";
+		String resType = "X";
+
+		StringBuffer vsb = new StringBuffer();
+		
+		try {
+			
+			if("A".equals(secureType) || "B".equals(secureType)) {
+				cardNum = arsClientEncrypt(merchantKey, cardNum, reference, amount);
+				expiryYYMM = arsClientEncrypt(merchantKey, expiryYYMM, reference, amount);
+				cvc = arsClientEncrypt(merchantKey, cvc, reference, amount);
+			}
+
+			int deliIdx = (Integer.parseInt(reference.substring(reference.length()-4, reference.length()))
+						+ Integer.parseInt(amount.replaceAll("\\.", "").replaceAll(",", ""))) % 86;
+			
+			String[] delimeters = getDelimeters(merchantKey.substring(0, merchantKey.length()-2), 4, 3, deliIdx);
+			vsb.append(new String(Base64.encodeBase64(reference.getBytes()))).append(delimeters[0]);
+			vsb.append(new String(Base64.encodeBase64(amount.getBytes()))).append(delimeters[1]);
+			vsb.append(new String(Base64.encodeBase64(sendMID.getBytes()))).append(delimeters[2]);
+			vsb.append(new String(Base64.encodeBase64(acquireType.getBytes())));
+			
+			verify = vsb.toString();
+
+			if("A".equals(secureType) || "C".equals(secureType)) {
+				MessageDigest md = MessageDigest.getInstance("SHA-256");
+				md.update(verify.getBytes());
+				byte[] digest = md.digest();
+				verify = new String(Base64.encodeBase64(new String(Hex.encodeHex(digest)).getBytes()));
+			}
+
+			StringBuffer sb = new StringBuffer();
+		
+			sb.append("Ver=1000");
+			sb.append("&RequestType=TRAN");
+			sb.append("&MID=").append(sendMID);														//상점아이디
+			sb.append("&TransactionType=").append(transactionType);									//MCA - AA, MCP - PA
+			sb.append("&Reference=").append(reference);
+			sb.append("&Currency=").append(currency);													//USD, JPY
+			sb.append("&Amount=").append(amount);													//거래금액
+			sb.append("&CardNumber=").append(cardNum);												//카드번호
+			sb.append("&ExpiryYYMM=").append(expiryYYMM);											//유효기간
+			sb.append("&CVC=").append(cvc);															//CVC
+			sb.append("&AcquireType=").append(acquireType);											//매입유형 (1-자동매입,2-수동매입)
+			sb.append("&ProductName=").append(ProductName);	//상품명
+			sb.append("&BuyerEmail=").append(buyerEmail);											//구매자 이메일 - 선택
+			sb.append("&BuyerName=").append(buyerName);												//구매자명 - 선택
+			sb.append("&BuyerID=").append(buyerID);													//구매자ID - 선택
+			sb.append("&BuyerIP=").append(buyerIP);													//구매자IP - 선택
+			sb.append("&OutputType=").append(resType);												//응답데이터 유형
+			sb.append("&VerifyValue=").append(verify);												//검증값
+			
+			System.out.println("RequestParameter : " + sb.toString());
+			String result = UrlCall(callUrl , sb.toString());
+			System.out.println("callUrl : "+callUrl+"?" + sb.toString());
+			System.out.println("Result : " + result);
+			
+			HashMap<String, String> resMap = resResultParsing(result, resType);
+			System.out.println("ResultMap : " + resMap);
+
+			delimeters = getDelimeters(merchantKey.substring(0, merchantKey.length()-2), 6, 3, deliIdx);
+			
+			vsb = new StringBuffer();
+			vsb.append(new String(Base64.encodeBase64(resMap.get("Reference").getBytes()))).append(delimeters[0]);
+			vsb.append(new String(Base64.encodeBase64(resMap.get("MID").getBytes()))).append(delimeters[1]);
+			vsb.append(new String(Base64.encodeBase64(resMap.get("ResponseCode").getBytes()))).append(delimeters[2]);
+			vsb.append(new String(Base64.encodeBase64(resMap.get("TID").getBytes()))).append(delimeters[3]);
+			vsb.append(new String(Base64.encodeBase64(resMap.get("ResponseDate").getBytes()))).append(delimeters[4]);
+			vsb.append(new String(Base64.encodeBase64(resMap.get("ResponseTime").getBytes())));
+
+			String resVerify = vsb.toString();
+
+			//위변조 검증 가맹점
+			if("A".equals(secureType) || "C".equals(secureType)) {
+				MessageDigest md = MessageDigest.getInstance("SHA-256");
+				md.update(resVerify.getBytes());
+				byte[] digest = md.digest();
+				resVerify = new String(Base64.encodeBase64(new String(Hex.encodeHex(digest)).getBytes()));
+			}
+			
+			if(!resVerify.equals(resMap.get("VerifyValue"))) {
+				System.out.println("위/변조");
+			}
+			
+			
+			String Ver = resMap.get("Ver");
+			String RequestType = resMap.get("RequestType");
+			String MID = resMap.get("MID");
+			String TransactionType = resMap.get("TransactionType");
+			String Reference = resMap.get("Reference");
+			String ResponseCode = resMap.get("ResponseCode");
+			String ResponseMessage = resMap.get("ResponseMessage");
+			String ResponseDate = resMap.get("ResponseDate");
+			String ResponseTime = resMap.get("ResponseTime");
+			String TID = resMap.get("TID");
+			String AuthCode = resMap.get("AuthCode");
+			String VerifyValue = resMap.get("VerifyValue");
+			System.out.println("Ver : " + Ver);
+			System.out.println("RequestType : " + RequestType);
+			System.out.println("MID : " + MID);
+			System.out.println("TransactionType : " + TransactionType);
+			System.out.println("Reference : " + Reference);
+			System.out.println("ResponseCode : " + ResponseCode);
+			System.out.println("ResponseMessage : " + ResponseMessage);
+			System.out.println("ResponseDate : " + ResponseDate);
+			System.out.println("ResponseTime : " + ResponseTime);
+			System.out.println("TID : " + TID);
+			System.out.println("AuthCode:" + AuthCode);
+			System.out.println("VerifyValue : " + VerifyValue);
+			System.out.println("종료");
+
+		} catch(Exception e) {
+			e.printStackTrace();
+			System.out.println(" Exception:"+ e);
+		}
+		
+	}

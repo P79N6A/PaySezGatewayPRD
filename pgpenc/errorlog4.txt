@@ -1,0 +1,13 @@
+No entry for terminal type "unknown";
+using dumb terminal settings.
+Array
+(
+    [0] => /var/www/html/Spaysez/api/output1/11-29-2018-16-05-10-128/PG_ALIPAY_TLF_201811280012.log
+    [1] => /var/www/html/Spaysez/api/output1/11-29-2018-16-05-10-128/PG_TLF_201807131801.log
+)
+Array
+(
+    [0] => /var/www/html/Spaysez/api/output1/11-29-2018-16-05-10-128/PG_ALIPAY_TLF_201811280012.log
+    [1] => /var/www/html/Spaysez/api/output1/11-29-2018-16-05-10-128/PG_TLF_201807131801.log
+    [2] => /var/www/html/Spaysez/api/output1/11-29-2018-16-05-10-128
+)

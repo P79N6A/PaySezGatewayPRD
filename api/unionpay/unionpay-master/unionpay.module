@@ -1,0 +1,324 @@
+<?php
+
+/*
+ * This file is licensed under GPLv2+.
+*/
+
+include_once(DRUPAL_ROOT . '/' . drupal_get_path('module', 'unionpay') . '/quickpay_service.php');
+
+/**
+ * @file
+ * Provides UnionPay interface for drupal.
+ */
+
+/**
+ * Implementation of hook_help().
+ */
+function unionpay_help($path, $arg) {
+	switch ($path) {
+		case 'charge/unionpay':
+			$output = '<b>'.t('FAQ on Unionpay').'</b><br/><ul>';
+			$output.= '<li>'.t('You will need to register your mobile phone number at your bank if you want to pay via your card directly.').'</li>';
+			$output.= '<li>'.t('Any questions, you may call 95516. Or, click <a href="@url" target="_blank">here</a>.',array('@url'=>'https://static.95516.com/static/help/index.html')).'</li>';
+			$output.='</ul>';
+			break;
+		default: return;
+	}
+	return $output;
+}
+
+/**
+ * Implementation of hook_menu().
+ */
+function unionpay_menu() {
+	$items['admin/config/services/unionpay'] = array(
+		'title' => 'Unionpay settings',
+		'description' => 'Unionpay merchant settings.',
+		'access arguments' => array('access administration pages'),
+		'page callback' => 'drupal_get_form',
+		'page arguments' => array('unionpay_admin_form'),
+	);
+	$items['charge/unionpay'] = array(
+		'access callback' => 'unionpay_access',
+		'type' => MENU_CALLBACK,
+		'page callback' => 'unionpay_submit_form',
+	);
+	$items['charge/unionpay/response'] = array(
+		'access callback' => 'unionpay_response_access',
+		'type' => MENU_CALLBACK,
+		'page callback' => 'unionpay_response',
+	);
+	$items['charge/unionpay/response_back'] = array(
+		'access callback' => 'unionpay_response_access',
+		'type' => MENU_CALLBACK,
+		'page callback' => 'unionpay_response',
+	);
+	return $items;
+}
+
+/**
+ * Implementation of hook_uninstall().
+ */
+function unionpay_uninstall() {
+	$settings=array(
+		'site_status', 'security_key', 'merid', 'merabbr'
+	);
+	foreach($settings as $s) {
+		variable_del('unionpay_'.$s);
+	}
+}
+
+function unionpay_admin_form($form, $form_state) {
+	$form=array(
+		'#submit' => array('unionpay_admin_form_submit'),
+	);
+	$form['site_status'] = array(
+		'#type' => 'select',
+		'#title' => t('Site status'),
+		'#required' => TRUE,
+		'#options' => array(
+			'test' => t('Testing'),
+			'preonline' => t('Pre Online'),
+			'online' => t('Production'),
+		),
+		'#default_value' => variable_get('unionpay_site_status', 'test'),
+	);
+	$form['security_key'] = array(
+		'#type' => 'textfield',
+		'#title' => t('Security Key (@code)',array('@code'=>'security_key')),
+		'#default_value' => variable_get('unionpay_security_key', quickpay_conf::$security_key),
+		'#required' => TRUE,
+		'#size' => 32,
+		'#maxlength' => 32,
+		'#attached' => array(
+			'js' => array(drupal_get_path('module', 'unionpay').'/unionpay.js'),
+		),
+		'#attributes' => array(
+			'style' => 'font-family: monospace'
+		)
+	);
+	$form['#attached']['js'][]=array('data' =>
+			'jQuery(document).ready(function(){'.
+			'jQuery(\'#edit-security-key\').after(\''.
+				'<input type="button" class="form-submit" onclick="javascript:jQuery(\\\'#edit-security-key\\\').val(password(32));" value="'.t('Gen 32-digits random security key').'"/>'.
+				'\')'.
+			'});',
+		'type' => 'inline'
+	);
+	$form['merid'] = array(
+		'#type' => 'textfield',
+		'#title' => t('Merchant ID (@code)',array('@code'=>'merId')),
+		'#default_value' => variable_get('unionpay_merid', quickpay_conf::$pay_params['merId']),
+		'#maxlength' => 15,
+		'#required' => TRUE,
+	);
+	$form['merabbr'] = array(
+		'#type' => 'textfield',
+		'#title' => t('Merchant Name (@code)',array('@code'=>'merAbbr')),
+		'#default_value' => variable_get('unionpay_merabbr', quickpay_conf::$pay_params['merAbbr']),
+		'#required' => TRUE,
+	);
+	return system_settings_form($form);
+}
+
+function unionpay_admin_form_validate($form, $form_state) {
+	$orig_security_key=variable_get('unionpay_security_key', quickpay_conf::$security_key);
+	$orig_site_status=variable_get('unionpay_site_status', 'test');
+	
+	$should_return=FALSE;
+	if(preg_match('@^[0-9a-zA-Z]{6,32}$@', $form_state['values']['security_key']) !== 1) {
+		form_set_error('security_key', t('The @field you have entered is not valid.',array('@field' => t('Security Key (@code)',array('@code'=>'security_key')))));
+		$should_return=TRUE;
+	}
+	if(preg_match('@^[0-9]{15}$@', $form_state['values']['merid']) !== 1) {
+		form_set_error('merid', t('The @field you have entered is not valid.',array('@field' => t('Merchant ID (@code)',array('@code'=>'merId')))));
+		$should_return=TRUE;
+	}
+	if($should_return) return;
+	
+	variable_set('unionpay_security_key',$form_state['values']['security_key']);
+	variable_set('unionpay_site_status',$form_state['values']['site_status']);
+	$param=array();
+	$param['transType']     = quickpay_conf::CONSUME;   //交易类型
+	$param['orderNumber']   = date('YmdHis'); //订单号
+	$param['orderTime']     = date('YmdHis');   //订单时间
+	$param['merId']         = $form_state['values']['merid'];
+
+	//提交查询
+	$query  = new quickpay_service($param, quickpay_conf::QUERY);
+	$ret    = $query->post();
+	try {
+		$response = new quickpay_service($ret, quickpay_conf::RESPONSE);
+	} catch(Exception $exp) {
+		form_set_error('security_key', t('It seems that security key and merId does not match.'));
+		form_set_error('merid');
+	}
+	variable_set('unionpay_security_key',$orig_security_key);
+	variable_set('unionpay_site_status',$orig_site_status);
+}
+
+function unionpay_admin_form_submit($form, $form_state) {
+	$settings=array(
+		'site_status', 'security_key', 'merid', 'merabbr'
+	);
+	foreach($settings as $s) {
+		variable_set('unionpay_'.$s,trim($form_state['values'][$s]));
+	}
+}
+
+function unionpay_access() {
+	if($_SERVER['REQUEST_METHOD']!=='POST') {
+		return false;
+	}
+	return true;
+}
+
+function unionpay_response_access() {
+	if($_SERVER['REQUEST_METHOD']!=='POST') {
+		return false;
+	}
+	try {
+		$response = new quickpay_service($_POST, quickpay_conf::RESPONSE);
+	} catch(Exception $exp) {
+		watchdog('unionpay',
+			'Critical error occured: @returnstr.', array(
+				'@returnstr' => $exp->getMessage(),
+			),
+			WATCHDOG_CRITICAL
+		);
+		return FALSE;
+	}
+	
+	if ($response->get('respCode') != quickpay_service::RESP_SUCCESS) {
+		watchdog('unionpay',
+			'Got Error @errcode => @errstr when receiving post result.', array(
+				'@errcode' => $response->get('respCode'),
+				'@errstr' => $response->get('respMsg')
+			),
+			WATCHDOG_ERROR
+		);
+		return FALSE;
+	}
+	unset($response);
+	return TRUE;
+}
+
+function unionpay_paymentgatewayinfo() {
+	return array(
+		'unionpay' => array(
+			'name' => t('Union Pay'),
+			'url' => 'https://www.95516.com',
+			'front'  => drupal_get_path('module', 'unionpay').'/unionpay-merchant.png',
+			'payment' => drupal_get_path('module', 'unionpay').'/unionpay.png',
+		),
+	);
+}
+
+function unionpay_submit_form($form, $form_state) {
+	return;
+}
+
+function unionpay_submit_form_submit($form, $form_state) {
+	$param=array();
+
+	$param['merId']                 = variable_get('unionpay_merid', quickpay_conf::$pay_params['merId']);  // 商户ID
+	$param['merAbbr']               = variable_get('unionpay_merabbr', quickpay_conf::$pay_params['merAbbr']);  //商户名称
+
+	$param['transType']             = quickpay_conf::CONSUME;  //交易类型，CONSUME or PRE_AUTH
+	$param['merReserved']           = sprintf('{orderTimeoutDate=%s}',date('YmdHis', time()+7200));
+	$param['orderAmount']           = $form_state['values']['amount']*100;        //交易金额
+	$param['orderNumber']           = $form_state['values']['orderno']; //订单号，必须唯一
+	$param['commodityName']         = preg_replace('/·/','',$form_state['values']['ordertitle']); //订单号，必须唯一
+	$param['orderTime']             = date('YmdHis', $form_state['values']['ordertime']);   //交易时间, YYYYmmhhddHHMMSS
+	$param['orderCurrency']         = quickpay_conf::CURRENCY_CNY;  //交易币种，CURRENCY_CNY=>人民币
+
+	$param['customerIp']            = $_SERVER['REMOTE_ADDR'];  //用户IP
+	$param['frontEndUrl']           = $GLOBALS['base_url'].'/charge/unionpay/response';    //前台回调URL
+	$param['backEndUrl']            = $GLOBALS['base_url'].'/charge/unionpay/response_back';    //后台回调URL
+	
+	$pay_service = new quickpay_service($param, quickpay_conf::FRONT_PAY);
+	$html = $pay_service->create_html();
+	
+	return $html;
+}
+
+function unionpay_response() {
+	module_invoke_all('gatewayreponse',array(
+		'unionpay' => array(
+			'orderno' => $_POST['orderNumber'],
+			'amount' => $_POST['settleAmount']/100,
+			'transactionno' => $_POST['qid'],
+			'settledate' => $_POST['settleDate'],
+			'is_backend' => arg(2)=='response_back',
+		),
+	));
+}
+
+function unionpay_querystatus($orderno, $ordertime) {
+	$param=array();
+	$param['transType']     = quickpay_conf::CONSUME;   //交易类型
+	$param['orderNumber']   = $orderno; //订单号
+	$param['orderTime']     = date('YmdHis', $ordertime);   //订单时间
+	$param['merId']         = variable_get('unionpay_merid', quickpay_conf::$pay_params['merId']);
+
+	//提交查询
+	$query  = new quickpay_service($param, quickpay_conf::QUERY);
+	$ret    = $query->post();
+
+	//返回查询结果
+	try {
+		$response = new quickpay_service($ret, quickpay_conf::RESPONSE);
+	} catch(Exception $exp) {
+		drupal_set_message(t('Critical error occured: @returnstr.',array('@returnstr'=>$exp->getMessage())), 'error');
+		watchdog('unionpay',
+			'Critical error occured: @returnstr.', array(
+				'@returnstr' => $exp->getMessage(),
+			),
+			WATCHDOG_CRITICAL
+		);
+		return FALSE;
+	}
+	
+	//后续处理
+	$arr_ret = $response->get_args();
+
+	$respCode = $response->get('respCode');
+	$queryResult = $response->get('queryResult');
+	
+	switch($queryResult) {
+		case quickpay_service::QUERY_FAIL:
+			return onlinecharge_PAYMENT_FAILED;
+		case quickpay_service::QUERY_INVALID:
+			return onlinecharge_PAYMENT_INVALID;
+		case quickpay_service::QUERY_WAIT:
+			return onlinecharge_PAYMENT_PROCESSING;
+		case quickpay_service::QUERY_SUCCESS:
+			return array(
+				'unionpay' => array(
+					'orderno' => $orderno,
+					'amount' => $response->get('settleAmount')/100,
+					'transactionno' => $response->get('qid'),
+					'settledate' => $response->get('settleDate'),
+					'is_backend' => FALSE,
+				),
+			);
+	}
+	return FALSE;
+}
+
+/**
+ * Implementation of hook_commerce_payment_method_info().
+ */
+function unionpay_commerce_payment_method_info() {
+	$payment_methods = array(
+		'unionpay' => array(
+			'title' => t('UnionPay'), 
+			'description' => t('China UnionPay online payment'), 
+			'terminal' => FALSE, 
+			'offsite' => TRUE, 
+			'offsite_autoredirect' => TRUE,
+	));
+	return $payment_methods;
+}
+
+?>

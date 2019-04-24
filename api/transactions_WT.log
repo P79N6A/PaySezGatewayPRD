@@ -1,0 +1,995 @@
+Airpay Transaction Request Data:2019-01-07 18:43:35,{"merchant_id":"E01030000000002","amount":"10.99","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190107184328","Transaction_id":"E0103000000000220190107184328","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","bankCode":"","prepaid_radio":"MONEY","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-07 18:43:35,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"10.99","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"MONEY","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190107184335","currency":"356","isocurrency":"INR","chmod":"","checksum":"a0c1a0f519e3efdbb18f8b8647b434d8"} 
+
+
+Airpay Transaction Request Data:2019-01-07 19:02:59,{"merchant_id":"E01030000000002","amount":"10.99","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190107190221","Transaction_id":"E0103000000000220190107190221","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-07 19:02:59,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"10.99","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190107190259","currency":"356","isocurrency":"INR","chmod":"","checksum":"4bded85eeb8baa2e8edf1728786f5bbd"} 
+
+
+Airpay Transaction Request Data:2019-01-07 19:06:46,{"merchant_id":"E01030000000002","amount":"10.99","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190107190639","Transaction_id":"E0103000000000220190107190639","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-07 19:06:46,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"10.99","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190107190646","currency":"356","isocurrency":"INR","chmod":"","checksum":"6cfc325dbd35961f5c75ba1958c4a3c7"} 
+
+
+Airpay Transaction Request Data:2019-01-07 19:09:12,{"merchant_id":"E01030000000002","amount":"10.99","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190107190905","Transaction_id":"E0103000000000220190107190905","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-07 19:09:12,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"10.99","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190107190912","currency":"356","isocurrency":"INR","chmod":"","checksum":"e54854fd4af9c629bb8f93da3055d2bf"} 
+
+
+Airpay Transaction Request Data:2019-01-08 10:54:31,{"merchant_id":"E01030000000002","amount":"10.99","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190108105421","Transaction_id":"E0103000000000220190108105421","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-08 10:54:31,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"10.99","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190108105431","currency":"356","isocurrency":"INR","chmod":"","checksum":"ba5873ebd4e548dd369fb5a3d67e9f46"} 
+
+
+Airpay Transaction Request Data:2019-01-08 11:23:03,{"merchant_id":"E01030000000002","amount":"10.99","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190108112251","Transaction_id":"E0103000000000220190108112251","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-08 11:23:03,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"10.99","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190108112303","currency":"356","isocurrency":"INR","chmod":"","checksum":"9691e9de4e86770ccbd0c42e5bfe5c5a"} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-08 11:23:06,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190108112303","APTRANSACTIONID":"298094","CHMOD":"PPC","AMOUNT":"10.99","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"08-01-2019 11:21:51","BILLEDAMOUNT":"10.99","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1877057083"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-08 11:23:06,{"WT_ap_SecureHash":"1877057083","WT_transactionid":"2432420190108112303","WT_ap_transactionid":"298094","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-08 16:34:13,{"merchant_id":"E01030000000002","amount":"10.99","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190108163343","Transaction_id":"E0103000000000220190108163343","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","emi_option":"0","emibank":"","tenure_months":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-08 16:34:13,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"10.99","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190108163413","currency":"356","isocurrency":"INR","chmod":"","checksum":"5947482706181248974a74993fbd886a"} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-08 16:34:21,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190108163413","APTRANSACTIONID":"298139","CHMOD":"PPC","AMOUNT":"10.99","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"08-01-2019 16:33:07","BILLEDAMOUNT":"10.99","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1062710260"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-08 16:34:21,{"WT_ap_SecureHash":"1062710260","WT_transactionid":"2432420190108163413","WT_ap_transactionid":"298139","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-09 11:22:58,{"merchant_id":"E01030000000002","amount":"10.99","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190109112221","Transaction_id":"E0103000000000220190109112221","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"0000-0000-0000-0000","expiry_mm":"06","expiry_yy":"19","card_cvv":"xxxx","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-09 11:22:58,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"10.99","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"6ff059b1f81bb73098414b0ec688f9e8286a8912866b9e5bc2cd4ab5416d437e","mercid":"20053","orderid":"2005320190109112258","currency":"356","isocurrency":"INR","chmod":"","checksum":"4038d1f6f4e4569784cdd861cfafb698"} 
+
+
+Airpay Transaction Request Data:2019-01-10 18:38:28,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190110183820","Transaction_id":"E0103000000000220190110183820","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-10 18:38:28,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190110183828","currency":"356","isocurrency":"INR","chmod":"","checksum":"b9ca304a317626a14d041a4dcd590c29"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-10 18:38:28,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"b9ca304a317626a14d041a4dcd590c29","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190110183828","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190110183820","gmt_datetime":"2019-01-10 13:08:28","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190110183820","trans_date":"2019-01-10","trans_datetime":"2019-01-10 18:38:20","trans_time":"18:38:20","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-10 18:38:30,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190110183828","APTRANSACTIONID":"298350","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"10-01-2019 18:37:14","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2244803617"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-10 18:38:30,{"WT_ap_SecureHash":"2244803617","WT_transactionid":"2432420190110183828","WT_ap_transactionid":"298350","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-10 19:26:20,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190110192612","Transaction_id":"E0103000000000220190110192612","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-10 19:26:20,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190110192620","currency":"356","isocurrency":"INR","chmod":"","checksum":"ae7383500445ab2fe1e50b2836516d23"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-10 19:26:20,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"ae7383500445ab2fe1e50b2836516d23","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190110192620","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190110192612","gmt_datetime":"2019-01-10 13:56:20","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190110192612","trans_date":"2019-01-10","trans_datetime":"2019-01-10 19:26:12","trans_time":"19:26:12","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-10 19:26:23,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190110192620","APTRANSACTIONID":"298365","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"10-01-2019 19:25:07","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2447409699"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-10 19:26:23,{"WT_ap_SecureHash":"2447409699","WT_transactionid":"2432420190110192620","WT_ap_transactionid":"298365","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-11 10:55:49,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190111105539","Transaction_id":"E0103000000000220190111105539","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-11 10:55:49,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190111105549","currency":"356","isocurrency":"INR","chmod":"","checksum":"218db78cc44e7cea3c54c2406e713113"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-11 10:55:49,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"218db78cc44e7cea3c54c2406e713113","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190111105549","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190111105539","gmt_datetime":"2019-01-11 05:25:49","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190111105539","trans_date":"2019-01-11","trans_datetime":"2019-01-11 10:55:39","trans_time":"10:55:39","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-11 10:55:52,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190111105549","APTRANSACTIONID":"298586","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"11-01-2019 10:54:36","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"3634230511"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-11 10:55:52,{"WT_ap_SecureHash":"3634230511","WT_transactionid":"2432420190111105549","WT_ap_transactionid":"298586","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-11 14:00:54,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190111140037","Transaction_id":"E0103000000000220190111140037","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-11 14:00:54,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190111140054","currency":"356","isocurrency":"INR","chmod":"","checksum":"51443dadd73dd8a725c1b1c5a7d94c9e"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-11 14:00:54,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"51443dadd73dd8a725c1b1c5a7d94c9e","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190111140054","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190111140037","gmt_datetime":"2019-01-11 08:30:54","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190111140037","trans_date":"2019-01-11","trans_datetime":"2019-01-11 14:00:37","trans_time":"14:00:37","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-11 14:00:58,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190111140054","APTRANSACTIONID":"298612","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"11-01-2019 13:59:41","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"4129060010"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-11 14:00:58,{"WT_ap_SecureHash":"4129060010","WT_transactionid":"2432420190111140054","WT_ap_transactionid":"298612","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-16 12:30:27,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190116123015","Transaction_id":"E0103000000000220190116123015","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"OLA","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-16 12:30:27,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"OLA","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190116123027","currency":"356","isocurrency":"INR","chmod":"","checksum":"356dc4c536e76ca13511ca52ee136f8c"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-16 12:30:27,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"356dc4c536e76ca13511ca52ee136f8c","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190116123027","WT_prepaid_radio":"OLA","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190116123015","gmt_datetime":"2019-01-16 07:00:27","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190116123015","trans_date":"2019-01-16","trans_datetime":"2019-01-16 12:30:15","trans_time":"12:30:15","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-16 12:30:29,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190116123027","APTRANSACTIONID":"300417","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"16-01-2019 12:29:10","BILLEDAMOUNT":"1.00","BANKNAME":"OLA","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"346659589"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-16 12:30:29,{"WT_ap_SecureHash":"346659589","WT_transactionid":"2432420190116123027","WT_ap_transactionid":"300417","WT_bankname":"OLA","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-16 13:24:36,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190116132423","Transaction_id":"E0103000000000220190116132423","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-16 13:24:36,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190116132436","currency":"356","isocurrency":"INR","chmod":"","checksum":"4c3431671b2a7682f869f2e854621219"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-16 13:24:36,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"4c3431671b2a7682f869f2e854621219","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190116132436","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190116132423","gmt_datetime":"2019-01-16 07:54:36","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190116132423","trans_date":"2019-01-16","trans_datetime":"2019-01-16 13:24:23","trans_time":"13:24:23","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-16 13:24:39,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190116132436","APTRANSACTIONID":"300426","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"16-01-2019 13:23:20","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2940176967"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-16 13:24:39,{"WT_ap_SecureHash":"2940176967","WT_transactionid":"2432420190116132436","WT_ap_transactionid":"300426","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-16 16:10:27,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190116161019","Transaction_id":"E0103000000000220190116161019","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-16 16:10:27,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190116161027","currency":"356","isocurrency":"INR","chmod":"","checksum":"f6fa1641f43bc06e6a717aae995515bb"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-16 16:10:27,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"f6fa1641f43bc06e6a717aae995515bb","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190116161027","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190116161019","gmt_datetime":"2019-01-16 10:40:27","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190116161019","trans_date":"2019-01-16","trans_datetime":"2019-01-16 16:10:19","trans_time":"16:10:19","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-16 16:10:29,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190116161027","APTRANSACTIONID":"300461","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"16-01-2019 16:09:10","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2198318291"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-16 16:10:29,{"WT_ap_SecureHash":"2198318291","WT_transactionid":"2432420190116161027","WT_ap_transactionid":"300461","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-16 16:16:56,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190116161649","Transaction_id":"E0103000000000220190116161649","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-16 16:16:56,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190116161656","currency":"356","isocurrency":"INR","chmod":"","checksum":"f54de8305016ff80bfccaa937da28eb5"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-16 16:16:56,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"f54de8305016ff80bfccaa937da28eb5","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190116161656","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190116161649","gmt_datetime":"2019-01-16 10:46:56","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190116161649","trans_date":"2019-01-16","trans_datetime":"2019-01-16 16:16:49","trans_time":"16:16:49","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-16 16:16:58,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190116161656","APTRANSACTIONID":"300463","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"16-01-2019 16:15:39","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"311701565"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-16 16:16:58,{"WT_ap_SecureHash":"311701565","WT_transactionid":"2432420190116161656","WT_ap_transactionid":"300463","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-16 16:32:56,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190116163248","Transaction_id":"E0103000000000220190116163248","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-16 16:32:56,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190116163256","currency":"356","isocurrency":"INR","chmod":"","checksum":"77b73b386c7429f85b7b3b515b4f2454"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-16 16:32:56,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"77b73b386c7429f85b7b3b515b4f2454","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190116163256","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190116163248","gmt_datetime":"2019-01-16 11:02:56","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190116163248","trans_date":"2019-01-16","trans_datetime":"2019-01-16 16:32:48","trans_time":"16:32:48","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-16 16:32:58,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190116163256","APTRANSACTIONID":"300471","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"16-01-2019 16:31:39","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2468211776"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-16 16:32:58,{"WT_ap_SecureHash":"2468211776","WT_transactionid":"2432420190116163256","WT_ap_transactionid":"300471","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-16 16:40:01,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190116163947","Transaction_id":"E0103000000000220190116163947","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-16 16:40:01,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190116164001","currency":"356","isocurrency":"INR","chmod":"","checksum":"221796554c653d20f08e7bf690796315"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-16 16:40:01,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"221796554c653d20f08e7bf690796315","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190116164001","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190116163947","gmt_datetime":"2019-01-16 11:10:01","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190116163947","trans_date":"2019-01-16","trans_datetime":"2019-01-16 16:39:47","trans_time":"16:39:47","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-16 16:40:03,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190116164001","APTRANSACTIONID":"300478","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"16-01-2019 16:38:44","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"382242099"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-16 16:40:03,{"WT_ap_SecureHash":"382242099","WT_transactionid":"2432420190116164001","WT_ap_transactionid":"300478","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-21 13:26:49,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190121132641","Transaction_id":"E0103000000000220190121132641","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-21 13:26:49,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190121132649","currency":"356","isocurrency":"INR","chmod":"","checksum":"af42ff5336702e91ac3e10ae9bbda0d3"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-21 13:26:49,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"af42ff5336702e91ac3e10ae9bbda0d3","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190121132649","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190121132641","gmt_datetime":"2019-01-21 07:56:49","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190121132641","trans_date":"2019-01-21","trans_datetime":"2019-01-21 13:26:41","trans_time":"13:26:41","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-21 13:26:51,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190121132649","APTRANSACTIONID":"300898","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"21-01-2019 13:25:29","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"3654327515"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-21 13:26:51,{"WT_ap_SecureHash":"3654327515","WT_transactionid":"2432420190121132649","WT_ap_transactionid":"300898","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-21 15:35:45,{"tax":"","merchant_id":"E01030000000002","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190121153533","Transaction_id":"E0103000000000220190121153533","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-21 15:35:45,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190121153545","currency":"356","isocurrency":"INR","chmod":"","checksum":"5702964a074459944e2c09ec7b588ccb"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-21 15:35:45,{"env":"live","merchant_id":"E01030000000002","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"5702964a074459944e2c09ec7b588ccb","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190121153545","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0103000000000220190121153533","gmt_datetime":"2019-01-21 10:05:45","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190121153533","trans_date":"2019-01-21","trans_datetime":"2019-01-21 15:35:33","trans_time":"15:35:33","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-21 15:35:47,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190121153545","APTRANSACTIONID":"300923","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"21-01-2019 15:34:25","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"323796403"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-21 15:35:47,{"WT_ap_SecureHash":"323796403","WT_transactionid":"2432420190121153545","WT_ap_transactionid":"300923","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-21 16:06:49,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190121160642","Transaction_id":"E0101000000003820190121160642","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-21 16:06:49,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190121160649","currency":"356","isocurrency":"INR","chmod":"","checksum":"49a204c46432668a9c93f93e31287334"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-21 16:06:49,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"49a204c46432668a9c93f93e31287334","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190121160649","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190121160642","gmt_datetime":"2019-01-21 10:36:49","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190121160642","trans_date":"2019-01-21","trans_datetime":"2019-01-21 16:06:42","trans_time":"16:06:42","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-21 16:06:51,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190121160649","APTRANSACTIONID":"300929","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"21-01-2019 16:05:29","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"576052288"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-21 16:06:51,{"WT_ap_SecureHash":"576052288","WT_transactionid":"2432420190121160649","WT_ap_transactionid":"300929","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-21 18:51:39,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190121185133","Transaction_id":"E0101000000003820190121185133","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-21 18:51:39,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190121185139","currency":"356","isocurrency":"INR","chmod":"","checksum":"a50b841fd8c0ec5a775d782c2a76aa1e"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-21 18:51:39,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"a50b841fd8c0ec5a775d782c2a76aa1e","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190121185139","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190121185133","gmt_datetime":"2019-01-21 13:21:39","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190121185133","trans_date":"2019-01-21","trans_datetime":"2019-01-21 18:51:33","trans_time":"18:51:33","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-21 18:51:41,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190121185139","APTRANSACTIONID":"300948","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"21-01-2019 18:50:19","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1043440102"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-21 18:51:41,{"WT_ap_SecureHash":"1043440102","WT_ap_transactionid":"300948","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-22 15:36:49,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190122153639","Transaction_id":"E0101000000003820190122153639","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-22 15:36:49,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190122153649","currency":"356","isocurrency":"INR","chmod":"","checksum":"5331ce1419a821147b95f86ad2763f12"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-22 15:36:49,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"5331ce1419a821147b95f86ad2763f12","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190122153649","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190122153639","gmt_datetime":"2019-01-22 10:06:49","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190122153639","trans_date":"2019-01-22","trans_datetime":"2019-01-22 15:36:39","trans_time":"15:36:39","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-22 15:36:58,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190122153649","APTRANSACTIONID":"301035","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"22-01-2019 15:35:35","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1552041257"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-22 15:36:58,{"WT_ap_SecureHash":"1552041257","WT_ap_transactionid":"301035","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-22 17:54:18,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190122175407","Transaction_id":"E0101000000003820190122175407","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-22 17:54:18,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190122175418","currency":"356","isocurrency":"INR","chmod":"","checksum":"40f066dae9655f9da01d7a0a4720a235"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-22 17:54:18,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"40f066dae9655f9da01d7a0a4720a235","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190122175418","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190122175407","gmt_datetime":"2019-01-22 12:24:18","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190122175407","trans_date":"2019-01-22","trans_datetime":"2019-01-22 17:54:07","trans_time":"17:54:07","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-22 17:54:20,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190122175418","APTRANSACTIONID":"301111","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"22-01-2019 17:52:57","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2687314417"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-22 17:54:20,{"WT_ap_SecureHash":"2687314417","WT_ap_transactionid":"301111","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-24 18:04:25,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190124180417","Transaction_id":"E0101000000003820190124180417","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-24 18:04:25,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190124180425","currency":"356","isocurrency":"INR","chmod":"","checksum":"3d5c09882dec47198f27e6dbcb94e834"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-24 18:04:25,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"3d5c09882dec47198f27e6dbcb94e834","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190124180425","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190124180417","gmt_datetime":"2019-01-24 12:34:25","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190124180417","trans_date":"2019-01-24","trans_datetime":"2019-01-24 18:04:17","trans_time":"18:04:17","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-24 18:04:28,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190124180425","APTRANSACTIONID":"301562","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"24-01-2019 18:03:04","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2340505604"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-24 18:04:28,{"WT_ap_SecureHash":"2340505604","WT_ap_transactionid":"301562","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-01-29 16:50:26,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190129165016","Transaction_id":"E0101000000003820190129165016","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-01-29 16:50:26,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190129165026","currency":"356","isocurrency":"INR","chmod":"","checksum":"aa74d574dc0d642e8be2d0f72ebe7879"} 
+
+
+Airpay Wallets Request Insert Data:2019-01-29 16:50:26,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"aa74d574dc0d642e8be2d0f72ebe7879","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190129165026","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190129165016","gmt_datetime":"2019-01-29 11:20:26","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190129165016","trans_date":"2019-01-29","trans_datetime":"2019-01-29 16:50:16","trans_time":"16:50:16","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-01-29 16:50:28,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190129165026","APTRANSACTIONID":"302011","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","RISK":"N","CUSTOMVAR":"0","TRANSACTIONTIME":"29-01-2019 16:49:01","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"853412261"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-01-29 16:50:28,{"WT_ap_SecureHash":"853412261","WT_ap_transactionid":"302011","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-02-01 13:17:31,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190201131722","Transaction_id":"E0101000000003820190201131722","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-01 13:17:31,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190201131731","currency":"356","isocurrency":"INR","chmod":"","checksum":"9022c0fbac94e6a6e93e87b00f7d172d"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-01 13:17:31,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"9022c0fbac94e6a6e93e87b00f7d172d","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190201131731","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190201131722","gmt_datetime":"2019-02-01 07:47:31","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190201131722","trans_date":"2019-02-01","trans_datetime":"2019-02-01 13:17:22","trans_time":"13:17:22","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-01 13:17:34,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190201131731","APTRANSACTIONID":"302339","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"01-02-2019 13:16:05","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2289105331"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-01 13:17:34,{"WT_ap_SecureHash":"2289105331","WT_ap_transactionid":"302339","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-02-06 19:17:55,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190206191705","Transaction_id":"E0101000000003820190206191705","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-06 19:17:55,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190206191755","currency":"356","isocurrency":"INR","chmod":"","checksum":"021a4be2b21c99ad0dc2faa60fa9161d"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-06 19:17:55,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"021a4be2b21c99ad0dc2faa60fa9161d","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190206191755","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190206191705","gmt_datetime":"2019-02-06 13:47:55","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190206191705","trans_date":"2019-02-06","trans_datetime":"2019-02-06 19:17:05","trans_time":"19:17:05","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-06 19:17:58,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190206191755","APTRANSACTIONID":"302910","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"06-02-2019 19:16:26","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"4063955016"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-06 19:17:58,{"WT_ap_SecureHash":"4063955016","WT_ap_transactionid":"302910","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-02-08 11:59:30,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190208115743","Transaction_id":"E0101000000003820190208115743","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-08 11:59:30,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190208115930","currency":"356","isocurrency":"INR","chmod":"","checksum":"f4e94625d15a2d2ac02761b306c3daf7"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-08 11:59:30,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"f4e94625d15a2d2ac02761b306c3daf7","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190208115930","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190208115743","gmt_datetime":"2019-02-08 06:29:30","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190208115743","trans_date":"2019-02-08","trans_datetime":"2019-02-08 11:57:43","trans_time":"11:57:43","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-08 11:59:33,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190208115930","APTRANSACTIONID":"303160","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"08-02-2019 11:58:00","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1462623504"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-08 11:59:33,{"WT_ap_SecureHash":"1462623504","WT_ap_transactionid":"303160","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-02-09 14:07:42,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190209140732","Transaction_id":"E0101000000003820190209140732","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-09 14:07:42,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190209140742","currency":"356","isocurrency":"INR","chmod":"","checksum":"eeca9cebd9dc64be0903267928f626f6"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-09 14:07:42,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"eeca9cebd9dc64be0903267928f626f6","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190209140742","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190209140732","gmt_datetime":"2019-02-09 08:37:42","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190209140732","trans_date":"2019-02-09","trans_datetime":"2019-02-09 14:07:32","trans_time":"14:07:32","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-09 14:07:46,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190209140742","APTRANSACTIONID":"303321","CHMOD":"PPC","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"09-02-2019 14:06:12","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"142325401"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-09 14:07:46,{"WT_ap_SecureHash":"142325401","WT_ap_transactionid":"303321","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-02-11 17:49:16,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190211174902","Transaction_id":"E0101000000003820190211174902","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-11 17:49:16,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190211174916","currency":"356","isocurrency":"INR","chmod":"","checksum":"2e58dd418e8e31aa41f9df489389dce8"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-11 17:49:16,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"2e58dd418e8e31aa41f9df489389dce8","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190211174916","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190211174902","gmt_da                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                rpay Wallets Transaction Response Data Table Update :2019-02-12 13:43:03,{"WT_ap_SecureHash":"279137787","WT_ap_transactionid":"303636","WT_bankname":"JIO","WT_chmod":"PPC","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-02-13 12:15:44,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190213121527","Transaction_id":"E0101000000003820190213121527","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"MOBIK","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-13 12:15:44,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"MOBIK","privatekey":"6ff059b1f81bb73098414b0ec688f9e8286a8912866b9e5bc2cd4ab5416d437e","mercid":"20053","orderid":"2005320190213121544","currency":"356","isocurrency":"INR","chmod":"","checksum":"7926931c4c46e2e176acb95421fc18ce"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-13 12:15:44,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"7926931c4c46e2e176acb95421fc18ce","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"20053","WT_orderid":"2005320190213121544","WT_prepaid_radio":"MOBIK","WT_privatekey":"6ff059b1f81bb73098414b0ec688f9e8286a8912866b9e5bc2cd4ab5416d437e","WT_transactionid":"E0101000000003820190213121527","gmt_datetime":"2019-02-13 06:45:44","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190213121527","trans_date":"2019-02-13","trans_datetime":"2019-02-13 12:15:27","trans_time":"12:15:27","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Transaction Request Data:2019-02-13 12:16:23,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190213121614","Transaction_id":"E0101000000003820190213121614","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-13 12:16:23,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"6ff059b1f81bb73098414b0ec688f9e8286a8912866b9e5bc2cd4ab5416d437e","mercid":"20053","orderid":"2005320190213121623","currency":"356","isocurrency":"INR","chmod":"","checksum":"580b7a1a0f943fe902b93a238d8cb43f"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-13 12:16:23,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"580b7a1a0f943fe902b93a238d8cb43f","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"20053","WT_orderid":"2005320190213121623","WT_prepaid_radio":"JIO","WT_privatekey":"6ff059b1f81bb73098414b0ec688f9e8286a8912866b9e5bc2cd4ab5416d437e","WT_transactionid":"E0101000000003820190213121614","gmt_datetime":"2019-02-13 06:46:23","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190213121614","trans_date":"2019-02-13","trans_datetime":"2019-02-13 12:16:14","trans_time":"12:16:14","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Transaction Request Data:2019-02-19 18:10:18,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190219181003","Transaction_id":"E0101000000003820190219181003","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","optradio":"AP","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-19 18:10:18,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190219181018","currency":"356","isocurrency":"INR","chmod":"","checksum":"0177c05e1d2c8e4fdbe7636f9d1b4d2f"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-19 18:10:18,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"0177c05e1d2c8e4fdbe7636f9d1b4d2f","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190219181018","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190219181003","gmt_datetime":"2019-02-19 12:40:18","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190219181003","trans_date":"2019-02-19","trans_datetime":"2019-02-19 18:10:03","trans_time":"18:10:03","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Transaction Request Data:2019-02-19 18:16:01,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190219181550","Transaction_id":"E0101000000003820190219181550","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","optradio":"AP","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-19 18:16:01,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190219181601","currency":"356","isocurrency":"INR","chmod":"","checksum":"1c09508705078ebcdc49fe62b2eb0daa"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-19 18:16:01,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"1c09508705078ebcdc49fe62b2eb0daa","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190219181601","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190219181550","gmt_datetime":"2019-02-19 12:46:01","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190219181550","trans_date":"2019-02-19","trans_datetime":"2019-02-19 18:15:50","trans_time":"18:15:50","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Response Data:2019-02-19 18:16:04,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190219181601","APTRANSACTIONID":"304868","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"19-02-2019 18:14:24","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"4145833461"} 
+
+
+Airpay  Transaction Response Data:2019-02-19 18:16:04,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190219181601","APTRANSACTIONID":"304868","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"19-02-2019 18:14:24","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"4145833461"} 
+
+
+Airpay Response Data:2019-02-19 18:16:06,{"status":"SUCCESS","errordesc":"","errorcode":"200","merchant_id":"","transaction_id":"2432420190219181601","amount":"1.00","currency":"INR","request_type":"ppc"} 
+
+
+Airpay  Transaction Response Data:2019-02-19 18:16:06,{"status":"SUCCESS","errordesc":"","errorcode":"200","merchant_id":"","transaction_id":"2432420190219181601","amount":"1.00","currency":"INR","request_type":"ppc"} 
+
+
+Airpay Transaction Request Data:2019-02-19 18:24:51,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190219182430","Transaction_id":"E0101000000003820190219182430","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","optradio":"AP","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-19 18:24:51,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190219182451","currency":"356","isocurrency":"INR","chmod":"","checksum":"5d295f6c9f9fcef5aa2ff07a9d362c24"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-19 18:24:51,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"5d295f6c9f9fcef5aa2ff07a9d362c24","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190219182451","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190219182430","gmt_datetime":"2019-02-19 12:54:51","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190219182430","trans_date":"2019-02-19","trans_datetime":"2019-02-19 18:24:30","trans_time":"18:24:30","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-19 18:24:54,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190219182451","APTRANSACTIONID":"304873","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"19-02-2019 18:23:14","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2806363141"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-19 18:24:54,{"WT_ap_SecureHash":"2806363141","WT_ap_transactionid":"304873","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-02-19 19:46:01,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190219194550","Transaction_id":"E0101000000003820190219194550","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","optradio":"AP","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-19 19:46:01,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190219194601","currency":"356","isocurrency":"INR","chmod":"","checksum":"c7f8cfa1229db94d9a2d4f35d9510c61"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-19 19:46:01,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"c7f8cfa1229db94d9a2d4f35d9510c61","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190219194601","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190219194550","gmt_datetime":"2019-02-19 14:16:01","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190219194550","trans_date":"2019-02-19","trans_datetime":"2019-02-19 19:45:50","trans_time":"19:45:50","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-19 19:46:03,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190219194601","APTRANSACTIONID":"304911","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"19-02-2019 19:44:24","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1322425482"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-19 19:46:03,{"WT_ap_SecureHash":"1322425482","WT_ap_transactionid":"304911","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-02-25 18:27:50,{"tax":"","merchant_id":"E01010000000038","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190225182736","Transaction_id":"E0101000000003820190225182736","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-25 18:27:50,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"ec16e421d91fc03563e3c4d1627972356f99a2532ea802ad975faf262aab79f4","mercid":"EZ5TST","orderid":"EZ5TST20190225182750","currency":"356","isocurrency":"INR","chmod":"","checksum":"57a433031baad6bfa9078ce7f57c2b94"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-25 18:27:50,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"57a433031baad6bfa9078ce7f57c2b94","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190225182750","WT_prepaid_radio":"JIO","WT_privatekey":"ec16e421d91fc03563e3c4d1627972356f99a2532ea802ad975faf262aab79f4","WT_transactionid":"E0101000000003820190225182736","gmt_datetime":"2019-02-25 12:57:50","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190225182736","trans_date":"2019-02-25","trans_datetime":"2019-02-25 18:27:36","trans_time":"18:27:36","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Transaction Request Data:2019-02-25 18:29:39,{"tax":"","merchant_id":"E01010000000038","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190225182928","Transaction_id":"E0101000000003820190225182928","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-25 18:29:39,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190225182939","currency":"356","isocurrency":"INR","chmod":"","checksum":"b2b96f5e0fecbf24a45fd8948f13a5f4"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-25 18:29:39,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"b2b96f5e0fecbf24a45fd8948f13a5f4","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190225182939","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190225182928","gmt_datetime":"2019-02-25 12:59:39","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190225182928","trans_date":"2019-02-25","trans_datetime":"2019-02-25 18:29:28","trans_time":"18:29:28","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Transaction Request Data:2019-02-25 18:43:32,{"tax":"","merchant_id":"E01010000000038","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190225184323","Transaction_id":"E0101000000003820190225184323","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-25 18:43:32,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190225184332","currency":"356","isocurrency":"INR","chmod":"","checksum":"a5332e44b7b4b902619bf87733767311"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-25 18:43:32,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"a5332e44b7b4b902619bf87733767311","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190225184332","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190225184323","gmt_datetime":"2019-02-25 13:13:32","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190225184323","trans_date":"2019-02-25","trans_datetime":"2019-02-25 18:43:23","trans_time":"18:43:23","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Transaction Request Data:2019-02-25 18:49:41,{"tax":"","merchant_id":"E01010000000038","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190225184934","Transaction_id":"E0101000000003820190225184934","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-25 18:49:41,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190225184941","currency":"356","isocurrency":"INR","chmod":"","checksum":"4620a78cb99043a42d4957fc8327252d"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-25 18:49:41,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"4620a78cb99043a42d4957fc8327252d","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190225184941","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190225184934","gmt_datetime":"2019-02-25 13:19:41","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190225184934","trans_date":"2019-02-25","trans_datetime":"2019-02-25 18:49:34","trans_time":"18:49:34","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Transaction Request Data:2019-02-25 18:57:05,{"tax":"","merchant_id":"E01010000000038","amount":"1.00","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190225185642","Transaction_id":"E0101000000003820190225185642","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-25 18:57:05,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190225185705","currency":"356","isocurrency":"INR","chmod":"","checksum":"0a5a14babe3a5882805c0a38a606ec14"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-25 18:57:05,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"0a5a14babe3a5882805c0a38a606ec14","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190225185705","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190225185642","gmt_datetime":"2019-02-25 13:27:05","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190225185642","trans_date":"2019-02-25","trans_datetime":"2019-02-25 18:56:42","trans_time":"18:56:42","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-25 18:57:07,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190225185705","APTRANSACTIONID":"305888","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"25-02-2019 18:55:23","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2097702416"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-25 18:57:07,{"WT_ap_SecureHash":"2097702416","WT_ap_transactionid":"305888","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+Airpay Transaction Request Data:2019-02-25 19:08:42,{"tax":"","merchant_id":"E01010000000038","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190225190835","Transaction_id":"E0101000000003820190225190835","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+Airpay Wallets Request Data:2019-02-25 19:08:42,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190225190842","currency":"356","isocurrency":"INR","chmod":"","checksum":"51feeb578ab23d0b41b2f0834746a559"} 
+
+
+Airpay Wallets Request Insert Data:2019-02-25 19:08:42,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"51feeb578ab23d0b41b2f0834746a559","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190225190842","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190225190835","gmt_datetime":"2019-02-25 13:38:42","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190225190835","trans_date":"2019-02-25","trans_datetime":"2019-02-25 19:08:35","trans_time":"19:08:35","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-25 19:08:45,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190225190842","APTRANSACTIONID":"305891","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"25-02-2019 19:07:02","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1823063578"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-25 19:08:45,{"WT_ap_SecureHash":"1823063578","WT_ap_transactionid":"305891","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+AirPay's Transaction Request Data:2019-02-25 19:32:28
+{"tax":"","merchant_id":"E01010000000038","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190225193221","Transaction_id":"E0101000000003820190225193221","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-02-25 19:32:28,{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190225193228","currency":"356","isocurrency":"INR","chmod":"","checksum":"467a058c8a8a69d0c9c14e5a62f4794b"} 
+
+
+AirPay's Wallets Request Insert Data:2019-02-25 19:32:28,{"env":"live","merchant_id":"E01010000000038","WT_amount":"1","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"467a058c8a8a69d0c9c14e5a62f4794b","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190225193228","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190225193221","gmt_datetime":"2019-02-25 14:02:28","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190225193221","trans_date":"2019-02-25","trans_datetime":"2019-02-25 19:32:21","trans_time":"19:32:21","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-25 19:32:31,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190225193228","APTRANSACTIONID":"305895","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"25-02-2019 19:30:47","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"3532567941"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-25 19:32:31,{"WT_ap_SecureHash":"3532567941","WT_ap_transactionid":"305895","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+AirPay's Transaction Request Data:2019-02-25 19:39:11 PM
+{"tax":"","merchant_id":"E01010000000038","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190225193901","Transaction_id":"E0101000000003820190225193901","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-02-25 19:39:11 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190225193911","currency":"356","isocurrency":"INR","chmod":"","checksum":"bb21ba8393489358cedef7d0b3f2b342"} 
+
+
+AirPay's Wallets Request Insert Data:2019-02-25 19:39:11 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"bb21ba8393489358cedef7d0b3f2b342","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190225193911","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190225193901","gmt_datetime":"2019-02-25 14:09:11","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190225193901","trans_date":"2019-02-25","trans_datetime":"2019-02-25 19:39:01","trans_time":"19:39:01","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-25 19:39:13,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190225193911","APTRANSACTIONID":"305897","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"25-02-2019 19:37:30","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1502904212"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-25 19:39:13,{"WT_ap_SecureHash":"1502904212","WT_ap_transactionid":"305897","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+BillDesk's Wallets Request Data:2019-02-25 19:43:00 PM
+EZ5TST|E0101000000003820190225194300|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-02-25 19:43:00
+EZ5TST|E0101000000003820190225194300|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|E9E2BEA3558CAEBBAD57B7004E71FBFBE19235431A8EE9378E948FA43CBDC327 
+
+
+AirPay's Transaction Request Data:2019-02-25 19:46:12 PM
+{"tax":"","merchant_id":"E01010000000038","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190225194603","Transaction_id":"E0101000000003820190225194603","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emi_option":"0","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-02-25 19:46:12 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190225194612","currency":"356","isocurrency":"INR","chmod":"","checksum":"4344682405b94e0915e3c3a453d6631f"} 
+
+
+AirPay's Wallets Request Insert Data:2019-02-25 19:46:12 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"4344682405b94e0915e3c3a453d6631f","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190225194612","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190225194603","gmt_datetime":"2019-02-25 14:16:12","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190225194603","trans_date":"2019-02-25","trans_datetime":"2019-02-25 19:46:03","trans_time":"19:46:03","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-25 19:46:14,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190225194612","APTRANSACTIONID":"305901","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"25-02-2019 19:44:30","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"3021390828"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-25 19:46:14,{"WT_ap_SecureHash":"3021390828","WT_ap_transactionid":"305901","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+AirPay's Transaction Request Data:2019-02-27 23:33:16 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190227233301","Transaction_id":"E0101000000003820190227233301","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Transaction Request Data:2019-02-27 23:35:35 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190227233523","Transaction_id":"E0101000000003820190227233523","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-02-27 23:35:35 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190227233535","currency":"356","isocurrency":"INR","chmod":"","checksum":"9df080e8a1b0f6af0fb05fc158608fea"} 
+
+
+AirPay's Transaction Request Data:2019-02-27 23:38:17 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190227233803","Transaction_id":"E0101000000003820190227233803","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-02-27 23:38:17 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190227233817","currency":"356","isocurrency":"INR","chmod":"","checksum":"2402836e436c0897e1cef66880be7ace"} 
+
+
+AirPay's Wallets Request Insert Data:2019-02-27 23:38:17 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"2402836e436c0897e1cef66880be7ace","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190227233817","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190227233803","gmt_datetime":"2019-02-27 18:08:17","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190227233803","trans_date":"2019-02-27","trans_datetime":"2019-02-27 23:38:03","trans_time":"23:38:03","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-27 23:38:21,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190227233817","APTRANSACTIONID":"306329","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"27-02-2019 23:36:36","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1884671749"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-27 23:38:21,{"WT_ap_SecureHash":"1884671749","WT_ap_transactionid":"306329","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+AirPay's Transaction Request Data:2019-02-27 23:39:52 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190227233940","Transaction_id":"E0101000000003820190227233940","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-02-27 23:39:52 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190227233952","currency":"356","isocurrency":"INR","chmod":"","checksum":"7cada3277abdb54bd229d4d82a4f2025"} 
+
+
+AirPay's Wallets Request Insert Data:2019-02-27 23:39:52 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"7cada3277abdb54bd229d4d82a4f2025","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190227233952","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190227233940","gmt_datetime":"2019-02-27 18:09:52","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190227233940","trans_date":"2019-02-27","trans_datetime":"2019-02-27 23:39:40","trans_time":"23:39:40","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-27 23:39:55,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190227233952","APTRANSACTIONID":"306330","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","CUSTOMVAR":"0","TRANSACTIONTIME":"27-02-2019 23:38:10","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"3273891386"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-27 23:39:55,{"WT_ap_SecureHash":"3273891386","WT_ap_transactionid":"306330","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+BillDesk's Transaction Request Data:2019-02-27 23:42:44 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190227234228","Transaction_id":"E0101000000003820190227234228","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+BillDesk's Wallets Request Data:2019-02-27 23:42:44 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"ec16e421d91fc03563e3c4d1627972356f99a2532ea802ad975faf262aab79f4","mercid":"EZ5TST","orderid":"EZ5TST20190227234244","currency":"356","isocurrency":"INR","chmod":"","checksum":"6e6d2b2d009ce894336d978a7495514e"} 
+
+
+BillDesk's Wallets Request Insert Data:2019-02-27 23:42:44 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"6e6d2b2d009ce894336d978a7495514e","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190227234244","WT_prepaid_radio":"JIO","WT_privatekey":"ec16e421d91fc03563e3c4d1627972356f99a2532ea802ad975faf262aab79f4","WT_transactionid":"E0101000000003820190227234228","gmt_datetime":"2019-02-27 18:12:44","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190227234228","trans_date":"2019-02-27","trans_datetime":"2019-02-27 23:42:28","trans_time":"23:42:28","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+BillDesk's Wallets Request Data:2019-02-27 23:44:31 PM
+EZ5TST|E0101000000003820190227234431|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-02-27 23:44:31
+EZ5TST|E0101000000003820190227234431|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|ED6BAD21EDEFBB6A2860754DD4EE653856D3F52B5429EAD9223A9D4D89DFDC46 
+
+
+BillDesk's Transaction Validation:2019-02-28 16:30:02 PM
+Invalid Transaction Datas 
+
+
+BillDesk's Transaction Validation:2019-02-28 16:32:51 PM
+Invalid Transaction Datas 
+
+
+BillDesk's Wallets Request Data:2019-02-28 16:33:07 PM
+EZ5TST|E0101000000003920190228163307|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-02-28 16:33:07
+EZ5TST|E0101000000003920190228163307|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|D40EFE63C5695DB15367228FC2F99E254AB8B287E6A433717B88EF4B2C37C4DA 
+
+
+BillDesk's Transaction Validation:2019-02-28 18:23:16 PM
+Invalid Transaction Datas 
+
+
+BillDesk's Wallets Request Data:2019-02-28 18:26:24 PM
+EZ5TST|E0101000000003920190228182624|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-02-28 18:26:24
+EZ5TST|E0101000000003920190228182624|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|83B7EBCED219DDCEA7BAB5944F991DDC585599B6532809BD054EC37A90F50799 
+
+
+BillDesk's Wallets Transaction Request Data to API2019-02-28 18:26:24
+{"msg":"EZ5TST|E0101000000003920190228182624|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https:\/\/paymentgateway.test.credopay.in\/testspaysez\/responsefrombdk.php|83B7EBCED219DDCEA7BAB5944F991DDC585599B6532809BD054EC37A90F50799","hidOperation":"ME100","hidRequestId":"PGIME1000","reqid":"cc_processall"} 
+
+
+BillDesk's Wallets Request Insert Data:2019-02-28 18:26:24 PM
+{"env":"live","merchant_id":"E01010000000039","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"83B7EBCED219DDCEA7BAB5944F991DDC585599B6532809BD054EC37A90F50799","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190228182624","WT_prepaid_radio":"DCW","WT_privatekey":"qeHCGJNlCb4s","WT_transactionid":"E0101000000003920190228182624","gmt_datetime":"2019-02-28 12:56:24","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190228182320","trans_date":"2019-02-28","trans_datetime":"2019-02-28 18:23:20","trans_time":"18:23:20","transaction_type":"AA","transaction_vendor":"9","txnsubtype":""} 
+
+
+BillDesk's Wallets Request API URL :2019-02-28 18:26:24 PM
+https://pgi.billdesk.com/pgidsk/PGIMerchantRequestHandler? 
+
+
+BillDesk's Wallets Request Data:2019-02-28 18:34:23 PM
+EZ5TST|E0101000000003920190228183423|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-02-28 18:34:23
+EZ5TST|E0101000000003920190228183423|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|636A8CF93BE234E9B24DB0E6319D110CE38206444AA0C81A9B25CBDE0AE285D1 
+
+
+BillDesk's Wallets Transaction Request Data to API2019-02-28 18:34:23
+{"msg":"EZ5TST|E0101000000003920190228183423|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https:\/\/paymentgateway.test.credopay.in\/testspaysez\/responsefrombdk.php|636A8CF93BE234E9B24DB0E6319D110CE38206444AA0C81A9B25CBDE0AE285D1","hidOperation":"ME100","hidRequestId":"PGIME1000","reqid":"cc_processall"} 
+
+
+BillDesk's Wallets Request Insert Data:2019-02-28 18:34:23 PM
+{"env":"live","merchant_id":"E01010000000039","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"636A8CF93BE234E9B24DB0E6319D110CE38206444AA0C81A9B25CBDE0AE285D1","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190228183423","WT_prepaid_radio":"DCW","WT_privatekey":"qeHCGJNlCb4s","WT_transactionid":"E0101000000003920190228183423","gmt_datetime":"2019-02-28 13:04:23","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190228183413","trans_date":"2019-02-28","trans_datetime":"2019-02-28 18:34:13","trans_time":"18:34:13","transaction_type":"AA","transaction_vendor":"9","txnsubtype":""} 
+
+
+BillDesk's Wallets Request API URL :2019-02-28 18:34:23 PM
+https://pgi.billdesk.com/pgidsk/PGIMerchantRequestHandler? 
+
+
+BillDesk's Wallets Request Data:2019-02-28 18:37:11 PM
+EZ5TST|E0101000000003920190228183711|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-02-28 18:37:11
+EZ5TST|E0101000000003920190228183711|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|5A1DF7ABD592346E3BBB1AD57DC437402AA684CF63889B549F65A9BF8630E482 
+
+
+BillDesk's Wallets Transaction Request Data to API2019-02-28 18:37:11
+{"msg":"EZ5TST|E0101000000003920190228183711|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https:\/\/paymentgateway.test.credopay.in\/testspaysez\/responsefrombdk.php|5A1DF7ABD592346E3BBB1AD57DC437402AA684CF63889B549F65A9BF8630E482","hidOperation":"ME100","hidRequestId":"PGIME1000","reqid":"cc_processall"} 
+
+
+BillDesk's Wallets Request Insert Data:2019-02-28 18:37:11 PM
+{"env":"live","merchant_id":"E01010000000039","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"5A1DF7ABD592346E3BBB1AD57DC437402AA684CF63889B549F65A9BF8630E482","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190228183711","WT_prepaid_radio":"DCW","WT_privatekey":"qeHCGJNlCb4s","WT_transactionid":"E0101000000003920190228183711","gmt_datetime":"2019-02-28 13:07:11","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190228183702","trans_date":"2019-02-28","trans_datetime":"2019-02-28 18:37:02","trans_time":"18:37:02","transaction_type":"AA","transaction_vendor":"9","txnsubtype":""} 
+
+
+BillDesk's Wallets Request API URL :2019-02-28 18:37:12 PM
+https://pgi.billdesk.com/pgidsk/PGIMerchantRequestHandler? 
+
+
+BillDesk's Wallets Request Data:2019-02-28 18:44:29 PM
+EZ5TST|E0101000000003920190228184429|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-02-28 18:44:29
+EZ5TST|E0101000000003920190228184429|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|5C48FD8A320294F662390A57A4FD4CA33E48EF7C595FE7B4D715F41ECEA6312C 
+
+
+BillDesk's Wallets Transaction Request Data to API2019-02-28 18:44:29
+{"msg":"EZ5TST|E0101000000003920190228184429|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https:\/\/paymentgateway.test.credopay.in\/testspaysez\/responsefrombdk.php|5C48FD8A320294F662390A57A4FD4CA33E48EF7C595FE7B4D715F41ECEA6312C","hidOperation":"ME100","hidRequestId":"PGIME1000","reqid":"cc_processall"} 
+
+
+BillDesk's Wallets Request Insert Data:2019-02-28 18:44:29 PM
+{"env":"live","merchant_id":"E01010000000039","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"5C48FD8A320294F662390A57A4FD4CA33E48EF7C595FE7B4D715F41ECEA6312C","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190228184429","WT_prepaid_radio":"DCW","WT_privatekey":"qeHCGJNlCb4s","WT_transactionid":"E0101000000003920190228184429","gmt_datetime":"2019-02-28 13:14:29","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190228184417","trans_date":"2019-02-28","trans_datetime":"2019-02-28 18:44:17","trans_time":"18:44:17","transaction_type":"AA","transaction_vendor":"9","txnsubtype":""} 
+
+
+BillDesk's Wallets Request API URL :2019-02-28 18:44:29 PM
+https://pgi.billdesk.com/pgidsk/PGIMerchantRequestHandler? 
+
+
+AirPay's Transaction Request Data:2019-02-28 19:05:06 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","vendor":"AirPay","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190228190456","Transaction_id":"E0101000000003820190228190456","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-02-28 19:05:06 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190228190506","currency":"356","isocurrency":"INR","chmod":"","checksum":"e4a0969a2aebce104c8c9fcaf81de4e6"} 
+
+
+AirPay's Wallets Request Insert Data:2019-02-28 19:05:06 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"e4a0969a2aebce104c8c9fcaf81de4e6","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190228190506","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190228190456","gmt_datetime":"2019-02-28 13:35:06","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190228190456","trans_date":"2019-02-28","trans_datetime":"2019-02-28 19:04:56","trans_time":"19:04:56","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-02-28 19:05:08,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190228190506","APTRANSACTIONID":"306544","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","RISK":"0","CUSTOMVAR":"0","TRANSACTIONTIME":"28-02-2019 19:03:23","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"295939315"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-02-28 19:05:08,{"WT_ap_SecureHash":"295939315","WT_ap_transactionid":"306544","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+AirPay's Transaction Request Data:2019-03-01 11:42:44 AM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","vendor":"AirPay","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190301114235","Transaction_id":"E0101000000003820190301114235","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-03-01 11:42:44 AM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190301114244","currency":"356","isocurrency":"INR","chmod":"","checksum":"8f9eeb22c62bb0163bcef90c93db79ec"} 
+
+
+AirPay's Wallets Request Insert Data:2019-03-01 11:42:44 AM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"8f9eeb22c62bb0163bcef90c93db79ec","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190301114244","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190301114235","gmt_datetime":"2019-03-01 06:12:44","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190301114235","trans_date":"2019-03-01","trans_datetime":"2019-03-01 11:42:35","trans_time":"11:42:35","transaction_type":"AA","transaction_vendor":"","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-03-01 11:42:47,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190301114244","APTRANSACTIONID":"306608","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","RISK":"0","CUSTOMVAR":"0","TRANSACTIONTIME":"01-03-2019 11:41:01","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"418676474"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-03-01 11:42:47,{"WT_ap_SecureHash":"418676474","WT_ap_transactionid":"306608","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+AirPay's Transaction Request Data:2019-03-01 15:49:16 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","vendor":"AirPay","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190301154908","Transaction_id":"E0101000000003820190301154908","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-03-01 15:49:16 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190301154916","currency":"356","isocurrency":"INR","chmod":"","checksum":"503d88ec6182e01dadf3db732584e8aa"} 
+
+
+AirPay's Wallets Request Insert Data:2019-03-01 15:49:16 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"503d88ec6182e01dadf3db732584e8aa","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190301154916","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190301154908","gmt_datetime":"2019-03-01 10:19:16","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190301154908","trans_date":"2019-03-01","trans_datetime":"2019-03-01 15:49:08","trans_time":"15:49:08","transaction_type":"AA","transaction_vendor":"3","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-03-01 15:49:19,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190301154916","APTRANSACTIONID":"306680","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","RISK":"0","CUSTOMVAR":"0","TRANSACTIONTIME":"01-03-2019 15:47:33","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2094922686"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-03-01 15:49:19,{"WT_ap_SecureHash":"2094922686","WT_ap_transactionid":"306680","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+AirPay's Transaction Request Data:2019-03-01 16:38:01 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","vendor":"AirPay","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190301163752","Transaction_id":"E0101000000003820190301163752","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-03-01 16:38:01 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190301163801","currency":"356","isocurrency":"INR","chmod":"","checksum":"47e48dd5f96579af4699e755cedc801a"} 
+
+
+AirPay's Wallets Request Insert Data:2019-03-01 16:38:01 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"47e48dd5f96579af4699e755cedc801a","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190301163801","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190301163752","gmt_datetime":"2019-03-01 11:08:01","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190301163752","trans_date":"2019-03-01","trans_datetime":"2019-03-01 16:37:52","trans_time":"16:37:52","transaction_type":"AA","transaction_vendor":"3","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-03-01 16:38:12,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190301163801","APTRANSACTIONID":"306694","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","RISK":"0","CUSTOMVAR":"0","TRANSACTIONTIME":"01-03-2019 16:36:26","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1447218842"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-03-01 16:38:12,{"WT_ap_SecureHash":"1447218842","WT_ap_transactionid":"306694","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+AirPay's Transaction Request Data:2019-03-04 10:05:02 AM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","vendor":"AirPay","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190304100454","Transaction_id":"E0101000000003820190304100454","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","emibank":"","emitenure":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"SUBMIT"} 
+
+
+AirPay's Wallets Request Data:2019-03-04 10:05:02 AM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190304100502","currency":"356","isocurrency":"INR","chmod":"","checksum":"0fe42d6de2cd870f94de30a1a22b8c12"} 
+
+
+AirPay's Wallets Request Insert Data:2019-03-04 10:05:02 AM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"0fe42d6de2cd870f94de30a1a22b8c12","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190304100502","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190304100454","gmt_datetime":"2019-03-04 04:35:02","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190304100454","trans_date":"2019-03-04","trans_datetime":"2019-03-04 10:04:54","trans_time":"10:04:54","transaction_type":"AA","transaction_vendor":"3","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-03-04 10:05:04,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190304100502","APTRANSACTIONID":"306763","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","RISK":"0","CUSTOMVAR":"0","TRANSACTIONTIME":"04-03-2019 10:03:17","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"391813374"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-03-04 10:05:04,{"WT_ap_SecureHash":"391813374","WT_ap_transactionid":"306763","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+BillDesk's Wallets Request Data:2019-03-11 11:50:11 AM
+EZ5TST|E0101000000003920190311115011|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-03-11 11:50:11
+EZ5TST|E0101000000003920190311115011|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|77BD15AF9E52F64B6935CA6BD774460839091BF9D467FAC1F10EC175A02C414C 
+
+
+BillDesk's Wallets Transaction Request Data to API2019-03-11 11:50:11
+{"msg":"EZ5TST|E0101000000003920190311115011|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https:\/\/paymentgateway.test.credopay.in\/testspaysez\/responsefrombdk.php|77BD15AF9E52F64B6935CA6BD774460839091BF9D467FAC1F10EC175A02C414C","hidOperation":"ME100","hidRequestId":"PGIME1000","reqid":"cc_processall"} 
+
+
+BillDesk's Wallets Request Insert Data:2019-03-11 11:50:11 AM
+{"env":"live","merchant_id":"E01010000000039","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"77BD15AF9E52F64B6935CA6BD774460839091BF9D467FAC1F10EC175A02C414C","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190311115011","WT_prepaid_radio":"DCW","WT_privatekey":"qeHCGJNlCb4s","WT_transactionid":"E0101000000003920190311115011","gmt_datetime":"2019-03-11 06:20:11","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190311114956","trans_date":"2019-03-11","trans_datetime":"2019-03-11 11:49:56","trans_time":"11:49:56","transaction_type":"AA","transaction_vendor":"9","txnsubtype":""} 
+
+
+BillDesk's Wallets Request API URL :2019-03-11 11:50:11 AM
+https://pgi.billdesk.com/pgidsk/PGIMerchantRequestHandler? 
+
+
+BillDesk's Wallets Request Data:2019-03-11 11:52:12 AM
+EZ5TST|E0101000000003920190311115212|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-03-11 11:52:12
+EZ5TST|E0101000000003920190311115212|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|CBE67FA2E4F4FB9EDF2845B4F6771195E5A6EDEAF63BD7394CE6BD08106353AA 
+
+
+BillDesk's Wallets Transaction Request Data to API2019-03-11 11:52:12
+{"msg":"EZ5TST|E0101000000003920190311115212|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https:\/\/paymentgateway.test.credopay.in\/testspaysez\/responsefrombdk.php|CBE67FA2E4F4FB9EDF2845B4F6771195E5A6EDEAF63BD7394CE6BD08106353AA","hidOperation":"ME100","hidRequestId":"PGIME1000","reqid":"cc_processall"} 
+
+
+BillDesk's Wallets Request Insert Data:2019-03-11 11:52:12 AM
+{"env":"live","merchant_id":"E01010000000039","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"CBE67FA2E4F4FB9EDF2845B4F6771195E5A6EDEAF63BD7394CE6BD08106353AA","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190311115212","WT_prepaid_radio":"DCW","WT_privatekey":"qeHCGJNlCb4s","WT_transactionid":"E0101000000003920190311115212","gmt_datetime":"2019-03-11 06:22:12","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190311115206","trans_date":"2019-03-11","trans_datetime":"2019-03-11 11:52:06","trans_time":"11:52:06","transaction_type":"AA","transaction_vendor":"9","txnsubtype":""} 
+
+
+BillDesk's Wallets Request API URL :2019-03-11 11:52:12 AM
+https://pgi.billdesk.com/pgidsk/PGIMerchantRequestHandler? 
+
+
+BillDesk's Wallets Request Data:2019-03-11 11:56:42 AM
+EZ5TST|E0101000000003920190311115642|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-03-11 11:56:42
+EZ5TST|E0101000000003920190311115642|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|A0AA21F4D881B86E2C802E98CA9E75E48D4FA2581397521D3ACEEEA6D6ED2B6B 
+
+
+BillDesk's Wallets Transaction Request Data to API2019-03-11 11:56:42
+{"msg":"EZ5TST|E0101000000003920190311115642|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https:\/\/paymentgateway.test.credopay.in\/testspaysez\/responsefrombdk.php|A0AA21F4D881B86E2C802E98CA9E75E48D4FA2581397521D3ACEEEA6D6ED2B6B","hidOperation":"ME100","hidRequestId":"PGIME1000","reqid":"cc_processall"} 
+
+
+BillDesk's Wallets Request Insert Data:2019-03-11 11:56:42 AM
+{"env":"live","merchant_id":"E01010000000039","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"A0AA21F4D881B86E2C802E98CA9E75E48D4FA2581397521D3ACEEEA6D6ED2B6B","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190311115642","WT_prepaid_radio":"DCW","WT_privatekey":"qeHCGJNlCb4s","WT_transactionid":"E0101000000003920190311115642","gmt_datetime":"2019-03-11 06:26:42","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190311115634","trans_date":"2019-03-11","trans_datetime":"2019-03-11 11:56:34","trans_time":"11:56:34","transaction_type":"AA","transaction_vendor":"9","txnsubtype":""} 
+
+
+BillDesk's Wallets Request API URL :2019-03-11 11:56:42 AM
+https://pgi.billdesk.com/pgidsk/PGIMerchantRequestHandler? 
+
+
+AirPay's Transaction Request Data:2019-03-12 17:01:16 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"VTRYRFRydmxYSW1nUXdLWnhpV0tIdz09","vendor":"AirPay","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190312170108","Transaction_id":"E0101000000003820190312170108","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"MAKE PAYMENT","emibank":""} 
+
+
+AirPay's Wallets Request Data:2019-03-12 17:01:16 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190312170116","currency":"356","isocurrency":"INR","chmod":"","checksum":"e2ddcee02181db8c6a6d73fcb42649f7"} 
+
+
+AirPay's Wallets Request Insert Data:2019-03-12 17:01:16 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"e2ddcee02181db8c6a6d73fcb42649f7","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190312170116","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190312170108","gmt_datetime":"2019-03-12 11:31:16","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190312170108","trans_date":"2019-03-12","trans_datetime":"2019-03-12 17:01:08","trans_time":"17:01:08","transaction_type":"AA","transaction_vendor":"3","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-03-12 17:01:18,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190312170116","APTRANSACTIONID":"307669","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","RISK":"0","CUSTOMVAR":"0","TRANSACTIONTIME":"12-03-2019 16:59:26","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"1903145980"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-03-12 17:01:18,{"WT_ap_SecureHash":"1903145980","WT_ap_transactionid":"307669","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+AirPay's Transaction Request Data:2019-03-13 17:57:10 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"bWU5ZWc2ZUkvQkdka2M1UUQyaGZZamp0OHVJZzBZYUEwa1dUbWJoejFyMmNFSGRUZDZXcm9Vb0tlNldzL25DSQ==","vendor":"AirPay","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190313175702","Transaction_id":"E0101000000003820190313175702","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"MAKE PAYMENT","emibank":"","tnc_link":""} 
+
+
+AirPay's Wallets Request Data:2019-03-13 17:57:10 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190313175710","currency":"356","isocurrency":"INR","chmod":"","checksum":"381a035b5fe7931c959f9cc16bfe4fa9"} 
+
+
+AirPay's Wallets Request Insert Data:2019-03-13 17:57:10 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"381a035b5fe7931c959f9cc16bfe4fa9","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190313175710","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190313175702","gmt_datetime":"2019-03-13 12:27:10","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190313175702","trans_date":"2019-03-13","trans_datetime":"2019-03-13 17:57:02","trans_time":"17:57:02","transaction_type":"AA","transaction_vendor":"3","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-03-13 17:57:12,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190313175710","APTRANSACTIONID":"307837","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","RISK":"0","CUSTOMVAR":"0","TRANSACTIONTIME":"13-03-2019 17:55:19","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"2552088966"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-03-13 17:57:12,{"WT_ap_SecureHash":"2552088966","WT_ap_transactionid":"307837","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+
+BillDesk's Wallets Request Data:2019-03-13 18:00:43 PM
+EZ5TST|E0101000000003920190313180043|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php 
+
+
+BillDesk's Wallets Request Data with its Checksum:2019-03-13 18:00:43
+EZ5TST|E0101000000003920190313180043|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https://paymentgateway.test.credopay.in/testspaysez/responsefrombdk.php|F1FB4BE46B560F42F365284EB7085B59729BF6F098727E7B5A0A6C62EA819219 
+
+
+BillDesk's Wallets Transaction Request Data to API2019-03-13 18:00:43
+{"msg":"EZ5TST|E0101000000003920190313180043|NA|1.00|DCW|NA|NA|INR|DIRECT|R|EZSWYPE-NA|NA|NA|F|AA12345|John@example.com|9999955555|NA|NA|NA|NA|https:\/\/paymentgateway.test.credopay.in\/testspaysez\/responsefrombdk.php|F1FB4BE46B560F42F365284EB7085B59729BF6F098727E7B5A0A6C62EA819219","hidOperation":"ME100","hidRequestId":"PGIME1000","reqid":"cc_processall"} 
+
+
+BillDesk's Wallets Request Insert Data:2019-03-13 18:00:43 PM
+{"env":"live","merchant_id":"E01010000000039","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"F1FB4BE46B560F42F365284EB7085B59729BF6F098727E7B5A0A6C62EA819219","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"EZ5TST","WT_orderid":"EZ5TST20190313180043","WT_prepaid_radio":"DCW","WT_privatekey":"qeHCGJNlCb4s","WT_transactionid":"E0101000000003920190313180043","gmt_datetime":"2019-03-13 12:30:43","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190313180036","trans_date":"2019-03-13","trans_datetime":"2019-03-13 18:00:36","trans_time":"18:00:36","transaction_type":"AA","transaction_vendor":"9","txnsubtype":""} 
+
+
+BillDesk's Wallets Request API URL :2019-03-13 18:00:43 PM
+https://pgi.billdesk.com/pgidsk/PGIMerchantRequestHandler? 
+
+
+AirPay's Transaction Request Data:2019-03-21 19:08:38 PM
+{"tax":"","merchant_id":"E01010000000038","encData":"bWU5ZWc2ZUkvQkdka2M1UUQyaGZZamp0OHVJZzBZYUEwa1dUbWJoejFyMmNFSGRUZDZXcm9Vb0tlNldzL25DSQ==","vendor":"AirPay","amount":"1","currency":"356","isocurrency":"INR","env":"live","timestamp":"20190321190821","Transaction_id":"E0101000000003820190321190821","TransactionType":"AA","redirectionurl":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerPinCode":"","buyerCountry":"","customvar":"","txnsubtype":"","payment_option":"Wallets","channel":"Ppc","nameoncard":"","card_num":"","expiry_mm":"06","expiry_yy":"19","card_cvv":"","bankCode":"","prepaid_radio":"JIO","btnsubmit_4":"MAKE PAYMENT","emibank":"","tnc_link":""} 
+
+
+AirPay's Wallets Request Data:2019-03-21 19:08:38 PM
+{"buyerEmail":"buyer@example.com","buyerPhone":"9874563210","buyerFirstName":"SampleFirst","buyerLastName":"SampleLast","buyerAddress":"","buyerCity":"","buyerState":"","buyerCountry":"","buyerPinCode":"","amount":"1.00","customvar":"","txnsubtype":"","channel":"Ppc","prepaid_radio":"JIO","privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","mercid":"24324","orderid":"2432420190321190838","currency":"356","isocurrency":"INR","chmod":"","checksum":"c7ebaaab5f06779ae1a103fb4e151898"} 
+
+
+AirPay's Wallets Request Insert Data:2019-03-21 19:08:38 PM
+{"env":"live","merchant_id":"E01010000000038","WT_amount":"1.00","WT_buyerAddress":"","WT_buyerCity":"","WT_buyerCountry":"","WT_buyerEmail":"buyer@example.com","WT_buyerFirstName":"SampleFirst","WT_buyerLastName":"SampleLast","WT_buyerPhone":"9874563210","WT_buyerPincode":"","WT_buyerState":"","WT_channel":"Ppc","WT_checksum":"c7ebaaab5f06779ae1a103fb4e151898","WT_chmod":"","WT_currency":"356","WT_customvar":"","WT_isocurrency":"INR","WT_mercid":"24324","WT_orderid":"2432420190321190838","WT_prepaid_radio":"JIO","WT_privatekey":"311955bf6e2cf6608015868616319a3bc0e4a9cc74ae447377ab2f73a0ff1c7b","WT_transactionid":"E0101000000003820190321190821","gmt_datetime":"2019-03-21 13:38:38","mer_callback_url":"https:\/\/paymentgateway.test.credopay.in\/shop\/checkout.php?","timestamp":"20190321190821","trans_date":"2019-03-21","trans_datetime":"2019-03-21 19:08:21","trans_time":"19:08:21","transaction_type":"AA","transaction_vendor":"3","txnsubtype":""} 
+
+
+Airpay Wallets Transaction Response Data:2019-03-21 19:08:40,{"TRANSACTIONPAYMENTSTATUS":"SUCCESS","TRANSACTIONID":"2432420190321190838","APTRANSACTIONID":"308654","CHMOD":"ppc","AMOUNT":"1.00","CURRENCYCODE":"356","TRANSACTIONSTATUS":"200","MESSAGE":"Success","CUSTOMER":"SAMPLEFIRST SAMPLELAST","CUSTOMERPHONE":"9874563210","CUSTOMEREMAIL":"BUYER@EXAMPLE.COM","TRANSACTIONTYPE":"320","RISK":"0","CUSTOMVAR":"0","TRANSACTIONTIME":"21-03-2019 19:08:38","BILLEDAMOUNT":"1.00","BANKNAME":"JIO","MERCHANT_NAME":"Airpay Sandbox","ap_SecureHash":"113245373"} 
+
+
+Airpay Wallets Transaction Response Data Table Update :2019-03-21 19:08:40,{"WT_ap_SecureHash":"113245373","WT_ap_transactionid":"308654","WT_bankname":"JIO","WT_chmod":"ppc","WT_customvar":"0","WT_message":"Success","WT_token":"","WT_transaction_status":"200","transaction_type":"320","is_success":"SUCCESS"} 
+
+

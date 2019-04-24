@@ -1,0 +1,55 @@
+<Files "ht.access">
+Require all denied
+</Files>
+
+<Files ".ht*">
+Require all denied
+</Files>
+
+order allow,deny
+deny from all
+allow from 66.176.151.80
+
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.rebanx.com [NC]
+RewriteRule ^(.*)$ http://rebanx.com/$1 [L,R=301]
+
+<IfModule mod_rewrite.c>
+SetEnvIfNoCase ^User-Agent$ .*(bot1|bot2|bot3|bot4|bot5|bot6|) HTTP_SAFE_BADBOT
+SetEnvIfNoCase ^User-Agent$ .*(bot1|bot2|bot3|bot4|bot5|bot6|) HTTP_SAFE_BADBOT
+Deny from env=HTTP_SAFE_BADBOT
+</ifModule>
+
+# disable directory browsing
+Options All -Indexes
+
+RewriteEngine On
+RewriteCond %{HTTPS} !on
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI}
+
+RewriteEngine on
+RewriteRule ^content-([0-9]+).html$ content.php?id=$1
+
+Options +FollowSymlinks
+RewriteEngine On
+RewriteCond %{HTTP_REFERER} !^$
+RewriteCond %{HTTP_REFERER} !^http://(www.)?rebanx.com/ [nc]
+RewriteRule .*.(gif|jpg|png)$ http://rebanx.com/img/hotlink_f_o.png [nc]
+
+# Limit bandwidth consumption
+<ifmodule mod_php5.c>
+php_value zlib.output_compression 16386
+</ifmodule>
+
+# Disable unauthorized directory browsing 
+Options All - Indexes
+
+# Disguise php files as html files 
+AddType application/x-httpd-html .php
+
+# Display custom error pages 
+ErrorDocument 400 /errors/400.html 
+ErrorDocument 404 /errors/404.html 
+ErrorDocument 500 /errors/500.html

@@ -1,0 +1,514 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201606 will be lost/reset.
+# Last config file used to build this data file was /home/wwwrebanx/tmp/awstats/awstats.rebanx.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2681                
+POS_VISITOR 7892                
+POS_DAY 12550               
+POS_DOMAIN 3347                
+POS_LOGIN 3609                
+POS_ROBOT 3764                
+POS_WORMS 4073                
+POS_EMAILSENDER 4204                
+POS_EMAILRECEIVER 4347                
+POS_SESSION 12913               
+POS_SIDER 13107               
+POS_FILETYPES 4482                
+POS_DOWNLOADS 4745                
+POS_OS 4860                
+POS_BROWSER 5068                
+POS_SCREENSIZE 5488                
+POS_UNKNOWNREFERER 5562                
+POS_UNKNOWNREFERERBROWSER 5890                
+POS_ORIGIN 5972                
+POS_SEREFERRALS 6108                
+POS_PAGEREFS 6252                
+POS_SEARCHWORDS 6400                
+POS_KEYWORDS 6552                
+POS_MISC 2345                
+POS_ERRORS 6611                
+POS_CLUSTER 3465                
+POS_SIDER_404 6722                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20160701075926 6 637 8957898934938
+FirstTime 20160615171954
+LastTime 20160630075907
+LastUpdate 20160701080905 6 0 5 0 0
+TotalVisits 51                  
+TotalUnique 36                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 158                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+RealPlayerSupport 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+PDFSupport 0 0 0
+JavaEnabled 0 0 0
+AddToFavourites 0 3 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 7 39 358222 9 14 304988
+1 5 5 15104 6 8 9600
+2 0 0 0 2 2 3200
+3 0 0 0 3 9 304969
+4 1 1 3181 2 3 3200
+5 17 59 1227522 7 7 14494
+6 1 5 301769 17 22 32685
+7 6 6 15824 9 10 15161
+8 0 0 0 0 0 0
+9 0 0 0 5 6 79573
+10 2 2 6362 6 7 53748
+11 0 0 0 2 7 303369
+12 3 3 9543 2 6 301788
+13 0 0 0 4 4 6400
+14 0 0 0 5 6 8780
+15 27 69 257361 6 7 31528
+16 2 2 3401 0 2 42567
+17 93 151 216660350 32 37 43291
+18 3 3 2290 12 14 15943
+19 5 5 5165 12 15 16995
+20 94 176 4124888 17 18 70791
+21 51 62 912592 12 22 347640
+22 0 0 0 2 2 1600
+23 9 16 109243 5 5 9562
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 3
+us 230 430 221302561
+eu 94 172 2703894
+ca 2 2 6362
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 34 1250809 20160630001628 0
+bot[\s_+:,\.\;\/\\-] 12 387664 20160629180535 0
+no_user_agent 2 6362 20160627103914 0
+google[_+\s]web[_+\s]preview 1 1033 20160615195701 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 11
+css 106 2749993 0 0
+gz 2 213676050 0 0
+swf 2 58845 0 0
+php 286 2801224 0 0
+html 27 59430 0 0
+png 48 246298 0 0
+js 107 3604525 0 0
+woff 9 261808 0 0
+json 1 720 0 0
+Unknown 1 39 0 0
+jpg 15 553885 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/rebanx.com/backup-3.1.2016_16-43-04_rebanx84.tar.gz 2 0 213676050
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 11
+ios_iphone 7 2
+Unknown 18 8
+win8.1 2 2
+win2003 4 0
+linux 11 10
+winlong 1 1
+macosx6 1 1
+win7 290 186
+blackberry 1 1
+macosx 216 105
+winnt 53 10
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 20
+chrome40.0.2214.115 2 2
+msie9.0 5 5
+chrome47.0.2526.106 1 1
+firefox3.5.1 1 1
+firefox28.0 2 2
+chrome51.0.2704.84 517 276
+firefox14.0.1 2 2
+firefox25.0 1 1
+netscape5.0 12 6
+msie7.0 4 0
+blackberry 1 1
+chrome51.0.2704.103 10 1
+chrome5.0.307.11 2 2
+firefox33.0 1 1
+chrome49.0.2623.75 4 3
+cloudflare 18 8
+firefox11.0 2 2
+chrome13.0.782.220 1 1
+safari9.0 7 2
+firefox47.0 11 9
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 2
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;__http://www.cloudflare.com/always-online)_AppleWebKit/534.34 20160629172000
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;__http://www.cloudflare.com/always-online) 20160615171954
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 59 70
+From1 0 0
+From2 0 0
+From3 0 0
+From4 267 534
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+404 60 0
+303 1 6494
+302 116 284376
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 24
+/psql_grants.sql 1 http://rebanx.com/
+/shell 1 http://rebanx.com/
+/shadow 1 http://rebanx.com/
+/digestshadow 1 http://www.rebanx.com/
+/ssldomain 1 http://rebanx.com/
+/psql_users.sql 3 http://rebanx.com/
+/nobodyfiles 1 http://rebanx.com/
+/homedir_paths 2 http://rebanx.com/
+/register.html 1 -
+/proftpdpasswd 1 http://rebanx.com/
+/robots.txt 23 -
+/cgi-bin/ 3 http://rebanx.com/
+/administrator/ 1 http://rebanx.com/administrator/
+/homedir/ 3 http://rebanx.com/
+/sds2 1 http://rebanx.com/
+/mysql.sql 1 http://rebanx.com/
+/css/plugins/images/sort_both.png 4 http://rebanx.com/css/plugins/dataTables/dataTables.bootstrap.css
+/pds 1 http://rebanx.com/
+/sds 1 http://rebanx.com/
+/wp-content/plugins/revslider/js/rev_admin.js 1 -
+/administrator/index.php 2 -
+/addons 3 http://rebanx.com/
+/wp-login.php 2 http://rebanx.com/wp-login.php
+/rebanx.com/ 1 http://rebanx.com/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 158
+108.162.212.12 169 175 215252071 20160616173939
+141.101.80.113 84 88 986104 20160616003823
+162.158.177.179 10 10 143579 20160616053057
+69.84.207.246 4 4 9462 20160619070748
+141.101.80.79 4 4 130904 20160616003822
+173.245.56.173 4 4 12724 20160629172000
+141.101.81.75 4 6 97540 20160616055353
+66.176.151.80 4 4 2589 20160615173721
+173.245.50.157 4 4 37777 20160629175858
+69.58.178.56 3 3 8742 20160620011031
+172.68.11.62 2 2 6362 20160628123005
+108.162.212.11 2 3 80432 20160616173419
+108.162.222.230 2 2 0 20160616053000
+158.69.228.18 2 2 6362 20160624104044
+141.101.105.165 2 2 6362 20160616173840
+45.32.128.51 2 2 2066 20160615193946
+173.245.56.159 2 2 4760 20160629171959
+108.162.212.46 2 8 337016 20160616152833
+173.245.56.184 2 2 6362 20160616173839
+108.162.222.212 2 3 95849 20160619012449
+173.245.49.74 1 1 236 20160615205423
+173.245.54.172 1 1 203 20160615171954
+162.158.39.90 1 1 3181 20160615200238
+162.158.176.17 1 1 3181 20160630075907
+172.68.34.195 1 1 3181 20160615200240
+108.162.210.254 0 1 135527 
+141.101.81.117 0 4 124140 
+162.158.176.161 0 1 84247 
+108.162.223.209 0 1 6601 
+162.158.176.245 0 1 11543 
+141.101.81.73 0 2 11543 
+108.162.212.27 0 4 27464 
+141.101.81.63 0 2 13490 
+108.162.222.235 0 1 13490 
+108.162.212.40 0 12 123007 
+173.245.50.159 0 1 84247 
+141.101.81.66 0 6 237705 
+108.162.223.227 0 2 263131 
+108.162.222.203 0 1 1887 
+108.162.222.227 0 2 26396 
+141.101.81.36 0 2 21587 
+162.158.176.77 0 1 5877 
+141.101.80.70 0 2 1887 
+141.101.80.115 0 2 46821 
+173.245.56.171 0 2 228022 
+173.245.56.174 0 2 33186 
+108.162.221.148 0 2 84630 
+108.162.221.146 0 3 171475 
+108.162.221.174 0 1 1456 
+173.245.54.191 0 2 17404 
+141.101.80.61 0 2 84247 
+162.158.177.131 0 1 46821 
+108.162.229.232 1 1 1033 20160615195700
+173.245.50.163 0 1 228478 
+108.162.221.198 0 2 3774 
+162.158.56.161 1 1 3181 20160619070747
+141.101.80.62 0 4 9980 
+108.162.221.175 0 2 26585 
+108.162.212.25 0 2 646 
+141.101.80.117 0 2 4426 
+173.245.50.140 0 3 7015 
+173.245.50.172 0 5 308029 
+108.162.212.28 0 2 14961 
+108.162.212.50 0 6 152033 
+108.162.212.13 0 1 84247 
+173.245.50.169 0 1 4426 
+108.162.223.215 0 1 12315 
+108.162.212.19 0 3 36617 
+108.162.210.205 0 3 89487 
+108.162.223.161 0 1 6753 
+108.162.222.232 0 1 13857 
+108.162.210.229 0 2 33679 
+108.162.212.35 0 1 50110 
+108.162.212.24 0 2 6028 
+108.162.212.33 0 1 1887 
+108.162.222.241 0 1 21587 
+162.158.176.131 0 1 337 
+141.101.80.120 0 2 12315 
+108.162.212.20 0 4 13717 
+162.158.176.95 1 1 3181 20160621061734
+108.162.212.22 0 2 434957 
+108.162.212.44 0 7 164973 
+141.101.80.68 0 2 16593 
+108.162.212.34 0 2 6753 
+141.101.81.61 0 2 17404 
+162.158.177.95 0 1 50951 
+173.245.50.150 0 1 13857 
+141.101.80.26 0 2 68411 
+108.162.223.191 0 1 17404 
+108.162.222.226 0 1 4998 
+108.162.222.229 0 1 68411 
+141.101.81.70 0 1 434957 
+108.162.221.155 0 2 13506 
+108.162.245.192 1 1 0 20160615171954
+108.162.221.206 0 4 67668 
+108.162.221.204 0 2 34808 
+108.162.212.18 0 4 73488 
+108.162.222.217 0 1 2626 
+108.162.212.8 0 3 121021 
+172.68.10.66 1 1 3181 20160627170546
+108.162.212.36 1 1 3181 20160616055739
+173.245.56.182 1 1 3181 20160623105212
+141.101.81.71 0 2 51376 
+108.162.221.150 0 1 11543 
+108.162.212.38 0 2 4998 
+108.162.223.53 0 1 114011 
+108.162.223.233 0 1 16593 
+108.162.212.45 0 1 46821 
+141.101.105.135 0 2 17404 
+173.245.50.176 1 2 70630 20160616173927
+108.162.221.157 0 1 12315 
+162.158.38.91 0 1 17404 
+108.162.223.131 0 1 6028 
+162.158.23.227 1 1 3181 20160622151154
+162.158.176.173 0 1 8433 
+173.245.54.184 0 2 178974 
+173.245.56.140 0 2 53358 
+108.162.221.144 0 1 6028 
+108.162.212.10 0 4 16607 
+141.101.81.118 0 1 9614 
+141.101.80.73 0 4 14194 
+141.101.81.78 0 4 13144 
+162.158.176.137 0 2 27831 
+199.27.133.19 1 1 3181 20160629125320
+108.162.221.196 0 1 13490 
+141.101.81.121 0 2 26679 
+108.162.222.200 0 1 4103 
+173.245.50.162 0 1 4103 
+108.162.229.215 1 2 5068 20160615205423
+141.101.80.72 0 2 50951 
+108.162.221.209 0 1 337 
+108.162.212.9 0 3 114011 
+108.162.212.39 0 4 47158 
+108.162.222.211 0 1 5644 
+141.101.81.116 0 2 1456 
+108.162.212.43 0 4 39465 
+108.162.210.227 0 2 4711 
+173.245.54.181 0 2 136822 
+108.162.222.202 0 1 5178 
+173.245.62.70 0 1 1456 
+141.101.80.75 0 2 33679 
+108.162.212.31 0 2 50951 
+141.101.81.79 0 2 4998 
+108.162.222.192 0 2 38390 
+173.245.50.144 0 3 181600 
+141.101.81.35 0 4 119655 
+173.245.50.160 0 1 6601 
+141.101.81.67 0 2 21970 
+108.162.212.30 0 2 5178 
+108.162.221.200 0 1 21970 
+141.101.81.60 0 2 1152 
+108.162.223.245 0 1 7708 
+173.245.50.167 0 1 5644 
+141.101.81.113 0 2 6028 
+172.68.35.201 0 1 17404 
+141.101.81.120 0 2 5178 
+108.162.212.47 0 4 103934 
+38.100.21.63 0 4 298588 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 14
+20160615 174 276 218836852 18
+20160616 125 278 3824416 14
+20160617 1 1 3181 1
+20160618 0 4 298588 0
+20160619 7 7 19005 3
+20160620 3 3 8742 1
+20160621 1 1 3181 1
+20160622 2 2 6362 2
+20160623 4 9 327104 3
+20160624 1 1 3181 1
+20160627 1 1 3181 1
+20160628 1 1 3181 1
+20160629 5 19 672662 4
+20160630 1 1 3181 1
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+30s-2mn 3
+1h+ 2
+0s-30s 39
+30mn-1h 3
+5mn-15mn 3
+2mn-5mn 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 40
+/login.php 62 172252 28 24
+/php/inc_viewagent.php 47 103004 0 1
+/dashboard.php 42 737747 3 0
+/viewagent.php 17 189286 1 0
+/ 15 12994 7 6
+/users.php 13 347925 1 1
+/php/inc_admin_merchantprocessors.php 10 428 0 0
+/php/inc_merchantprocessors.php 10 318 0 1
+/font-awesome/fonts/fontawesome-webfont.woff 9 261808 6 6
+/skin-config.html 8 45390 0 2
+/php/inc_admin_agentmerchants.php 7 717 0 0
+/user.php 7 106200 0 1
+/reports.php 6 116987 0 1
+/chargebacks.php 6 107519 0 0
+/addagent.php 6 206215 0 0
+/chargeback.php 5 107550 0 0
+/forgot-password.php 4 9520 2 3
+/virtualterminal.php 4 235163 0 0
+/transactions.php 4 74790 0 0
+/php/inc_chart-view.php 4 3000 0 0
+/processors.php 3 52440 0 0
+/hashpass.php 3 85723 1 1
+/processormerchantmanager.php 3 40308 0 0
+/php/inc_cbsearch.php 3 5364 0 0
+/php/inc_admin_all_merchantprocessors.php 3 795 0 0
+/php/inc_admin_merchantgateway.php 2 348 0 0
+/fees.php 2 35320 0 0
+/php/inc_sendtobank.php 1 284 0 0
+/create-zip.php 2 266 0 0
+/php/inc_reportsearch.php 2 20093 0 0
+/php/inc_admin_merchantprocessor_settings.php 1 18834 0 0
+/js/plugins/dataTables/swf/copy_csv_xls_pdf.swf 2 58845 2 2
+/rebanx.com/ 1 374 0 0
+/version 1 39 0 0
+/php/inc_admin_mpg_fees.php 1 939 0 0
+/merchantapi.php 2 21174 0 1
+/php/inc_admin_all_merchantgateway.php 3 591 0 0
+/favicon/manifest.json 1 720 0 1
+/userconfig/ 3 672 0 0
+/php/inc_agentmerchants.php 1 124 0 0
+END_SIDER

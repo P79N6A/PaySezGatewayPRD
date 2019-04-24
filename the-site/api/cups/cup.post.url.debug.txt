@@ -1,0 +1,1 @@
+$url = http://payment-test.chinapay.com/pay/TransGet

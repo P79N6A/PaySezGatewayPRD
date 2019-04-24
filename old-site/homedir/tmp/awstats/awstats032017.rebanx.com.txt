@@ -1,0 +1,279 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201703 will be lost/reset.
+# Last config file used to build this data file was /home/wwwrebanx/tmp/awstats/awstats.rebanx.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2686                
+POS_VISITOR 6033                
+POS_DAY 6177                
+POS_DOMAIN 3217                
+POS_LOGIN 3448                
+POS_ROBOT 3603                
+POS_WORMS 3735                
+POS_EMAILSENDER 3866                
+POS_EMAILRECEIVER 4009                
+POS_SESSION 6358                
+POS_SIDER 6535                
+POS_FILETYPES 4144                
+POS_DOWNLOADS 4369                
+POS_OS 4471                
+POS_BROWSER 4549                
+POS_SCREENSIZE 4642                
+POS_UNKNOWNREFERER 4716                
+POS_UNKNOWNREFERERBROWSER 4803                
+POS_ORIGIN 4885                
+POS_SEREFERRALS 5021                
+POS_PAGEREFS 5165                
+POS_SEARCHWORDS 5313                
+POS_KEYWORDS 5465                
+POS_MISC 2350                
+POS_ERRORS 5524                
+POS_CLUSTER 3304                
+POS_SIDER_404 5622                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20170319153516 11 2221 11276027937628
+FirstTime 20170307153416
+LastTime 20170319153516
+LastUpdate 20170320080457 11 0 11 0 0
+TotalVisits 6                   
+TotalUnique 1                   
+MonthHostsKnown 0                   
+MonthHostsUnknown 1                   
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavascriptDisabled 0 0 0
+QuickTimeSupport 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+FlashSupport 0 0 0
+AddToFavourites 0 2 0
+PDFSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 0 0 0
+1 0 0 0 0 0 0
+2 0 0 0 0 0 0
+3 0 0 0 0 0 0
+4 0 0 0 0 0 0
+5 0 0 0 0 0 0
+6 0 0 0 0 0 0
+7 0 0 0 0 0 0
+8 0 0 0 0 0 0
+9 0 0 0 0 0 0
+10 0 0 0 0 0 0
+11 0 0 0 0 0 0
+12 0 0 0 0 0 0
+13 1 8 326267 1 1 1600
+14 0 0 0 0 0 0
+15 102 183 5251121 15 18 225154
+16 0 0 0 0 0 0
+17 154 217 5911245 30 35 411736
+18 24 49 1381241 5 6 76423
+19 0 0 0 0 0 0
+20 0 0 0 0 0 0
+21 0 0 0 0 0 0
+22 0 0 0 0 0 0
+23 0 0 0 0 0 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+us 281 457 12869874
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 9
+pdf 2 748394 0 0
+html 1 7565 0 0
+css 34 1063256 0 0
+woff 4 261808 0 0
+jpg 11 584580 0 0
+js 108 6802674 0 0
+png 21 98587 0 0
+php 273 3126475 0 0
+swf 3 176535 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/api/API-MerchantManual(Version%201.0).pdf 2 0 748394
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 1
+win7 457 281
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 2
+chrome56.0.2924.87 450 280
+firefox52.0 7 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 0
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 15 16
+From1 0 0
+From2 0 0
+From3 0 0
+From4 266 441
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 0
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 51 629779
+404 7 0
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1
+/css/plugins/images/sort_both.png 7 http://rebanx.com/css/plugins/dataTables/dataTables.bootstrap.css
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 1
+66.176.151.80 281 457 12869874 20170319153516 20170319153516 /login.php
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 5
+20170307 72 128 3542928 1
+20170309 24 49 1381241 1
+20170310 29 54 1705012 1
+20170318 154 217 5911245 1
+20170319 2 9 329448 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 4
+0s-30s 1
+5mn-15mn 2
+2mn-5mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 35
+/dashboard.php 64 1241523 0 3
+/php/inc_viewagent.php 63 64726 0 0
+/viewagent.php 31 363799 0 0
+/login.php 18 57258 6 1
+/php/inc_admin_agentmerchants.php 11 199 0 0
+/addagent.php 7 268527 0 0
+/chargebacks.php 7 125204 0 1
+/users.php 5 148120 0 0
+/merchantapi.php 5 55771 0 0
+/reports.php 5 101705 0 0
+/php/inc_chart-view.php 5 3753 0 0
+/merchantreports.php 4 41659 0 0
+/processors.php 4 71336 0 0
+/php/inc_monthlyreports.php 4 78040 0 0
+/font-awesome/fonts/fontawesome-webfont.woff 4 261808 0 0
+/virtualterminal.php 4 237892 0 0
+/php/inc_cbsearch.php 3 8886 0 0
+/php/inc_processoredit.php 3 13636 0 0
+/js/plugins/dataTables/swf/copy_csv_xls_pdf.swf 3 176535 0 0
+/chargeback.php 3 61339 0 0
+/php/inc_sendtobank.php 3 852 0 0
+/php/inc_admin_merchantprocessors.php 3 428 0 0
+/fees.php 3 53802 0 0
+/php/inc_admin_merchantprocessor_settings.php 2 37638 0 0
+/php/inc_admin_merchantgateway.php 2 348 0 0
+/php/inc_reportsearch.php 1 6525 0 0
+/processormerchantmanager.php 2 26986 0 0
+/php/inc_admin_mpg_fees.php 2 1880 0 0
+/create-zip.php 2 266 0 0
+/addmerchant.php 1 49862 0 0
+/php/inc_admin_all_merchantprocessors.php 2 530 0 0
+/php/inc_transsearch.php 1 2548 0 0
+/php/inc_admin_all_merchantgateway.php 2 464 0 0
+/skin-config.html 1 7565 0 0
+/phpexcel/report.php 1 973 0 0
+END_SIDER

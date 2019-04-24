@@ -1,0 +1,57 @@
+# Copyright (c) 1993-2009 Microsoft Corp.
+
+# For example:
+#
+#      102.54.94.97     rhino.acme.com          # source server
+#       38.25.63.10     x.acme.com              # x client host
+
+# localhost name resolution is handled within DNS itself.
+#	127.0.0.1       localhost
+#	::1             localhost
+
+#206.51.227.122 usffi.com
+#206.51.227.122 www.usffi.com 
+
+#173.236.88.34	globalspecialeffects.com
+#173.236.88.34	www.globalspecialeffects.com
+
+10.1.1.21	ptnfs
+//206.51.227.122	brainathletics.com
+#adobe stuff
+#23.20.219.120	chat.cardgenius.com
+127.0.0.1   activate.adobe.com
+127.0.0.1   practivate.adobe.com
+127.0.0.1   ereg.adobe.com
+127.0.0.1   activate.wip3.adobe.com
+127.0.0.1   wip3.adobe.com
+127.0.0.1   3dns-3.adobe.com
+127.0.0.1   3dns-2.adobe.com
+127.0.0.1   adobe-dns.adobe.com
+127.0.0.1   adobe-dns-2.adobe.com
+127.0.0.1   adobe-dns-3.adobe.com
+127.0.0.1   ereg.wip3.adobe.com
+127.0.0.1   activate-sea.adobe.com
+127.0.0.1   wwis-dubc1-vip60.adobe.com
+127.0.0.1   activate-sjc0.adobe.com
+127.0.0.1	localhost 
+
+#192.223.30.244  secure.profitorius.com
+
+#windows server
+#192.223.30.244 secure.profitorius.com
+#162.248.88.249 secure.paspx.com
+#162.248.88.201 gateway.onsoftarchpayments.com
+#162.248.88.194 gw.veripay.co.uk
+#216.52.143.238 secure.salestar.com
+#216.52.143.116 secure.eurobalticcardservice.com
+#216.52.143.116 earthpayments.net
+
+#ubuntu server box3
+#192.223.26.40  secure.profitorius.com
+192.223.26.40 secure.paspx.com
+192.223.26.40 gateway.onsoftarchpayments.com
+192.223.26.40 gw.veripay.co.uk
+192.223.26.40 secure.salestar.com
+192.223.26.40 secure.eurobalticcardservice.com
+192.223.26.40 earthpayments.net
+#162.252.82.205 empss.com

@@ -1,0 +1,2 @@
+AuthName "transactions"
+AuthUserFile "/home/rebanx84/.htpasswds/public_html/transactions/passwd"

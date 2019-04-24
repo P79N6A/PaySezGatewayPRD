@@ -1,0 +1,361 @@
+AWSTATS DATA FILE 7.4 (build 20140726)
+# If you remove this file, all statistics for date 201609 will be lost/reset.
+# Last config file used to build this data file was /home/wwwrebanx/tmp/awstats/awstats.rebanx.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2008                
+POS_TIME 2669                
+POS_VISITOR 6949                
+POS_DAY 9069                
+POS_DOMAIN 3333                
+POS_LOGIN 3574                
+POS_ROBOT 3729                
+POS_WORMS 4009                
+POS_EMAILSENDER 4140                
+POS_EMAILRECEIVER 4283                
+POS_SESSION 9506                
+POS_SIDER 9653                
+POS_FILETYPES 4418                
+POS_DOWNLOADS 4568                
+POS_OS 4616                
+POS_BROWSER 4786                
+POS_SCREENSIZE 5147                
+POS_UNKNOWNREFERER 5221                
+POS_UNKNOWNREFERERBROWSER 5438                
+POS_ORIGIN 5520                
+POS_SEREFERRALS 5653                
+POS_PAGEREFS 5808                
+POS_SEARCHWORDS 5986                
+POS_KEYWORDS 6138                
+POS_MISC 2333                
+POS_ERRORS 6197                
+POS_CLUSTER 3430                
+POS_SIDER_404 6297                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20161001004529 8 1149 9934773003063
+FirstTime 0
+LastTime 20160930074821
+LastUpdate 20161001080706 8 0 7 0 0
+TotalVisits 29                  
+TotalUnique 27                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 66                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+JavaEnabled 0 0 0
+RealPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+PDFSupport 0 0 0
+QuickTimeSupport 0 0 0
+FlashSupport 0 0 0
+JavascriptDisabled 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 0 0 0 3 3 1600
+1 0 0 0 8 10 11181
+2 2 11 348739 12 14 19162
+3 3 21 126320 6 7 9600
+4 1 1 3181 3 3 4800
+5 0 0 0 3 10 304969
+6 5 9 15905 17 19 23962
+7 3 7 9543 17 29 630700
+8 2 6 304950 6 6 11181
+9 1 1 3181 16 25 27162
+10 3 7 9543 9 13 11200
+11 2 6 304950 8 10 15962
+12 1 1 3181 8 12 14362
+13 9 9 24566 12 24 320950
+14 2 2 6362 9 15 15962
+15 1 2 20585 9 16 228244
+16 0 0 0 14 16 8780
+17 0 0 0 6 7 9600
+18 0 0 0 1 4 1600
+19 1 5 301769 9 11 11181
+20 3 8 323923 11 14 14400
+21 0 0 0 6 11 6400
+22 0 0 0 12 16 22362
+23 4 9 327104 15 18 23943
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 25 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 2
+us 37 99 2114716
+eu 6 6 19086
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 25 first Hits must be first (order not required for others)
+BEGIN_ROBOT 4
+googlebot 31 956203 20160925114138 0
+bot[\s_+:,\.\;\/\\-] 23 535517 20160930153010 0
+robot 5 3181 20160910094450 0
+netcraft 2 6362 20160913234737 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+json 2 720 0 0
+jpg 4 66372 0 0
+png 18 147965 0 0
+css 40 1791528 0 0
+php 41 127217 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+winnt 47 18
+win8.1 6 6
+macosx6 1 1
+winxp 1 1
+blackberry 1 1
+win2003 4 0
+linux 3 3
+Unknown 16 6
+win7 26 7
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 16
+msie9.0 5 5
+chrome40.0.2214.115 22 4
+chrome44.0.2403.125 1 1
+chrome37.0.2062.120 1 1
+chrome14.0.809.0 1 1
+chrome53.0.2785.116 11 2
+chrome49.0.2623.87 30 10
+msie11.0 1 1
+cloudflare 16 6
+firefox14.0.1 2 2
+chrome34.0.1847.137 1 1
+msie7.0 4 0
+netscape5.0 2 1
+blackberry 1 1
+firefox28.0 6 6
+chrome35.0.1916.153 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_CloudFlare-AlwaysOnline/1.0;__http://www.cloudflare.com/always-online)_AppleWebKit/534.34 20160914230751
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 40 63
+From1 0 0
+From2 1 1
+From3 1 1
+From4 1 40
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+google 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 25 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 1
+http://burger-imperia.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 25 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+404 87 0
+302 165 248000
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 15
+/manager/ 1 -
+/typo3/ 1 -
+/admin/index.php 1 -
+/administrator/ 1 -
+/user/ 1 -
+/administrator/index.php 6 -
+/.git/ 1 http://rebanx.com/.git/
+/wp-content/plugins/dzs-zoomsounds/admin/admin.js 1 -
+/wp-login.php 5 -
+/admin.php 3 -
+/register.html 1 -
+/xmlrpc.php 1 -
+/wp-content/ 1 http://rebants.com/wp-content/
+/robots.txt 62 -
+/.git/config 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 25 first Hits must be first (order not required for others)
+BEGIN_VISITOR 66
+199.27.133.7 6 6 19086 20160918101120
+69.84.207.246 4 4 9462 20160918133320
+69.58.178.57 3 3 8742 20160919134442
+162.158.17.60 2 5 40946 20160922022328
+172.68.65.119 2 2 6362 20160914230751
+173.245.56.173 2 2 6362 20160907200836
+199.27.128.139 2 2 6362 20160902084357
+199.27.133.24 2 2 3181 20160920034645
+199.27.133.86 2 2 6362 20160910115749
+162.158.108.203 1 1 3181 20160925065308
+162.158.79.247 1 1 2380 20160914230750
+141.101.105.161 1 1 3181 20160902060854
+141.101.66.245 1 1 3181 20160908141252
+173.245.48.229 1 1 3181 20160918133320
+141.101.105.245 1 1 3181 20160930061931
+141.101.105.238 1 1 3181 20160917100821
+162.158.166.150 1 1 3181 20160913154517
+173.245.56.159 1 1 2380 20160907200836
+141.101.66.107 1 1 3181 20160921090028
+141.101.66.5 1 1 3181 20160909191635
+162.158.108.125 1 1 3181 20160904233250
+199.27.128.212 1 1 3181 20160920041527
+172.68.10.63 1 1 3181 20160930074821
+162.158.192.11 1 1 3181 20160909034740
+108.162.246.69 1 1 3181 20160911135409
+162.158.79.239 0 1 89487 
+162.158.255.214 0 1 11978 
+173.245.54.181 0 1 68411 
+173.245.56.140 0 1 26679 
+173.245.54.184 0 1 89487 
+199.27.128.149 0 1 114011 
+199.27.128.165 0 1 8469 
+162.158.167.157 0 1 17404 
+199.27.128.157 0 1 89487 
+172.68.65.10 0 1 68411 
+199.27.128.216 0 1 17404 
+173.245.56.174 0 1 16593 
+199.27.128.175 0 5 114011 
+199.27.128.161 0 1 16593 
+199.27.128.182 0 1 26679 
+199.27.133.30 0 5 26679 
+199.27.128.171 0 1 3943 
+199.27.128.183 0 1 5174 
+199.27.128.214 0 1 4753 
+162.158.79.166 0 1 114011 
+162.158.17.54 0 1 68411 
+162.158.17.90 0 1 17404 
+38.100.21.68 0 4 298588 
+162.158.79.207 0 1 26679 
+162.158.255.153 0 1 68411 
+199.27.133.27 0 1 8987 
+173.245.56.171 0 1 114011 
+199.27.128.205 0 5 89487 
+162.158.17.42 0 2 130604 
+199.27.133.10 0 1 1152 
+162.158.17.24 0 1 1887 
+199.27.128.197 0 1 6753 
+199.27.128.132 0 5 68411 
+199.27.128.173 0 1 3662 
+173.245.54.32 0 1 16593 
+199.27.128.230 0 1 16666 
+199.27.128.250 0 1 1887 
+199.27.128.189 0 1 12537 
+199.27.128.186 1 1 3181 20160926142129
+162.158.17.66 1 1 3181 20160919125120
+162.158.17.36 0 1 89487 
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 18
+20160902 3 7 308131 2
+20160904 1 1 3181 1
+20160907 3 8 323923 2
+20160908 1 1 3181 1
+20160909 2 2 6362 2
+20160910 2 6 304950 1
+20160911 1 1 3181 1
+20160913 3 8 26947 2
+20160914 5 14 330285 3
+20160917 1 1 3181 1
+20160918 7 15 317593 3
+20160919 4 4 11923 2
+20160920 3 21 126320 2
+20160921 1 1 3181 1
+20160922 2 11 348739 1
+20160925 1 1 3181 1
+20160926 1 1 3181 1
+20160930 2 2 6362 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 1
+0s-30s 29
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 25 first Pages must be first (order not required for others)
+BEGIN_SIDER 3
+/login.php 37 117697 27 24
+/forgot-password.php 4 9520 2 3
+/favicon/manifest.json 2 720 0 2
+END_SIDER

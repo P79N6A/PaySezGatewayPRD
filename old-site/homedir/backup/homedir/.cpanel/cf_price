@@ -1,0 +1,106 @@
+<div class="box">
+	<h3 class="aleft">CloudFlare CDN: Get Started!</h3>
+	<div class="cloudflareintro clearfix">
+		<h4>Be faster. Be safer. It takes one click!</h4>
+		<div class="left">
+			<p>With just a click on the "activate" button the CloudFlare content delivery network (CDN) will cache your website content and will distribute it over multiple data centers around the world. When someone visits your site the content will be delivered from the closest to your visitor server and this will make your website loads faster than ever in every part of the world! Additionally, CloudFlare protects your website by analyzing which of the traffic you get is legitimate and which is malicious. It will automatically block malicious and unwanted traffic.</p>
+			<span>Don’t Lag Behind!<br/>Activate CloudFlare Now!</span>
+		</div>
+		<div class="features">
+			<table>
+				<tr>
+					<th class="aleft">CloudFlare Features</th>
+					<th>Free</th>
+					<th>Plus</th>
+				</tr>
+				<tr class="orange">
+					<td>More Speed for your website
+						<a class="tooltipcf">(?)
+							<span><b>23 data centers.</b> Your website will be served from the closest server thus increasing considerably the loading speed.
+								<br />
+								<br /><b>Auto Minify.</b> This feature removes all unnecessary characters from HTML, JavaScript, and/or CSS files. This result in smaller scripts and faster load times.
+								<br />
+								<br /><b>Railgun.</b> This feature accelerates the connection between CloudFlare and the SiteGround server. Railgun uses web performance optimisation technology to increase considerably the delivery speed of uncacheble dynamic and personalised content.
+							</span>
+						</a>
+					</td>
+					<td><img src="img/checkgreen_14x13_c.png" alt="" /></td>
+					<td><img src="img/checkgreen_14x13_c.png" alt="" /></td>
+				</tr>
+				<tr>
+					<td>Security and availability
+						<a class="tooltipcf">(?)
+							<span><b>Block malicious traffic.</b> CloudFlare analyzes which traffic is legitimate and which is malicious and protects your website from online threats. The security level provided by CloudFlare is adjustable. 
+								<br />
+								<br /><b>Minimize SPAM.</b> With Email Obfuscation feature email addresses shown on your web page will be encrypted so that they are unreadable from bots but visible to humans. Your visitors will not notice the changes.
+								<br />
+								<br /><b>Be always online.</b> This is a feature that will allow your visitors to see your pages even if your website looses connectivity or times out. CloudFlare serves pages from your cache and seamlessly bumps your visitors back to normal browsing when your site comes back online.
+							</span>
+						</a>
+					</td>
+					<td><img src="img/checkgreen_14x13_c.png" alt="" /></td>
+					<td><img src="img/checkgreen_14x13_c.png" alt="" /></td>
+				</tr>
+				<tr class="orange">
+					<td>Cache management options
+						<a class="tooltipcf">(?)
+							<span><b>Choose caching level:</b> CloudFlare will cache different types of content depending on the caching level you adjust. The basic setting will cache most static resources (i.e., CSS, images, and JavaScript). The aggressive setting will cache all static resources, including ones with a query string.
+								<br />
+								<br /><b>Purge cache</b> to see changes immediately! The purge option will remove all cached resources for your website and CloudFlare will fetch a new version of your site form the origin server.
+								<br />
+								<br /><b>Development mode</b> is used if you want to make changes to your cacheable content (images, CSS, JavaScript) and see the changes right away. The development mode will bypass CloudFlare's accelerated cache. Once turned on, development mode will last for 3 hours and then automatically turn off.
+							</span>
+						</a>
+					</td>
+					<td><img src="img/checkgreen_14x13_c.png" alt="" /></td>
+					<td><img src="img/checkgreen_14x13_c.png" alt="" /></td>
+				</tr>
+				<tr>
+					<td>Performance / Security stats
+						<a class="tooltipcf">(?)
+							<span>You have detailed statistics about all the visitors to your site – people, search engine crawlers, threats, etc. The statistics include also requests and bandwidth saved.</span>
+						</a>
+					</td>
+					<td>Daily</td>
+					<td>Hourly</td>
+				</tr>
+				<tr class="orange">
+					<td>Page specific rules
+						<a class="tooltipcf">(?)
+							<span>You have the control to set up CloudFlare's interaction on page-by-page basis.</span>
+						</a>
+					</td>
+					<td>3</td>
+					<td>10</td>
+				</tr>
+				<tr>
+					<td>SSL Support (HTTPS)
+						<a class="tooltipcf">(?)
+							<span>This feature allows you to have the HTTPS traffic to your website go through the CloudFlare network too and benefit from its features.</span>
+						</a>
+					</td>
+					<td><img src="img/crossred_14x14_c.png" alt="" /></td>
+					<td><img src="img/checkgreen_14x13_c.png" alt="" /></td>
+				</tr>
+				<tr class="orange">
+					<td>Advanced speed features
+						<a class="tooltipcf">(?)
+							<span><b>Polish</b> provides two levels of image compression (reduces the size of PNG, JPEG, and GIF files) to improve your website loading speed.
+								<br />
+								<br /><b>Mirage</b> improves additional your website loading speed by re-sizing your images based on your visitors device and/or by loading your images only if the visitor scrolls to their location.
+								<br />
+								<br /><b>SPDY</b> is a modification to HTTP to reduce latency and increase security. This is the next generation transfer protocol that makes web pages load faster in supported browsers. </span>
+						</a>
+					</td>
+					<td><img src="img/crossred_14x14_c.png" alt="" /></td>
+					<td><img src="img/checkgreen_14x13_c.png" alt="" /></td>
+				</tr>
+				<tr>
+					<td>Price</td>
+					<td>Free</td>
+					<td><strong class="cgreen">&#36;11.95/mo.</strong></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+</div>
